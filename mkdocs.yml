@@ -1,23 +1,41 @@
-site_url: http://localhost
-site_name: Dev's pills blog
-site_description: Dev's pills blog
+site_url: https://devspills.com
+site_name: Dev's Pills
+site_description: Dev's Pills Blog
 site_author: Rafał Schmidt
 copyright: 'Rafał Schmidt'
 
-repo_url: https://github.com/rafalschmidt97/devspills-blog
-repo_name: 'devspills-blog'
-edit_uri: edit/main/blog/
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/rafalschmidt/
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/rafalschmidt97
+  generator: false
+
+# repo_url: https://github.com/rafalschmidt97/devspills-blog
+# edit_uri: edit/main/blog/
+# repo_name: 'devspills-blog'
+
 docs_dir: blog
 
 theme:
   name: material
-  features:
-    - navigation.sections
+  custom_dir: blog/theme
+  static_templates:
+      - home.html
+  language: pl
+
+extra_css:
+  - theme/stylesheets/extra.css
 
 markdown_extensions:
   - attr_list
+  - admonition
+  - footnotes
   - md_in_html
   - tables
+  - toc:
+      permalink: true
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
@@ -35,9 +53,23 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.magiclink
 
+nav:
+  - 'Wpisy': 'index.md'
+  - 'Tagi': 'tagi.md'
+  - 'O mnie': 'o-mnie.md'
+
 plugins:
-  - search
-  - git-revision-date-localized
-  - blogging:
-    dirs:
-      - blog
+  - tags:
+      tags_file: tagi.md
+  - social:
+      cards: false
+  # - search
+  # - exclude-search:
+  #     exclude:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+        - tagi.md
+        - o-mnie.md
