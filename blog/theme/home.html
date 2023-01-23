@@ -1,5 +1,13 @@
 {% extends "main.html" %}
-<!-- Content -->
-{% block content %}
-  {{ page.content }} 
-{% endblock %}
+<!-- Override container (with content) to reduce padding -->
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="theme/stylesheets/home.css" />
+{% endblock styles %}
+{% block container %}
+  <div class="md-content homepage" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      {{ page.content }}
+    </article>
+  </div>
+{% endblock container %}

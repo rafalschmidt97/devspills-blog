@@ -56,34 +56,50 @@
     </nav>
   </header>
 {% endblock header %}
+<!------------------------ Site nav -->
+{% block site_nav %}
+{% endblock site_nav %}
 <!------------------------ Content -->
-{% block content %}
-  {% if page.meta and page.meta.image %}
-    <img class="w-100" src="{{ page.meta.image }}" width="100%" height="auto" alt="page image"/>
-  {% endif %}
-  <!-- Tags -->
-  {% if "tags" in config.plugins %}
-    {% include "partials/tags.html" %}
-  {% endif %}
-  <!-- Actions (edit button etc.) -->
-  {% include "partials/actions.html" %}
-  <!--
-  Check whether the content starts with a level 1 headline. If it doesn't, the
-  page title (or respectively site name) is used as the main headline.
--->
-  {% set first = page.toc | first %}
-  {% if first and first.level != 1 %}<h1>{{ page.title | d(config.site_name, true)}}</h1>{% endif %}
-  <!-- Page content -->
-  {{ page.content }}
-  <!-- Source file information -->
-  {% if page.meta and (page.meta.git_revision_date_localized or page.meta.revision_date) %}
-    {% include "partials/source-file.html" %}
-  {% endif %}
-  <!-- Was this page helpful? -->
-  {% include "partials/feedback.html" %}
-  <!-- Comment system -->
-  {% include "partials/comments.html" %}
-{% endblock content %}
+<!-- Page content -->
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <!-- Hero -->
+    {% if page.meta and page.meta.image %}
+      <img class="w-100"
+           src="{{ page.meta.image }}"
+           width="auto"
+           height="auto"
+           style="max-height: 400px; max-width: 100%"
+           alt="{{page.meta.imagealt}}" />
+    {% endif %}
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        <!-- Tags -->
+        {% if "tags" in config.plugins %}
+          {% include "partials/tags.html" %}
+        {% endif %}
+        <!-- Actions (edit button etc.) -->
+        {% include "partials/actions.html" %}
+        <!--
+          Check whether the content starts with a level 1 headline. If it doesn't, the
+          page title (or respectively site name) is used as the main headline.
+        -->
+        {% set first = page.toc | first %}
+        {% if first and first.level != 1 %}<h1>{{ page.title | d(config.site_name, true)}}</h1>{% endif %}
+        <!-- Page content -->
+        {{ page.content }}
+        <!-- Source file information -->
+        {% if page.meta and (page.meta.git_revision_date_localized or page.meta.revision_date) %}
+          {% include "partials/source-file.html" %}
+        {% endif %}
+        <!-- Was this page helpful? -->
+        {% include "partials/feedback.html" %}
+        <!-- Comment system -->
+        {% include "partials/comments.html" %}
+      {% endblock content %}
+    </article>
+  </div>
+{% endblock container %}
 <!------------------------ Content -->
 {% block footer %}
   <footer class="md-footer">

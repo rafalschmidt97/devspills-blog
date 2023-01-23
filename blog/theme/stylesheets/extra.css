@@ -45,7 +45,7 @@
   --md-typeset-color:                  var(--md-default-fg-color);
 
    /* Typeset `a` color shades */
-  --md-typeset-a-color:                var(--md-code-hl-keyword-color);
+  --md-typeset-a-color:                hsl(233deg 100% 47%);
 
    /* Typeset `mark` color shades */
   --md-typeset-mark-color:             hsla(0,0,0%, 0.5);
@@ -80,7 +80,7 @@
 }
 
 .md-typeset a:focus, .md-typeset a:hover {
-    color: var(--md-code-hl-keyword-color);
+    color: var(--md-typeset-a-color);
     text-decoration: underline;
 }
 
@@ -92,7 +92,12 @@
 
 .md-header__inner {
     max-width: inherit;
-    padding: 0.5rem 1rem;
+}
+
+@media screen and (min-width: 60em) {
+    .md-header__inner {
+        padding: 0.5rem 1rem;
+    }
 }
 
 .md-header__button.md-logo {
@@ -110,12 +115,23 @@
 .md-nav__list {
     display: flex;
     margin-left: auto;
-    font-weight: 300;
+}
+
+@media screen and (min-width: 60em) {
+    .md-nav__list {
+        font-weight: 300;
+    }
 }
 
 .md-nav__link {
     margin-top: 0;
-    font-size: 1rem;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 60em) {
+    .md-nav__link {
+        font-size: 1rem;
+    }
 }
 
 .md-nav__link.md-nav__link--active {
@@ -133,7 +149,13 @@
 
 .md-content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.md-content__inner {
+    /* padding instead of margin becaouse of align items center */
+    padding: 0 0.8rem 1.2rem;
 }
 
 .md-content article {
