@@ -38,11 +38,7 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies for mkdocs
         run: pip install -r requirements.txt
-      - name: Install reprec used in Azure script
-        run: pip install reprec
-      - name: Run build from Azure script
-        run: ./scripts/build-from-azure.sh
-      - name: Build site (_site directory name is used for Jekyll compatiblity)
+      - name: Build site
         # Outputs to the './_site' directory
         run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
       - name: Upload artifact
