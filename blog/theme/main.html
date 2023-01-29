@@ -1,25 +1,59 @@
 {% extends "base.html" %}
 {% block extrahead %}
+  <meta name="robots" content="index, follow" />
+
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
-    {% set title = title ~ " - " ~ page.meta.title %}
+    {% set title = page.meta.title ~ " - " ~ title %}
   {% elif page and page.title and not page.is_homepage %}
-    {% set title = title ~ " - " ~ page.title %}
+    {% set title = page.title ~ " - " ~ title %}
   {% endif %}
-  <meta property="og:type" content="website" />
+
+  {% set summary = config.site_description %}
+  {% if page and page.meta and page.meta.summary %}
+    {% set summary = page.meta.summary %}
+  {% elif page and page.summary and not page.is_homepage %}
+    {% set summary = page.summary %}
+  {% endif %}
+
+  {% if page and page.is_homepage %}
+    <meta property="og:type" content="website" />
+  {% else %}
+    <meta property="og:type" content="article" />
+  {% endif %}
+
   <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ config.site_description }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ summary }}" />
+  <meta name="twitter:description" content="{{ summary }}" />
   <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta name="twitter:card" content="summary" />
   {% if page.meta and page.meta.image %}
     <meta property="og:image" content="{{ page.meta.image }}" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
     <meta name="twitter:image" content="{{ page.meta.image }}" />
+  {% else %}
+    <meta property="og:image" content="../../static/o-mnie/avatar.jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:image" content="../../static/o-mnie/avatar.jpeg" /> 
   {% endif %}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ title }}" />
-  <meta name="twitter:description" content="{{ config.site_description }}" />
+
+  <!-- <meta property="article:section" content="posts"> -->
+  <!-- <meta property="article:published_time" content=""> -->
+  <!-- <meta property="article:modified_time" content=""> -->
+  <!-- <meta itemprop="datePublished" content=""> -->
+  <!-- <meta itemprop="dateModified" content=""> -->
+  <!-- <meta itemprop="wordCount" content=""> -->
+  <!-- <meta itemprop="image" content=""> -->
+
+  {% if page and page.meta and page.meta.tags %}
+    <meta itemprop="keywords" content="{{ page.meta.tags | join(',') }}" />
+    <meta name="keywords" content="{{ page.meta.tags | join(',') }}" />
+  {% else %}
+    <meta itemprop="keywords" content="oprogramowanie,it,programowanie" />
+    <meta name="keywords" content="oprogramowanie,it,programowanie" />
+  {% endif %}
+
 {% endblock extrahead %}
 <!------------------------ Header -->
 {% block header %}
@@ -69,33 +103,13 @@
            src="{{ page.meta.image }}"
            width="auto"
            height="auto"
-           style="max-height: 400px; max-width: 100%"
-           alt="{{page.meta.imagealt}}" />
+           style="max-height: 400px;
+                  max-width: 100%"
+           alt="{{ page.meta.imagealt }}"/>
     {% endif %}
     <article class="md-content__inner md-typeset">
       {% block content %}
-        <!-- Tags -->
-        {% if "tags" in config.plugins %}
-          {% include "partials/tags.html" %}
-        {% endif %}
-        <!-- Actions (edit button etc.) -->
-        {% include "partials/actions.html" %}
-        <!--
-          Check whether the content starts with a level 1 headline. If it doesn't, the
-          page title (or respectively site name) is used as the main headline.
-        -->
-        {% set first = page.toc | first %}
-        {% if first and first.level != 1 %}<h1>{{ page.title | d(config.site_name, true)}}</h1>{% endif %}
-        <!-- Page content -->
-        {{ page.content }}
-        <!-- Source file information -->
-        {% if page.meta and (page.meta.git_revision_date_localized or page.meta.revision_date) %}
-          {% include "partials/source-file.html" %}
-        {% endif %}
-        <!-- Was this page helpful? -->
-        {% include "partials/feedback.html" %}
-        <!-- Comment system -->
-        {% include "partials/comments.html" %}
+        {% include "partials/content.html" %}
       {% endblock content %}
     </article>
   </div>

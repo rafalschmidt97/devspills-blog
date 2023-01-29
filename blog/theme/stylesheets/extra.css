@@ -135,7 +135,7 @@
 }
 
 .md-nav__link.md-nav__link--active {
-    text-decoration: underline;
+    font-weight: 400;
     color: var(--md-primary-fg-color);
 }
 

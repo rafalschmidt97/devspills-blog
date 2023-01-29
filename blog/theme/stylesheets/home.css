@@ -1,3 +1,10 @@
 .md-content.homepage article {
-    max-width: 841px;
+    /* max-width: 841px; */
+    max-width: 870px;
+}
+
+@media screen and (min-width: 60em) {
+    html {
+        font-size: 137.5%;
+    }
 }

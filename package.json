@@ -6,10 +6,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format": "prettier --write **/*.md --prose-wrap always",
-    "lint": "markdownlint --fix --ignore node_modules --fix blog/**/*.md",
+    "format": "prettier --write 'blog/**/*.md' --prose-wrap always",
+    "lint": "markdownlint --fix --ignore node_modules --fix 'blog/**/*.md'",
     "start": "mkdocs serve",
-    "prepare": "husky install"
+    "prepare": "husky install && pip3 install -r requirements.txt"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
