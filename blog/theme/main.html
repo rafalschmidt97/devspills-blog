@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block extrahead %}
+  <meta name="robots" content="index, follow" />
+
+  {% set title = config.site_name %}
+  {% if page and page.meta and page.meta.title %}
+    {% set title = page.meta.title ~ " - " ~ title %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = page.title ~ " - " ~ title %}
+  {% endif %}
+
+  {% set summary = config.site_description %}
+  {% if page and page.meta and page.meta.summary %}
+    {% set summary = page.meta.summary %}
+  {% elif page and page.summary and not page.is_homepage %}
+    {% set summary = page.summary %}
+  {% endif %}
+
+  {% if page and page.is_homepage %}
+    <meta property="og:type" content="website" />
+  {% else %}
+    <meta property="og:type" content="article" />
+  {% endif %}
+
+  <meta property="og:title" content="{{ title }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ summary }}" />
+  <meta name="twitter:description" content="{{ summary }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta name="twitter:card" content="summary" />
+  {% if page.meta and page.meta.image %}
+    <meta property="og:image" content="{{ page.meta.image }}" />
+    <meta name="twitter:image" content="{{ page.meta.image }}" />
+  {% else %}
+    <meta property="og:image" content="../../static/o-mnie/avatar.jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:image" content="../../static/o-mnie/avatar.jpeg" /> 
+  {% endif %}
+
+  <!-- <meta property="article:section" content="posts"> -->
+  <!-- <meta property="article:published_time" content=""> -->
+  <!-- <meta property="article:modified_time" content=""> -->
+  <!-- <meta itemprop="datePublished" content=""> -->
+  <!-- <meta itemprop="dateModified" content=""> -->
+  <!-- <meta itemprop="wordCount" content=""> -->
+  <!-- <meta itemprop="image" content=""> -->
+
+  {% if page and page.meta and page.meta.tags %}
+    <meta itemprop="keywords" content="{{ page.meta.tags | join(',') }}" />
+    <meta name="keywords" content="{{ page.meta.tags | join(',') }}" />
+  {% else %}
+    <meta itemprop="keywords" content="oprogramowanie,it,programowanie" />
+    <meta name="keywords" content="oprogramowanie,it,programowanie" />
+  {% endif %}
+
+{% endblock extrahead %}
+<!------------------------ Header -->
+{% block header %}
+  <!-- Determine base classes -->
+  {% set class = "md-header" %}
+  <header class="{{ class }}" data-md-component="header">
+    <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+      <!-- Link to home with site name -->
+      <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
+         title="{{ config.site_name | e }}"
+         class="md-header__button md-logo"
+         aria-label="{{ config.site_name }}"
+         data-md-component="logo">
+        {{ config.site_name }}
+      </a>
+      <!-- Render item list -->
+      <ul class="md-nav__list">
+        {% for nav_item in nav %}
+          {% set path = "__nav_" ~ loop.index %}
+          {% set level = 1 %}
+          {% include "partials/nav-item.html" %}
+        {% endfor %}
+      </ul>
+      <!-- Button to open search modal -->
+      {% if "material/search" in config.plugins %}
+        <label class="md-header__button md-icon" for="__search">{% include ".icons/material/magnify.svg" %}</label>
+        <!-- Search interface -->
+        {% include "partials/search.html" %}
+      {% endif %}
+      <!-- Repository information -->
+      {% if config.repo_url %}
+        <div class="md-nav__source">{% include "partials/source.html" %}</div>
+      {% endif %}
+    </nav>
+  </header>
+{% endblock header %}
+<!------------------------ Site nav -->
+{% block site_nav %}
+{% endblock site_nav %}
+<!------------------------ Content -->
+<!-- Page content -->
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    <!-- Hero -->
+    {% if page.meta and page.meta.image %}
+      <img class="w-100"
+           src="{{ page.meta.image }}"
+           width="auto"
+           height="auto"
+           style="max-height: 400px;
+                  max-width: 100%"
+           alt="{{ page.meta.imagealt }}"/>
+    {% endif %}
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock content %}
+    </article>
+  </div>
+{% endblock container %}
+<!------------------------ Content -->
+{% block footer %}
+  <footer class="md-footer">
+    <!-- Link to previous and/or next page removed -->
+    <!-- Further information -->
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        {% include "partials/copyright.html" %}
+        <!-- Social links -->
+        {% if config.extra.social %}
+          {% include "partials/social.html" %}
+        {% endif %}
+      </div>
+    </div>
+  </footer>
+{% endblock footer %}
