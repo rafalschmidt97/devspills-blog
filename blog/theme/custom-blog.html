@@ -12,6 +12,13 @@ For example, to access config.site_url: mkdocs_context.config.site_url #}
     a.blog-post-link {
         color: black;
         display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: 60em) {
+        a.blog-post-link {
+            flex-direction: row;
+        }
     }
 
     a.blog-post-link:hover {
@@ -20,11 +27,23 @@ For example, to access config.site_url: mkdocs_context.config.site_url #}
 
     a.blog-post-link .title {
         flex-grow: 1;
+        font-weight: 600;
+    }
+
+    @media screen and (min-width: 60em) {
+        a.blog-post-link .title {
+            font-weight: 500;
+        }
     }
 
     a.blog-post-link .date {
-        word-break: initial;
-        margin-left: 10px;
+    }
+
+    @media screen and (min-width: 60em) {
+        a.blog-post-link .date {
+            word-break: initial;
+            margin-left: 10px;
+        }
     }
 
     .md-typeset .blog-pagination {
