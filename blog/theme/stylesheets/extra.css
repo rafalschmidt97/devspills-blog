@@ -79,6 +79,20 @@
   --md-shadow-z3: none;
 }
 
+html {
+    font-size: 137.5%;
+}
+
+.md-typeset h1 {
+    font-weight: 600;
+    color: var(--md-typeset-color);
+    margin: 0 0 0.83em;
+}
+
+.md-typeset h2 {
+    font-weight: 600;
+}
+
 .md-typeset a:focus, .md-typeset a:hover {
     color: var(--md-typeset-a-color);
     text-decoration: underline;
@@ -125,7 +139,7 @@
 
 .md-nav__link {
     margin-top: 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 60em) {
@@ -153,8 +167,16 @@
     align-items: center;
 }
 
+.page-hero {
+    padding: 0 0.8rem;
+    max-height: 400px;
+    max-width: 100%;
+    width: auto;
+    height: auto
+}
+
 .md-content__inner {
-    /* padding instead of margin becaouse of align items center */
+    /* padding instead of margin because of align items center */
     padding: 0 0.8rem 1.2rem;
 }
 
