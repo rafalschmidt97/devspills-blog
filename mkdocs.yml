@@ -19,7 +19,7 @@ docs_dir: blog
 
 theme:
   name: material
-  favicon: theme/favicon/favicon-32x32.png
+  favicon: static/favicon-32x32.png
   custom_dir: blog/theme
   static_templates:
     - home.html
@@ -27,12 +27,12 @@ theme:
   locale: pl
 
 extra_css:
-  - theme/stylesheets/variables.css
-  - theme/stylesheets/main-overrides.css
-  - theme/stylesheets/page.css
-  - theme/stylesheets/home.css
-  - theme/stylesheets/custom-blog.css
-  - theme/stylesheets/cookies.css
+  - static/variables.css
+  - static/main-overrides.css
+  - static/page.css
+  - static/home.css
+  - static/custom-blog.css
+  - static/cookies.css
 
 markdown_extensions:
   - attr_list
@@ -106,9 +106,9 @@ plugins:
           remove_optional_attribute_quotes: false
       cache_safe: true
       css_files:
-          - theme/stylesheets/variables.css
-          - theme/stylesheets/main-overrides.css
-          - theme/stylesheets/page.css
-          - theme/stylesheets/home.css
-          - theme/stylesheets/custom-blog.css
-          - theme/stylesheets/cookies.css
+          - static/variables.css
+          - static/main-overrides.css
+          - static/page.css
+          - static/home.css
+          - static/custom-blog.css
+          - static/cookies.css
