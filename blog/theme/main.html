@@ -1,5 +1,86 @@
 {% extends "base.html" %}
+
+<!------------------------ Title -->
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }} | {{ config.site_name }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }} | {{ config.site_name }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock htmltitle %}
+
+{# <!-- Page description -->
+{% if page.meta and page.meta.description %}
+  <meta name="description" content="{{ page.meta.description }}" />
+{% elif config.site_description %}
+  <meta name="description" content="{{ config.site_description }}" />
+{% endif %} #}
+
+<!------------------------ extrahead -->
 {% block extrahead %}
+  <meta name="robots" content="index, follow" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../../theme/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../theme/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../theme/favicon/favicon-16x16.png" />
+
+  {% if page and page.meta and page.meta.title %}
+    {% set title = page.meta.title + " | " + config.site_name %}
+  {% elif page and page.title and not page.is_homepage %}
+    {% set title = (page.title | striptags) + " | " + config.site_name %}
+  {% else %}
+    {% set title = config.site_name %}
+  {% endif %}
+
+  {% if page and page.meta and page.meta.description %}
+    {% set description = page.meta.description %}
+  {% elif page and page.summary and not page.is_homepage %}
+    {% set description = page.summary %}
+  {% else %}
+    {% set description = config.site_description %}
+  {% endif %}
+
+  {% if page and page.is_homepage %}
+    <meta property="og:type" content="website" />
+  {% else %}
+    <meta property="og:type" content="article" />
+  {% endif %}
+
+  <meta property="og:title" content="{{ title }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ description }}" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <meta property="og:url" content="{{ page.canonical_url }}" />
+  <meta name="twitter:card" content="summary" />
+  {% if page.meta and page.meta.image %}
+    <meta property="og:image" content="{{ page.meta.image }}" />
+    <meta name="twitter:image" content="{{ page.meta.image }}" />
+    <link rel="preload" as="image" href="{{ page.meta.image }}" />
+  {% else %}
+    <meta property="og:image" content="../../static/o-mnie/avatar_400.jpeg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
+    <meta name="twitter:image" content="../../static/o-mnie/avatar_400.jpeg" /> 
+  {% endif %}
+
+  <!-- <meta property="article:section" content="posts"> -->
+  <!-- <meta property="article:published_time" content=""> -->
+  <!-- <meta property="article:modified_time" content=""> -->
+  <!-- <meta itemprop="datePublished" content=""> -->
+  <!-- <meta itemprop="dateModified" content=""> -->
+  <!-- <meta itemprop="wordCount" content=""> -->
+  <!-- <meta itemprop="image" content=""> -->
+
+  {% if page and page.meta and page.meta.tags %}
+    <meta itemprop="keywords" content="{{ page.meta.tags | join(',') }}" />
+    <meta name="keywords" content="{{ page.meta.tags | join(',') }}" />
+  {% else %}
+    <meta itemprop="keywords" content="oprogramowanie,it,programowanie" />
+    <meta name="keywords" content="oprogramowanie,it,programowanie" />
+  {% endif %}
+
   <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
   <script>
       glowCookies.start('pl', { 
@@ -22,65 +103,6 @@
           manageColor: '#000000',
       });
   </script>
-
-  <meta name="robots" content="index, follow" />
-
-  <link rel="apple-touch-icon" sizes="180x180" href="../../theme/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../../theme/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="../../theme/favicon/favicon-16x16.png" />
-
-  {% set title = config.site_name %}
-  {% if page and page.meta and page.meta.title %}
-    {% set title = page.meta.title ~ " - " ~ title %}
-  {% elif page and page.title and not page.is_homepage %}
-    {% set title = page.title ~ " - " ~ title %}
-  {% endif %}
-
-  {% set summary = config.site_description %}
-  {% if page and page.meta and page.meta.summary %}
-    {% set summary = page.meta.summary %}
-  {% elif page and page.summary and not page.is_homepage %}
-    {% set summary = page.summary %}
-  {% endif %}
-
-  {% if page and page.is_homepage %}
-    <meta property="og:type" content="website" />
-  {% else %}
-    <meta property="og:type" content="article" />
-  {% endif %}
-
-  <meta property="og:title" content="{{ title }}" />
-  <meta name="twitter:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ summary }}" />
-  <meta name="twitter:description" content="{{ summary }}" />
-  <meta property="og:url" content="{{ page.canonical_url }}" />
-  <meta name="twitter:card" content="summary" />
-  {% if page.meta and page.meta.image %}
-    <meta property="og:image" content="{{ page.meta.image }}" />
-    <meta name="twitter:image" content="{{ page.meta.image }}" />
-    <link rel="preload" as="image" href="{{ page.meta.image }}">
-  {% else %}
-    <meta property="og:image" content="../../static/o-mnie/avatar.jpeg" />
-    <meta property="og:image:width" content="800" />
-    <meta property="og:image:height" content="800" />
-    <meta name="twitter:image" content="../../static/o-mnie/avatar.jpeg" /> 
-  {% endif %}
-
-  <!-- <meta property="article:section" content="posts"> -->
-  <!-- <meta property="article:published_time" content=""> -->
-  <!-- <meta property="article:modified_time" content=""> -->
-  <!-- <meta itemprop="datePublished" content=""> -->
-  <!-- <meta itemprop="dateModified" content=""> -->
-  <!-- <meta itemprop="wordCount" content=""> -->
-  <!-- <meta itemprop="image" content=""> -->
-
-  {% if page and page.meta and page.meta.tags %}
-    <meta itemprop="keywords" content="{{ page.meta.tags | join(',') }}" />
-    <meta name="keywords" content="{{ page.meta.tags | join(',') }}" />
-  {% else %}
-    <meta itemprop="keywords" content="oprogramowanie,it,programowanie" />
-    <meta name="keywords" content="oprogramowanie,it,programowanie" />
-  {% endif %}
 
 {% endblock extrahead %}
 <!------------------------ Header -->
