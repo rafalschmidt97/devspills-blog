@@ -1,5 +1,28 @@
 {% extends "base.html" %}
 {% block extrahead %}
+  <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
+  <script>
+      glowCookies.start('pl', { 
+          style: 1,
+          position: 'left',
+          analytics: 'G-YM5ZY68GZJ', 
+          policyLink: 'https://policies.google.com/technologies/cookies?hl=pl-PL', //  'https://policies.google.com/technologies/partner-sites?hl=pl-PL' and https://marketingplatform.google.com/about/analytics/terms/pl/
+          bannerDescription: 'Ta strona używa plików cookie od zewnętrznych dostawców w celu analizy ruchu.',
+          bannerLinkText: 'Więcej o plikach cookie.',
+          bannerBackground: '#ffffff',
+          bannerColor: '#000000',
+          acceptBtnText: 'Zaakceptuj',
+          acceptBtnColor: '#ffffff',
+          acceptBtnBackground: '#000000',
+          rejectBtnText: 'Odrzuć',
+          rejectBtnBackground: '#E8E8E8',
+          rejectBtnColor: '#636363',
+          manageText: ' ',
+          manageBackground: 'transparent',
+          manageColor: '#000000',
+      });
+  </script>
+
   <meta name="robots" content="index, follow" />
 
   <link rel="apple-touch-icon" sizes="180x180" href="../../theme/favicon/apple-touch-icon.png" />

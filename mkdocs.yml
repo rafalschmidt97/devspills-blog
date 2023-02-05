@@ -32,6 +32,7 @@ extra_css:
   - theme/stylesheets/page.css
   - theme/stylesheets/home.css
   - theme/stylesheets/custom-blog.css
+  - theme/stylesheets/cookies.css
 
 markdown_extensions:
   - attr_list
@@ -109,3 +110,4 @@ plugins:
           - theme/stylesheets/page.css
           - theme/stylesheets/home.css
           - theme/stylesheets/custom-blog.css
+          - theme/stylesheets/cookies.css
