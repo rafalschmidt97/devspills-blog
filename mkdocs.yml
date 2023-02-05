@@ -19,6 +19,7 @@ docs_dir: blog
 
 theme:
   name: material
+  favicon: theme/favicon/favicon-32x32.png
   custom_dir: blog/theme
   static_templates:
     - home.html

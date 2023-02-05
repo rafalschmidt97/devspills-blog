@@ -2,6 +2,10 @@
 {% block extrahead %}
   <meta name="robots" content="index, follow" />
 
+  <link rel="apple-touch-icon" sizes="180x180" href="../../theme/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../../theme/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../../theme/favicon/favicon-16x16.png" />
+
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
     {% set title = page.meta.title ~ " - " ~ title %}
