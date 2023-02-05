@@ -41,12 +41,12 @@ html {
     position: inherit;
 }
 
-.md-header__inner {
+.md-header__inner.md-grid {
     max-width: inherit;
 }
 
 @media screen and (min-width: 60em) {
-    .md-header__inner {
+    .md-header__inner.md-grid {
         padding: 0.5rem 1rem;
     }
 }
@@ -153,6 +153,20 @@ html {
 
 .md-footer-meta {
     background-color: transparent;
+}
+
+.md-footer-meta__inner.md-grid {
+    max-width: none !important;
+}
+
+@media screen and (min-width: 60em) {
+    .md-footer-meta__inner.md-grid {
+        padding: 0.5rem 1rem;
+    }
+}
+
+.md-copyright {
+    width: auto !important;
 }
 
 .md-copyright, .md-copyright__highlight {
