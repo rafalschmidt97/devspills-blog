@@ -41,6 +41,10 @@ jobs:
       - name: Build site
         # Outputs to the './_site' directory
         run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
+      - name: Install reprec used for replacing
+        run: pip install reprec
+      - name: Run replace for relative paths after build
+        run: ./scripts/replace-relative-paths-build.sh
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
