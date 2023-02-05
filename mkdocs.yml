@@ -26,7 +26,11 @@ theme:
   locale: pl
 
 extra_css:
-  - theme/stylesheets/extra.css
+  - theme/stylesheets/variables.css
+  - theme/stylesheets/main-overrides.css
+  - theme/stylesheets/page.css
+  - theme/stylesheets/home.css
+  - theme/stylesheets/custom-blog.css
 
 markdown_extensions:
   - attr_list
@@ -92,3 +96,15 @@ plugins:
         - index.md
         - tagi.md
         - o-mnie.md
+  - minify:
+      minify_html: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+      cache_safe: true
+      css_files:
+          - theme/stylesheets/variables.css
+          - theme/stylesheets/main-overrides.css
+          - theme/stylesheets/page.css
+          - theme/stylesheets/home.css
+          - theme/stylesheets/custom-blog.css
