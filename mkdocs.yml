@@ -15,24 +15,24 @@ extra:
       link: https://twitter.com/rafalschmidt97
   generator: false
 
-docs_dir: blog
+docs_dir: src
 
 theme:
   name: material
-  favicon: static/favicon-32x32.png
-  custom_dir: blog/theme
+  favicon: assets/favicon-32x32.png
+  custom_dir: src/theme
   static_templates:
     - home.html
   language: pl
   locale: pl
 
 extra_css:
-  - static/variables.css
-  - static/main-overrides.css
-  - static/page.css
-  - static/home.css
-  - static/custom-blog.css
-  - static/cookies.css
+  - assets/variables.css
+  - assets/main-overrides.css
+  - assets/page.css
+  - assets/home.css
+  - assets/custom-blog.css
+  - assets/cookies.css
 
 markdown_extensions:
   - attr_list
@@ -80,7 +80,7 @@ plugins:
         from: new
         by: creation
       locale: pl
-      template: blog/theme/custom-blog.html
+      template: src/theme/custom-blog.html
       # time is used to change the display style of the time, with higher priority than locale.
       time_format: "%d.%m.%Y"
       #meta is used to tell the plugin how to parse the given time string from the meta. 
@@ -106,9 +106,9 @@ plugins:
           remove_optional_attribute_quotes: false
       cache_safe: true
       css_files:
-          - static/variables.css
-          - static/main-overrides.css
-          - static/page.css
-          - static/home.css
-          - static/custom-blog.css
-          - static/cookies.css
+          - assets/variables.css
+          - assets/main-overrides.css
+          - assets/page.css
+          - assets/home.css
+          - assets/custom-blog.css
+          - assets/cookies.css
