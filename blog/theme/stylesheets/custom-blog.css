@@ -1,0 +1,66 @@
+a.blog-post-link {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 60em) {
+    a.blog-post-link {
+        flex-direction: row;
+    }
+}
+
+a.blog-post-link:hover {
+    color: black;
+}
+
+a.blog-post-link .title {
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 60em) {
+    a.blog-post-link .title {
+        font-weight: 500;
+    }
+}
+
+a.blog-post-link .date {
+}
+
+@media screen and (min-width: 60em) {
+    a.blog-post-link .date {
+        word-break: initial;
+        margin-left: 10px;
+    }
+}
+
+.md-typeset .blog-pagination {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.md-typeset .blog-pagination a {
+    color: var(--md-typeset-color);
+    float: left;
+    padding: .25em 1em;
+    text-decoration: none;
+    border-radius: 1em;
+    margin-left: .25em;
+    margin-right: .25em;
+    transition: all .15s ease-in-out;
+}
+
+.md-typeset .blog-pagination a.active {
+    background-color: var(--md-typeset-a-color);
+    color: white;
+    font-weight: bold;
+}
+
+.md-typeset .blog-pagination a:hover:not(.active) {
+    background-color: #dddddda1;
+}
+
+.md-typeset .blog-hidden {
+    display: none;
+}
