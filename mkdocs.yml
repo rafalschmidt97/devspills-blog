@@ -103,6 +103,7 @@ plugins:
       minify_css: true
       htmlmin_opts:
           remove_comments: true
+          remove_optional_attribute_quotes: false
       cache_safe: true
       css_files:
           - theme/stylesheets/variables.css
