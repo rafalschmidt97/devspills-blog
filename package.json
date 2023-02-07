@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format": "prettier --write 'blog/**/*.md' --prose-wrap always",
-    "lint": "markdownlint --fix --ignore node_modules --fix 'blog/**/*.md'",
+    "format": "prettier --write 'src/**/*.md' --prose-wrap always",
+    "lint": "markdownlint --fix --ignore node_modules --fix 'src/**/*.md'",
     "start": "mkdocs serve",
     "prepare": "husky install && pip3 install -r requirements.txt"
   },
