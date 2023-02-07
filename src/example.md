@@ -9,7 +9,7 @@ tags:
   - rozwój
 # TODO: draft, readtime
 date: 23.01.2023
-image: ../../static/blog/example/hero.png
+image: ../static/example/hero.png
 imagealt: hero
 emoji: 😎
 ---
