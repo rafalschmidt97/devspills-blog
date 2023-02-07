@@ -19,7 +19,7 @@ docs_dir: src
 
 theme:
   name: material
-  favicon: assets/favicon-32x32.png
+  favicon: assets/images/favicon-32x32.png
   custom_dir: src/theme
   static_templates:
     - home.html
@@ -27,12 +27,12 @@ theme:
   # locale: pl
 
 extra_css:
-  - assets/variables.css
-  - assets/main-overrides.css
-  - assets/page.css
-  - assets/home.css
-  - assets/custom-blog.css
-  - assets/cookies.css
+  - assets/stylesheets/variables.css
+  - assets/stylesheets/main-overrides.css
+  - assets/stylesheets/page.css
+  - assets/stylesheets/home.css
+  - assets/stylesheets/custom-blog.css
+  - assets/stylesheets/cookies.css
 
 markdown_extensions:
   - attr_list
@@ -106,9 +106,9 @@ plugins:
           remove_optional_attribute_quotes: false
       cache_safe: true
       css_files:
-          - assets/variables.css
-          - assets/main-overrides.css
-          - assets/page.css
-          - assets/home.css
-          - assets/custom-blog.css
-          - assets/cookies.css
+          - assets/stylesheets/variables.css
+          - assets/stylesheets/main-overrides.css
+          - assets/stylesheets/page.css
+          - assets/stylesheets/home.css
+          - assets/stylesheets/custom-blog.css
+          - assets/stylesheets/cookies.css
