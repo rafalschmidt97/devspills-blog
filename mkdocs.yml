@@ -1,11 +1,8 @@
 site_url: https://devspills.com
 site_name: Dev's Pills
-site_description: Dev's Pills Blog
+site_description: Dev's Pills
 site_author: Rafał Schmidt
 copyright: Rafał Schmidt
-# repo_url: https://github.com/rafalschmidt97/devspills-blog
-# edit_uri: edit/main/blog/
-# repo_name: 'devspills-blog'
 
 extra:
   social:
