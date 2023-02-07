@@ -22,9 +22,9 @@
 {% block extrahead %}
   <meta name="robots" content="index, follow" />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="../../static/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="../../static/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="../../static/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png" />
 
   {% if page and page.meta and page.meta.title %}
     {% set title = page.meta.title + " | " + config.site_name %}
@@ -59,10 +59,10 @@
     <meta name="twitter:image" content="{{ page.meta.image }}" />
     <link rel="preload" as="image" href="{{ page.meta.image }}" />
   {% else %}
-    <meta property="og:image" content="../../static/avatar.png" />
+    <meta property="og:image" content="../static/avatar.png" />
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="800" />
-    <meta name="twitter:image" content="../../static/avatar.png" /> 
+    <meta name="twitter:image" content="../static/avatar.png" /> 
   {% endif %}
 
   <!-- <meta property="article:section" content="posts"> -->
