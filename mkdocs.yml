@@ -24,7 +24,7 @@ theme:
   static_templates:
     - home.html
   language: pl
-  locale: pl
+  # locale: pl
 
 extra_css:
   - assets/variables.css
@@ -74,12 +74,12 @@ plugins:
   #     exclude:
   - blogging:
       dirs:
-        - blog
-      size: 100
+        - .
+      paging: false
       sort:
         from: new
         by: creation
-      locale: pl
+      locale: pl-PL
       template: src/theme/custom-blog.html
       # time is used to change the display style of the time, with higher priority than locale.
       time_format: "%d.%m.%Y"

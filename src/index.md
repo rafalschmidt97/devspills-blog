@@ -7,6 +7,7 @@ description:
   spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
   różne aspekty w branży IT z perspektywy technicznej, ale i tematy miękkie,
   bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju.
+exclude_from_blog: true
 ---
 
 <!-- markdownlint-disable -->
