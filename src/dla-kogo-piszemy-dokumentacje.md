@@ -9,13 +9,13 @@ tags:
   - dokumentacja
   - organizacja
 date: 19.02.2023
-emoji: 1️⃣
+emoji: 😎
 image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 imagealt: hero
 ---
 
 **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
-częściach serii opiszę kilka innych zagadnień, jak _"co opisujemy"_, _"jakimi
+częściach serii opiszę kilka innych zagadnień, jak _["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
 narzędziami"_ itd.**
 
 Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
