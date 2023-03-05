@@ -16,6 +16,13 @@ html {
     font-weight: 600;
 }
 
+.md-typeset blockquote {
+    color: var(--md-typeset-color);
+    background: var(--md-typeset-kbd-color);
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
 .md-typeset a:focus, .md-typeset a:hover {
     color: var(--md-typeset-a-color);
     text-decoration: underline;
