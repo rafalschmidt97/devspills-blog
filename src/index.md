@@ -3,10 +3,10 @@ template: home.html
 # title skipped as I don't want "{{title}}: config.site_name"
 description:
   Cześć, z tej strony Rafał Schmidt! Piszę głównie o szeroko pojętym wytwarzaniu
-  oprogramowania. Jeśli jesteś tutaj po raz pierwszy, to zachęcam Cię do
-  spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
-  różne aspekty w branży IT z perspektywy technicznej, ale i tematy miękkie,
-  bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju.
+  oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do spojrzenia
+  na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające różne
+  aspekty w branży IT z perspektywy technicznej, ale i tematy miękkie, bliższe
+  kultury organizacyjnej, podejścia w pracy, czy rozwoju.
 exclude_from_blog: true
 ---
 
@@ -15,14 +15,14 @@ exclude_from_blog: true
 <!-- markdownlint-restore -->
 
 Cześć, z tej strony [Rafał Schmidt](o-mnie.md)! Piszę głównie o szeroko pojętym
-wytwarzaniu oprogramowania. Jeśli jesteś tutaj po raz pierwszy, to zachęcam Cię
-do spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści
-poruszające różne aspekty w branży IT z **perspektywy technicznej**, ale i
-tematy miękkie, bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju.
-Każdy wpis posiada [#tagi](tagi.md), więc jeśli jesteś zainteresowany czymś
-konkretnym, to kategorie mogą okazać się wygodne. Nie posiadam **jeszcze**
-newslettera ani RSS, ale to już niedługo może się zmienić! Możesz mnie znaleźć
-na [LinkedIn](https://www.linkedin.com/in/rafalschmidt/) oraz
+wytwarzaniu oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do
+spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
+różne aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie,
+bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju. Każdy wpis
+posiada [#tagi](tagi.md), więc jeśli jesteś zainteresowany czymś konkretnym, to
+kategorie mogą okazać się wygodne. Nie posiadam **jeszcze** newslettera ani RSS,
+ale to już niedługo może się zmienić! Możesz mnie znaleźć na
+[LinkedIn](https://www.linkedin.com/in/rafalschmidt/) oraz
 [Twitterze](https://twitter.com/rafalschmidt97).
 
 <!-- markdownlint-disable -->
@@ -34,10 +34,10 @@ na [LinkedIn](https://www.linkedin.com/in/rafalschmidt/) oraz
 <!-- markdownlint-restore -->
 
 Cześć, z tej strony [Rafał Schmidt](o-mnie.md)! Piszę głównie o szeroko pojętym
-wytwarzaniu oprogramowania. Jeśli jesteś tutaj po raz pierwszy, to zachęcam Cię
-do spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści
-poruszające różne aspekty w branży IT z **perspektywy technicznej**, ale i
-tematy miękkie, bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju.
+wytwarzaniu oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do
+spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
+różne aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie,
+bliższe kultury organizacyjnej, podejścia w pracy, czy rozwoju.
 
 <!-- markdownlint-disable -->
 </div>
