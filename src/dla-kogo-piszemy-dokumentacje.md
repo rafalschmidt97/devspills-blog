@@ -26,9 +26,9 @@ wymagać dwóch kompletnie innych treści, perspektyw czy wyjaśnień.
 Miałem ostatnio okazję poprowadzić serię warsztatów wyrównujących podejście do
 wytwarzania dokumentacji. Choć temat wydaje się na pierwszy rzut oka banalny,
 bez polotu, pospolity, czy przede wszystkim już dobrze opisany to okazuje
-się, że wciąż kontrowersyjny i bez standardów. Inżynierzy mieli zdanie na ten
+się, że wciąż kontrowersyjny i bez standardów. Inżynierzy mieli różne zdania na ten
 temat, czuli co kuleje, a co działa naprawdę dobrze. Pomyślałem, że to może być
-ciekawy materiał, którym warto podzielić.
+ciekawy materiał, którym warto się podzielić.
 
 ## Pytania kontrolne
 
@@ -203,7 +203,7 @@ wszystko w ramach zdrowego rozsądku.
 
 ## Eksperymentuj.
 
-Miałem okazję brać udział w różnych formach _naprawiania dokumentacji_ i trudno
+Brałem już udział w różnych formach _naprawiania dokumentacji_ i trudno
 mi wybrać jedną metodę, którą szczególnie bym zarekomendował. Niestety, ale
 jeszcze raz porównam tutaj pisanie testów do pisania dokumentacji. Tak jak testy
 najlepiej pisać razem z kodem produkcyjnym, tak i z dokumentacją jest podobnie.
