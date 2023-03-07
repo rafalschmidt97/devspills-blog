@@ -15,7 +15,8 @@ imagealt: hero
 ---
 
 **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
-częściach serii opiszę kilka innych zagadnień, jak _["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
+częściach serii opiszę kilka innych zagadnień, jak
+_["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
 narzędziami"_ itd.**
 
 Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
@@ -201,7 +202,7 @@ Czy to z przełożonym, czy w ramach własnego zespołu. Czasem owszem spotkanie
 jest w stanie zaoszczędzić godzin przedzierania się przez materiały, ale
 wszystko w ramach zdrowego rozsądku.
 
-## Eksperymentuj.
+## Eksperymentuj
 
 Miałem okazję brać udział w różnych formach _naprawiania dokumentacji_ i trudno
 mi wybrać jedną metodę, którą szczególnie bym zarekomendował. Niestety, ale
