@@ -7,13 +7,12 @@ html {
 /* Typeset */
 
 .md-typeset h1 {
-    font-weight: 600;
-    color: var(--md-typeset-color);
     margin: 0 0 0.83em;
 }
 
-.md-typeset h2 {
-    font-weight: 600;
+.md-typeset h1, h2, h3 {
+    color: var(--md-typeset-color) !important;
+    font-weight: 600 !important;
 }
 
 .md-typeset blockquote {
