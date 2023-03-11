@@ -1,13 +1,13 @@
 ---
 title: Dla kogo piszemy dokumentację?
 description:
-  Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
-  otrzymasz tyle definicji ile członków owej grupy. Szaleństwo prawda? W tym
-  szaleństwie jest natomiast metoda. Dwie różne grupy odbiorów dokumentacji będą
-  wymagać dwóch kompletnie innych treści, perspektyw czy wyjaśnień.
+    Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
+    otrzymasz tyle definicji ile członków owej grupy. Szaleństwo prawda? W tym
+    szaleństwie jest natomiast metoda. Dwie różne grupy odbiorów dokumentacji
+    będą wymagać dwóch kompletnie innych treści, perspektyw czy wyjaśnień.
 tags:
-  - dokumentacja
-  - organizacja
+    - dokumentacja
+    - organizacja
 date: 19.02.2023
 emoji: 😎
 image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
@@ -38,7 +38,7 @@ pominąć, ale to jawne (lub i nie) decydowanie się na podjęcie ryzyka w zamia
 skrócenie czasu spędzonego nad daną czynnością.
 
 Przypomina mi się książka
-["Zaczynaj od dlaczego" od Simona Sinek](https://www.goodreads.com/book/show/7108725-start-with-why)
+["Zaczynaj od dlaczego" od Simona Sinek](https://www.goodreads.com/book/show/7108725-start-with-why){:target="\_blank"}
 , gdzie autor stara się przekonać czytelników, że tylko przy dobrze
 zdefiniowanej wizji można osiągnąć oczekiwane rezultaty.
 
@@ -46,12 +46,12 @@ Nie inaczej jest przy dokumentacji. Zanim zaczniesz pisać choćby najmniejszą
 instrukcję czy spisywać podstawową wiedzę i założenia to warto zatrzymać się na
 chwilę i spróbować odpowiedzieć sobie na pytania podobne to tych poniżej:
 
-- Do kogo kierujesz dokumentację?
-- Co należy opisywać?
-- Gdzie odkładać zdobyte informacje?
-- Jakimi narzędziami się posługiwać?
-- Co warto ustandaryzować, a gdzie dać swobodę?
-- itd.
+-   Do kogo kierujesz dokumentację?
+-   Co należy opisywać?
+-   Gdzie odkładać zdobyte informacje?
+-   Jakimi narzędziami się posługiwać?
+-   Co warto ustandaryzować, a gdzie dać swobodę?
+-   itd.
 
 Jeśli odpowiedź na nie sprawia ci kłopot, to nie martw się, bo to całkowicie
 normalne. Mam wrażenie, że mało jest organizacji, które mają jasną wizję i
@@ -129,12 +129,12 @@ wniosku, że ilość i jakość dokumentacji powinna być wprost proporcjonalna 
 krytyczności usługi, którą wytwarzamy (lub utrzymujemy) i współmierna do ilości
 zespołów (czy inżynierów), którzy pracują blisko danej platformy. Tam, gdzie
 mamy narzucone wysokie
-[SLA (Service Level Agreement)](https://pl.wikipedia.org/wiki/Service_Level_Agreement)
+[SLA (Service Level Agreement)](https://pl.wikipedia.org/wiki/Service_Level_Agreement){:target="\_blank"}
 tam powinniśmy szczególnie zadbać o przygotowanie stosownych playbooków
 (standardowych procedur operacyjnych) oraz
-[FAQ](https://en.wikipedia.org/wiki/FAQ), tak żeby inżynier podczas awarii
-wiedział, jak należy się zachować w określonej sytuacji. W końcu czas to
-pieniądz, prawda?
+[FAQ](https://en.wikipedia.org/wiki/FAQ){:target="\_blank"}, tak żeby inżynier
+podczas awarii wiedział, jak należy się zachować w określonej sytuacji. W końcu
+czas to pieniądz, prawda?
 
 Niemniej ważne jest wyrażenie **jakość > ilość**. Co z tego, że będziesz mieć
 ogromne ilości materiałów, jeśli będą one oderwane od rzeczywistości.
@@ -156,10 +156,10 @@ Wyobraź sobie więc stereotypowego menadżera (_"how’s progress"_ 🦜), któ
 przychodzi do ciebie w ramach reprezentacji z innego zespołu z zestawem bardzo
 charakterystycznych pytań. Powiedzmy coś takiego:
 
-- A czym w ogóle jest wasz produkt?
-- Jakie macie funkcjonalności?
-- W jaki sposób zarządzacie danymi osobowymi?
-- Jak spełniacie wymogi prawne jako jednostka organizacyjna (KNF itd.)?
+-   A czym w ogóle jest wasz produkt?
+-   Jakie macie funkcjonalności?
+-   W jaki sposób zarządzacie danymi osobowymi?
+-   Jak spełniacie wymogi prawne jako jednostka organizacyjna (KNF itd.)?
 
 Ostatnie pytanie jest szczególnie nieprzyjemne prawda? Nie zrozum mnie tutaj
 źle. To są ważne pytania i żart o PM był tutaj zabiegiem tylko i wyłącznie dla
