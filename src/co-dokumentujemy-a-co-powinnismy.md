@@ -4,7 +4,7 @@ description: TODO
 tags:
     - dokumentacja
     - organizacja
-date: 8.03.2023
+date: 15.03.2023
 emoji: ⭐️
 # image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 image: ../static/todo/hero.jpg
@@ -18,7 +18,7 @@ serii odpowie na zagadnienie _"jakimi narzędziami"_.**
 
 Wyobraź sobie, że właśnie dołączyłeś do nowej organizacji. Odebrałeś sprzęt od
 kuriera wraz z danymi do logowania. Jesteś podekscytowany — w końcu zmieniłeś
-pracę, bo w aktualnej brakowało ci wyzwań. Zostajesz wprowadzony do
+pracę, bo w poprzedniej brakowało ci wyzwań. Zostajesz wprowadzony do
 obowiązujących praktyk oraz zasad w firmie, a następnie twój przełożony
 przedstawia cię w zespole.
 
@@ -27,7 +27,8 @@ lidera:
 
 > _Na spokojnie zapoznaj się z naszą dokumentacją. Nie wszystko może być
 > aktualne, natomiast sekcje X i Y mogą okazać się pomocne. Daj znać, jak
-> skończysz konfigurować sprzęt, to pogadamy o pierwszym zadaniu!_
+> skończysz konfigurować sprzęt i zapoznawać się z materiałami, to pogadamy o
+> pierwszym zadaniu!_
 
 Jak myślisz, czy to, co spotkasz, jest tym, czego potrzebujesz na tym etapie?
 Nasuwa mi się pytanie — czego spodziewać się po dokumentacji zespołowej?
@@ -39,9 +40,9 @@ Zazwyczaj nie musisz czegoś rozumieć, dopóki nie masz potrzeby tego poprawia�
 się zabrałeś, czy rozszerzenie działającej funkcjonalności.
 
 Kiedy bierzesz coś pod lupę, najczęściej zaczynasz od szybkiej próby
-zrozumienia, jak dany komponent działa. Może dany system został przygotowany z
-myślą o twoim problemie, a może właśnie celowo pominął dany przypadek brzegowy
-ze względu na swoją charakterystykę. Ktoś przecież zaprojektował dany proces
+zrozumienia, jak dany komponent działa. Może system został przygotowany z myślą
+o twoim problemie, a może właśnie celowo pominął dany przypadek brzegowy ze
+względu na swoją charakterystykę. Ktoś przecież zaprojektował dany proces
 biznesowy, więc gdzieś ekstrakt tej wiedzy domenowej jest. Jeśli wszystko dobrze
 poszło, to nie jest w głowach ludzi a w dokumentacji.
 
@@ -96,45 +97,76 @@ natomiast użytkownicy spędzali znacząco więcej czasu na przeglądaniu diagra
 oraz ich objaśnień.
 
 Po tym przydługawym wstępie przejdźmy do konkretów 😅. Nie ma co tutaj odkrywać
-koła na nowo.
+koła na nowo. Masz do przekazania wiedzę, to pamiętaj o perspektywie czytelnika.
+Jeśli twoim docelowym odbiorcą jest inżynier, to nie rób mu pod górkę i zamiast
+ściny tekstu przygotuj mu diagram — bo
 [UML-e](https://en.wikipedia.org/wiki/Unified_Modeling_Language){:target="\_blank"}
 po prostu działają. I nie jest ważne, z jakiego narzędzia skorzystasz, żeby jest
 wygenerować – czy to będzie narzędzie typu
 [drag-and-drop](https://en.wikipedia.org/wiki/Drag_and_drop){:target="\_blank"},
-czy coś inspirowanego na bazie na Markdown (a o narzędziach w kolejnym wpisie).
-Ważna jest intencja i odbiorca.
+czy coś
+[inspirowanego na bazie na Markdown](https://mermaid.js.org/){:target="\_blank"}
+(a o narzędziach w kolejnym wpisie). Ważna jest intencja i odbiorca.
 
 Gdybym miał wymienić moich ulubieńców to zdecydowanie by to byli:
 
--   W ramach modelowania procesów biznesowych sprawdza się
-    [diagram aktywności](https://en.wikipedia.org/wiki/Activity_diagram){:target="\_blank"}
-    -   lub do przypadków użycia — typowy
-        [use case'y](https://en.wikipedia.org/wiki/Use_case_diagram){:target="\_blank"}
--   Jeśli w systemie są stany i przejścia to mamy do czynienia z
-    [diagramem maszyn stanów](https://en.wikipedia.org/wiki/UML_state_machine){:target="\_blank"}
 -   Do przepływów między usługami i zależnościami między funkcjonalnościami
     nadaje się świetnie
-    [diagram sekwencji](https://en.wikipedia.org/wiki/Sequence_diagram){:target="\_blank"}
--   W ramach modelowania HLA i dekompozycji architektury może sprawdzić się
+    [diagram sekwencji](https://en.wikipedia.org/wiki/Sequence_diagram){:target="\_blank"}.
+
+    I to mój zdecydowany ulubieniec. Jest jak Rafaello... wyraża więcej niż
+    tysiąc słów. Działa na różnych poziomach, można go zastosować zarówno do
+    bardziej technicznych aspektów, jak i do biznesowych czy integracyjnych.
+    Świetnie sprawdza się jako podstawa pod rozpoczęcie dyskusji czy jako
+    potwierdzenie ustaleń.
+
+-   Jeśli w systemie są stany i przejścia (a zazwyczaj są) to mamy do czynienia
+    z
+    [diagramem stanów](https://en.wikipedia.org/wiki/UML_state_machine){:target="\_blank"}.
+
+    Dla mnie jest to niezbędnik, gdy pracujemy z
+    [maszynami stanów](https://blog.allegro.tech/2021/03/state-machines-made-easy.html){:target="\_blank"}
+    i koordynujemy złożone procesy. Przejścia potrafią się mocno skomplikować i
+    bez dobrej interpretacji graficznej można się pogubić.
+
+-   W ramach modelowania procesów biznesowych sprawdza się
+    [diagram aktywności](https://en.wikipedia.org/wiki/Activity_diagram){:target="\_blank"}.
+
+    -   Lub do przypadków użycia typowe
+        [use case'y](https://en.wikipedia.org/wiki/Use_case_diagram){:target="\_blank"}.
+
+-   Przy przygotowywaniu HLA i dekompozycji architektury może sprawdzić się
     [model C4](https://en.wikipedia.org/wiki/C4_model){:target="\_blank"} albo
-    [diagram komponentów](https://en.wikipedia.org/wiki/Component_diagram){:target="\_blank"}
+    [diagram komponentów](https://en.wikipedia.org/wiki/Component_diagram){:target="\_blank"}.
 
-Jeśli jesteś zainteresowany głębszą analizą to zachęcam do lektury
-[_Why Are Diagrams So Powerful_ od draw.io](https://drawio-app.com/blog/why-are-diagrams-so-powerful).
-Bardzo ciekawy materiał.
+    I mimo że pół branży IT mówi dziś właśnie o C4 to osobiście cały czas mam
+    problem się do niego przekonać. Tak jak _Context diagram_ (poziom 1) ma
+    swoją rację bytu, to moja awersja pozostaje w związku z częstymi zmianami
+    architektury. Co do zasady najczęściej kończę z jakimś mniej unormaizowanym
+    formatem wynikającym z narzędzia, z którego aktualnie korzystam. Wynika to z
+    wygody i pragmatyzmu. Muszę mu dać kiedyś jeszcze szansę...
 
-#### Sesje
+Jeśli jesteś zainteresowany głębszą analizą samych diagramów to zachęcam do
+lektury
+[_"Why Are Diagrams So Powerful"_](https://drawio-app.com/blog/why-are-diagrams-so-powerful)
+od draw.io.
 
--   Zapisy
-    [sesji stormingowych](https://www.eventstorming.com/){:target="\_blank"}
+#### Sesje i warsztaty
 
-<!-- - Procesy -->
-  <!-- - Ekstrakt wiedzy biznesowej / domenowej - pomocne dla nowozatrudnionych
-  - Procesy biznesowe (choć koniec końców mało się korzysta)
-  - Przepływ między mikroserwisami i zależności
-  - komunikację/zależności między serwisami w trakcie jakiegoś konkretnego procesu biznesowego (sequence diagramy)
-  - Sequence diagram najczęściej (między usługami itd.) - “Jak trzeba coś przerobić to pomaga zrozumieć”
-  - Różne formy: zapis sesji stormingowej, .rest opisujące pełen proces -->
+Tutaj raczej krótko — wyniki spotkań takich jak
+[sesje stormingowe](https://www.eventstorming.com/){:target="\_blank"} (czy to w
+formie tablic, czy nagrań) to istotny fragment odkrywania domeny i ich materiały
+są swego rodzaju formą dokumentacji (choć nie taki jest ich cel). Często, na tym
+etapie dosyć nieuporządkowaną, natomiast zazwyczaj wnoszącą dużo wartości,
+zwłaszcza dla nowo dołączających członków do zespołu, kiedy _"prawdziwa"_
+dokumentacja nie jest gotowa. Takie eksploracje pokazują, jak skomplikowana jest
+domena, czy ile mamy różnych kontekstów do zaopiekowania się.
+
+Problem w tym, czy to jest coś, do czego powinniśmy odwoływać ludzi. Więcej tam
+zazwyczaj niewiadomych niż objaśnień, więc prędzej będą sfrustrowani niż znajdą
+potwierdzenia na nurtujące ich pytania – zwłaszcza, że wiedza stamtąd mogła już dawno
+się zdezaktualizować. Trochę to twardy orzech do zgryzienia, więc zostawiam to tobie
+do oceny.
 
 ## Jak cię widzą, tak cię piszą.
 
@@ -146,7 +178,11 @@ O kontraktach.
 
 <!-- Wyobraź sobie, że musisz zapoznać się z nowym rozwiązaniem, które zaimplementował inny zespół.
 Twoim zadaniem jest zadecydować czy możecie wykorzystać daną technologię podczas implementacji w nadchodzącym zadaniu.
-Czego zaczniesz szukać na początku? Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które już mu zaufały?  -->
+Czego zaczniesz szukać na początku? Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które już mu zaufały?
+
+  - Różne formy: zapis sesji stormingowej, .rest opisujące pełen proces
+
+-->
 
 ## Duża organizacja to duża odpowiedzialność
 

@@ -8,7 +8,7 @@ description:
 tags:
     - dokumentacja
     - organizacja
-date: 19.02.2023
+date: 06.03.2023
 emoji: 😎
 image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 imagealt: hero

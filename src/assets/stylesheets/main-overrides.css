@@ -23,8 +23,7 @@ html {
 }
 
 .md-typeset a {
-    color: var(--md-code-fg-color);
-    text-decoration: underline;
+    color: var(--md-typeset-a-color);
 }
 
 .md-typeset a:focus, .md-typeset a:hover {
@@ -48,7 +47,7 @@ html {
 
 .md-header {
     background-color: transparent;
-    color: black;
+    color: var(--md-primary-fg-color);
     position: inherit;
 }
 
@@ -153,7 +152,7 @@ html {
 .md-footer {
     margin-top: 1.5em !important;
     background-color: transparent;
-    color: black;
+    color: var(--md-primary-fg-color);
 }
 
 @media screen and (min-width: 60em) {
@@ -181,9 +180,9 @@ html {
 }
 
 .md-copyright, .md-copyright__highlight {
-    color: black;
+    color: var(--md-primary-fg-color);
 }
 
 .md-footer-meta.md-typeset a {
-    color: black !important;
+    color: var(--md-primary-fg-color) !important;
 }
