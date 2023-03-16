@@ -164,25 +164,70 @@ domena, czy ile mamy różnych kontekstów do zaopiekowania się.
 
 Problem w tym, czy to jest coś, do czego powinniśmy odwoływać ludzi. Więcej tam
 zazwyczaj niewiadomych niż objaśnień, więc prędzej będą sfrustrowani niż znajdą
-potwierdzenia na nurtujące ich pytania – zwłaszcza, że wiedza stamtąd mogła już dawno
-się zdezaktualizować. Trochę to twardy orzech do zgryzienia, więc zostawiam to tobie
-do oceny.
+odpowiedzi na nurtujące ich pytania – zwłaszcza że wiedza stamtąd mogła już
+dawno się zdezaktualizować. Trochę to twardy orzech do zgryzienia, więc
+zostawiam to tobie do oceny.
 
 ## Jak cię widzą, tak cię piszą.
 
-O kontraktach.
+Co robisz, kiedy musisz zapoznać się z nowym rozwiązaniem przygotowanym przez
+inny zespół? Załóżmy, że dokonujesz wyboru czy wybierzecie daną technologię
+podczas nadchodzącego sprintu, czy też nie. Czego zaczniesz szukać na początku?
+Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które już mu
+zaufały? Ciężko stwierdzić... trochę to zależy od tego, co spotkasz. Jeśli
+będzie dobrze opisane, to wzbudza w tobie zaufanie. W końcu masz do czego wrócić
+w trakcie implementacji i nie musisz patrzeć w kod, czy domyślać się jak zachowa
+się dana funkcjonalność. Ten pierwszy moment jest bardzo ważny.
 
-<!-- - Jak korzystać z bibliotek - przykłady użycia
-  - Dla inżynierów którzy integrują się z naszym kodem/rozwiązaniem
-- API - Open API -->
+Porozmawiajmy chwilę o kontraktach. Budując bibliotekę czy wystawiając API na
+świat, zazwyczaj tworzymy jakąś dokumentację. Staramy się opisać jak się
+zintegrować z danym rozwiązaniem, jakie są możliwości konfiguracyjne czy jakie
+ma ograniczenia. W końcu chcemy, aby ktoś mógł skorzystać z czegoś, co właśnie
+zbudowaliśmy. I nikt nikogo zazwyczaj nie prosi o długie wywody. Czasem
+wystarczą dosłownie dwa zdania, diagram przepływów czy wymienienie
+funkcjonalności.
 
-<!-- Wyobraź sobie, że musisz zapoznać się z nowym rozwiązaniem, które zaimplementował inny zespół.
-Twoim zadaniem jest zadecydować czy możecie wykorzystać daną technologię podczas implementacji w nadchodzącym zadaniu.
-Czego zaczniesz szukać na początku? Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które już mu zaufały?
+Dla mnie takimi dwoma zdaniami, które robą różnice są między innymi:
 
-  - Różne formy: zapis sesji stormingowej, .rest opisujące pełen proces
+-   [Specyfikacja OpenAPI](https://swagger.io/specification/){:target="\_blank"} -
+    automatycznie generująca się dokumentacja kosztuje nas tylko odrobinę pracy,
+    a nie uwierzysz, jak dużo osób ją pomija. Kod komentujemy i tak, więc
+    dodanie ekstra zdania w ramach publicznych kontraktów jest bardzo niskim
+    kosztem w ramach zysku, który otrzymujemy. Nawet jak dziś wydaje ci się, że
+    nikt nie będzie korzystać z twojej usługi, to czasem po prostu w ramach
+    dobrych praktyk warto to dodać — a nuż ktoś będzie chciał poznać twój twoje
+    API.
 
--->
+    Instalacja zazwyczaj sprowadza się do dodania paczki ze Swaggerem i
+    dopisania kilku komentarzy o charakterze podobnym do notacji XML.
+
+-   Sekcja "Jak zacząć" / "Pierwsze kroki" - naprawdę niewiele trzeba tutaj
+    pisać. Jeśli budujesz bibliotekę, to powiedz, co należy dodać (krok po
+    kroku), aby włączyć daną funkcjonalność. Pokaż przykładowe użycia, w tym
+    przynajmniej jeden bardziej zaawansowany przypadek. Opisz, na co zwrócić
+    uwagę i jak się zachować przy typowych błędach.
+
+    A jeśli martwisz się, że będzie za mało, to nie ma o co — poprawisz przy
+    pierwszym pytaniach. Gwarantuje ci, że szansa na to, iż wyczerpiesz temat, jest
+    znacznie mniejsza, niż ci się wydaje.
+
+-   Scenariusze przepływów — czasem procesy wymagają szeregu czynności
+    wykonanych w odpowiedniej kolejności. Jeśli chcemy zrobić przykładowo
+    przelew, to najpierw musimy stworzyć płatność, potem dokonać autoryzacji
+    transakcję, a na koniec dokonać jej akceptacji. Wyniki z pierwszej są
+    najczęściej danymi wejściowymi dla drugiej. Oczywiście mógłbyś opisać
+    słownie, co się dzieje po czym, ale czasem łatwiej jest to po prostu
+    wykonać, bo w końcu i tak musisz przetestować czy dana funkcjonalność w
+    ogóle działa.
+
+    Osobiście, w ramach testowania API bardzo lubię dodatek do IDE nazywany
+    [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+    (oparty o pliki z rozszerzeniem `.rest` lub `.http`). Można je dodać do
+    repozytorium GIT, co pozwala też łatwo śledzić historię zmian. Alternatywnie
+    w ramach testów API całkiem nieźle sprawdza się również
+    [Postman](https://www.postman.com/).
+
+Więcej o narzędziach będzie w kolejnym wpisie 😎.
 
 ## Duża organizacja to duża odpowiedzialność
 
