@@ -260,15 +260,67 @@ Alternatywnie w ramach testów API całkiem nieźle sprawdza się również
 
 ## Duża organizacja to duża odpowiedzialność
 
-<!-- - Playbooki
-  - Dla dyżurnych, jakieś opisy manual fixów które nie zostały zautomatyzowane a pojawiają się co jakiś czas etc
-  - Manual taski - maintenance - manual fixing, wpada, zrób to i tamto, sprawdź to., Pierwszy alert -> co robić
-  - Known issues
-  - Jak sobie radzić z danym DLQ - “Dużo lepiej sprawdza się porządne komentowanie co robię podczas inwestygacji”
-    - Dużo razy uratowało tyłek wklejenie “to leci” i w kolejnych wiadomościach co zrobił
-    - Alert mający link do dokumentacji jest spoko (jeśli potrafisz zbudować wystarczająco specyficzny alert) -->
+Szkoła się skończyła, a dyżury zostały. Jeśli nie wiesz, o czym mówię, to
+zazdroszczę, bo w przypadku gdy pracujesz nad systemem, który jest dostępny dla
+klientów 24/7 i przynosi znaczące dochody dla organizacji to chleb powszedni.
 
-Uczyć się na własnej skórze.
+Weźmy sobie za przykład sklep internetowy. Zakupy muszą się udać o każdej porze
+dnia i nocy. Jeśli coś jest nie tak, to ktoś nie śpi. Życzę ci, żebyś to nie był
+ty. Kiedy natomiast trafia na ciebie to czas gra role. W końcu każda minuta
+przekłada się na pieniądze, których klienci nie wydali na danej platformie.
+Gdyby tak nie było, to nie byłoby żadnych dyżurów przecież. Ważne jest, żeby
+dyżurujący wiedział co robić — problemy lubią się ponawiać, dostawcy usług
+miewają czkawki, a błędów na produkcji nie unikniemy (w końcu wdrażamy nasze
+usługi codziennie... i to wielokrotnie). Dodatkowo nie da się znać całego
+ekosystemu — zawsze dojdzie do jakiegoś silosowania wiedzy.
+
+O co w takim razie dbać, żeby nasi dyżurujący byli w stanie jak najszybciej
+rozwiązywać problemy? Szkół jest kilka. Ja podzielę się tym, co sprawdza się u
+nas czyli scenariusze do inwestygacji. Pojawiają się czasem też pod nazwą FAQ
+oraz ["Playbooks"](https://sre.google/workbook/on-call/){:target="\_blank"}. Nie
+mamy jednego formatu dla nich, bo i jest wiele zespołów, którym sen spędzają z
+powiek inne kaprysy systemów więc i są inne problemy do rozwiązania.
+Standaryzacja niewiele by tutaj raczej wniosła. To zespół jest odpowiedzialny za
+wypracowanie sobie narzędzi, które pozwolą im sprawnie rozwiązywać problemy —
+więc i format powinni wybrać sami.
+
+Nie wszystko da się zautomatyzować i przewidzieć, a zadaniem tych scenariuszy
+jak opisanie jak zachować się w danej sytuacji. Przykładowo:
+
+-   **Znane problemy** — usługa X przestaje odpowiadać albo rzuca wyjątkami.
+    Gdzie dzwonić, co robić?
+-   _"Na
+    [DLQ](https://en.wikipedia.org/wiki/Dead_letter_queue){:target="\_blank"}
+    trafiło X wiadomości w związku z Y. **Zrób to i tamto**. Potem sprawdź
+    tutaj."_
+-   _"Przestaliśmy być dostępni jako metoda płatności. **Istnieją 3 powody**.
+    Sprawdź je."_
+
+Warto też w ramach konkretnych
+["czujek" (alarmów)](https://support.pagerduty.com/docs/alerts){:target="\_blank"}
+na monitoringu od razu dodawać odnośniki do dokumentacji danego narzędzia.
+Potrafi uratować sporo czasu.
+
+### Informuj jakie kroki podejmujesz
+
+Podczas dyskusji w biurze usłyszałem również opinię:
+
+> _Dobrze sprawdza się porządne komentowanie co robię podczas inwestygacji.
+> Kolejnego dnia, można zrobić retrospektywę, co można było zrobić lepiej i
+> gdzie mieliśmy szczęście (przydaje się do
+> [postmortem](https://www.atlassian.com/incident-management/postmortem){:target="\_blank"}).
+> Jest to również niezła wartość merytoryczna dla kolejnych dyżurujących. Czasem
+> po prostu wchodzą na Slacka i wpisuje wyszukiwarce problem. Niekiedy można
+> znaleźć ponawiającą się rzecz po kilku latach._
+
+Brzmi jak nic wielkiego, ale co ciekawe, jest znacznie częściej otwieraną
+zakładką w dokumentacji, niż człowiek by się spodziewał. Nie raz spisałem coś z
+myślą, że przecież nikomu się to nie przyda i prawie za każdym razem byłem w
+będzie.
+
+A więc jeśli masz to szczęście (lub i nie) brać udział w dyżurach to pomagajcie
+sobie. Piszcie dla siebie instrukcje i opisujcie co robicie. Jeszcze sobie
+będziecie dziękować wzajemnie za tego typu wsparcie w boju.
 
 ## Nie ma złych decyzji. Są tylko te niespisane.
 
