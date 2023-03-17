@@ -222,4 +222,5 @@ Zostawiam cię z kilkoma pytaniami:
 
 1. Skoro wiesz, że dokumentacja jest słaba to dlaczego jej nie poprawisz?
 2. Jakie są sytuacje, w których nie warto spisywać wiedzy?
-3. Kto jest właścicielem dokumentacji? Kto odpowiada za błędy w niej?
+3. [Kto jest właścicielem dokumentacji?](https://documentwrite.dev/blog/who-owns-the-documentation-and-why-it-should-be-the-robots/){:target="\_blank"}
+   Kto odpowiada za błędy w niej?

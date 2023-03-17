@@ -26,6 +26,12 @@ html {
     color: var(--md-typeset-a-color);
 }
 
+.md-typeset img + em {
+    font-size: 90%;
+    margin-top: -5px;
+    display: block;
+}
+
 .md-typeset a:focus, .md-typeset a:hover {
     color: var(--md-typeset-a-color);
     text-decoration: underline;

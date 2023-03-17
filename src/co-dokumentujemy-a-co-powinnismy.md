@@ -98,8 +98,10 @@ oraz ich objaśnień.
 
 Po tym przydługawym wstępie przejdźmy do konkretów 😅. Nie ma co tutaj odkrywać
 koła na nowo. Masz do przekazania wiedzę, to pamiętaj o perspektywie czytelnika.
-Jeśli twoim docelowym odbiorcą jest inżynier, to nie rób mu pod górkę i zamiast
-ściny tekstu przygotuj mu diagram — bo
+Jeśli twoim docelowym
+[odbiorcą](https://documentwrite.dev/blog/stop-writing-documentation-that-no-one-reads-know-your-audience/){:target="\_blank"}
+jest inżynier, to nie rób mu pod górkę i zamiast ściny tekstu przygotuj mu
+diagram — bo
 [UML-e](https://en.wikipedia.org/wiki/Unified_Modeling_Language){:target="\_blank"}
 po prostu działają. I nie jest ważne, z jakiego narzędzia skorzystasz, żeby jest
 wygenerować – czy to będzie narzędzie typu
@@ -171,63 +173,90 @@ zostawiam to tobie do oceny.
 ## Jak cię widzą, tak cię piszą.
 
 Co robisz, kiedy musisz zapoznać się z nowym rozwiązaniem przygotowanym przez
-inny zespół? Załóżmy, że dokonujesz wyboru czy wybierzecie daną technologię
-podczas nadchodzącego sprintu, czy też nie. Czego zaczniesz szukać na początku?
-Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które już mu
-zaufały? Ciężko stwierdzić... trochę to zależy od tego, co spotkasz. Jeśli
-będzie dobrze opisane, to wzbudza w tobie zaufanie. W końcu masz do czego wrócić
-w trakcie implementacji i nie musisz patrzeć w kod, czy domyślać się jak zachowa
-się dana funkcjonalność. Ten pierwszy moment jest bardzo ważny.
+inny zespół? Załóżmy, że dokonujesz wyboru czy zdecydujecie się na daną
+technologię podczas nadchodzącego sprintu, czy też nie. Czego zaczniesz szukać
+na początku? Ogólnych zasad działania? Ograniczeń? Alternatyw? Zespołów, które
+już mu zaufały? Ciężko stwierdzić... trochę to zależy od tego, co spotkasz.
+Jeśli produkt będzie poprawnie opisany, to najprawdopodobniej wzbudzi w tobie
+zaufanie. W końcu masz do czego wrócić w trakcie implementacji i nie musisz
+patrzeć w kod, czy domyślać się jak zachowa się dana funkcjonalność. I właśnie
+ten pierwszy moment jest bardzo ważny.
 
 Porozmawiajmy chwilę o kontraktach. Budując bibliotekę czy wystawiając API na
-świat, zazwyczaj tworzymy jakąś dokumentację. Staramy się opisać jak się
+świat, zazwyczaj tworzymy jakąś dokumentację. W końcu chcemy, aby ktoś mógł
+skorzystać z czegoś, co właśnie zbudowaliśmy. Staramy się opisać jak się
 zintegrować z danym rozwiązaniem, jakie są możliwości konfiguracyjne czy jakie
-ma ograniczenia. W końcu chcemy, aby ktoś mógł skorzystać z czegoś, co właśnie
-zbudowaliśmy. I nikt nikogo zazwyczaj nie prosi o długie wywody. Czasem
-wystarczą dosłownie dwa zdania, diagram przepływów czy wymienienie
-funkcjonalności.
+ma ograniczenia.
 
-Dla mnie takimi dwoma zdaniami, które robą różnice są między innymi:
+To z czego warto zdać sobie sprawę, to fakt, że nikt od nikogo nie wymaga
+długich wywodów tutaj. Czasem wystarczą dosłownie dwa zdania, diagram przepływów
+czy wymienienie funkcjonalności.
 
--   [Specyfikacja OpenAPI](https://swagger.io/specification/){:target="\_blank"} -
+Dla mnie takimi dwoma zdaniami w ramach udostępniania funkcjonalności (np. API
+czy biblioteki), które robią różnice, są między innymi:
+
+-   **[Specyfikacja OpenAPI](https://swagger.io/specification/){:target="\_blank"}** -
     automatycznie generująca się dokumentacja kosztuje nas tylko odrobinę pracy,
-    a nie uwierzysz, jak dużo osób ją pomija. Kod komentujemy i tak, więc
-    dodanie ekstra zdania w ramach publicznych kontraktów jest bardzo niskim
-    kosztem w ramach zysku, który otrzymujemy. Nawet jak dziś wydaje ci się, że
-    nikt nie będzie korzystać z twojej usługi, to czasem po prostu w ramach
-    dobrych praktyk warto to dodać — a nuż ktoś będzie chciał poznać twój twoje
-    API.
+    a nie uwierzysz, jak dużo osób ją pomija. Komentarze do kodu dodajemy i tak,
+    więc dodanie ekstra zdania w ramach publicznych kontraktów jest bardzo
+    niskim kosztem w ramach zysku, który otrzymujemy. Nawet jak dziś wydaje ci
+    się, że nikt nie będzie korzystać z twojej usługi, to czasem po prostu w
+    ramach dobrych praktyk warto to dodać — a nuż ktoś będzie chciał poznać
+    twoje API.
 
     Instalacja zazwyczaj sprowadza się do dodania paczki ze Swaggerem i
     dopisania kilku komentarzy o charakterze podobnym do notacji XML.
 
--   Sekcja "Jak zacząć" / "Pierwsze kroki" - naprawdę niewiele trzeba tutaj
-    pisać. Jeśli budujesz bibliotekę, to powiedz, co należy dodać (krok po
-    kroku), aby włączyć daną funkcjonalność. Pokaż przykładowe użycia, w tym
-    przynajmniej jeden bardziej zaawansowany przypadek. Opisz, na co zwrócić
-    uwagę i jak się zachować przy typowych błędach.
+-   **["Sekcja "Jak zacząć" / Pierwsze kroki"](https://documentwrite.dev/blog/how-to-write-a-getting-started-guide/){:target="\_blank"}** -
+    powtórzę się – naprawdę niewiele trzeba tutaj pisać. Jeśli budujesz
+    bibliotekę, to powiedz, co należy dodać (krok po kroku), aby skorzystać z
+    danej funkcjonalności. Pokaż przykłady użycia, w tym przynajmniej jeden
+    bardziej zaawansowany. Opisz, na co zwrócić uwagę i jak się zachować przy
+    typowych błędach.
 
-    A jeśli martwisz się, że będzie za mało, to nie ma o co — poprawisz przy
-    pierwszym pytaniach. Gwarantuje ci, że szansa na to, iż wyczerpiesz temat, jest
-    znacznie mniejsza, niż ci się wydaje.
+    A jeśli martwisz się, że to za mało, to nie ma o co — poprawisz przy
+    pierwszych pytaniach. Gwarantuje ci, że szansa na to, iż wyczerpiesz temat,
+    jest znacznie mniejsza, niż ci się wydaje. Bardzo szczegółowe opisywanie ma
+    również wady, bo łatwo się dezaktualizuje i wzbudza wśród inżynierów
+    poczucie przytłoczenia ilością materiałów. Ważny jest tutaj balans.
 
--   Scenariusze przepływów — czasem procesy wymagają szeregu czynności
-    wykonanych w odpowiedniej kolejności. Jeśli chcemy zrobić przykładowo
-    przelew, to najpierw musimy stworzyć płatność, potem dokonać autoryzacji
-    transakcję, a na koniec dokonać jej akceptacji. Wyniki z pierwszej są
-    najczęściej danymi wejściowymi dla drugiej. Oczywiście mógłbyś opisać
-    słownie, co się dzieje po czym, ale czasem łatwiej jest to po prostu
-    wykonać, bo w końcu i tak musisz przetestować czy dana funkcjonalność w
-    ogóle działa.
+    Część osób trzyma się schematu: _"Wstęp"_, _"Jak zacząć"_, _"Kolejne
+    kroki"_. To prosty szablon, narzucający pewien sposób myślenia, który myślę,
+    że można zarekomendować praktycznie każdemu.
 
-    Osobiście, w ramach testowania API bardzo lubię dodatek do IDE nazywany
-    [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-    (oparty o pliki z rozszerzeniem `.rest` lub `.http`). Można je dodać do
-    repozytorium GIT, co pozwala też łatwo śledzić historię zmian. Alternatywnie
-    w ramach testów API całkiem nieźle sprawdza się również
-    [Postman](https://www.postman.com/).
+#### Scenariusze przepływów
 
-Więcej o narzędziach będzie w kolejnym wpisie 😎.
+Odwróćmy teraz sytuację – spotykasz publiczne API, które jest słabo opisane, a
+musisz przekazać wiedzę dalej. Co teraz?
+
+Kiedy już dochodzisz do źródła prawdy, niezależnie czy poprzez zadawanie pytań,
+czy ktoś zrobił ci wstęp do danej technologii (więc znasz już scenariusze
+użycia), to czasem procesy wymagają po prostu szeregu czynności wykonanych w
+odpowiedniej kolejności. Jeśli chcemy wykonać przykładowo płatność na
+platformie, to najpierw musimy stworzyć ją, potem dokonać autoryzacji
+transakcję, a na koniec ją zaakceptować. Wyniki z pierwszej operacji są
+najczęściej danymi wejściowymi dla drugiej. Oczywiście mógłbyś opisać słownie,
+co się dzieje po czym, ale czasem łatwiej jest po prostu to wykonać, bo w końcu
+i tak musiałeś przetestować czy dana funkcjonalność w ogóle działa.
+
+<!-- markdownlint-disable -->
+<span style="float:right;width:40%;margin:0.5em;text-align:center">
+![](../static/co-dokumentujemy-a-co-powinnismy/intuitive-docs-meme.jpg){:style="border:0.2em solid #000000db;margin-top:0.6em"} 
+    <em>Źródło: 
+    [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/lswk9r/the_documentation_is_super_intuitive_we_do_not/){:target="\_blank"}
+    </em>
+</span> 
+<!-- markdownlint-restore -->
+
+Więcej o narzędziach będzie w kolejnym wpisie, ale osobiście właśnie do takich
+wykonywań, w ramach weryfikacji API bardzo cenię sobie dodatek do IDE o nazwie
+[REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+(oparty o pliki z rozszerzeniem `.rest` lub `.http`). Jako zespół,
+przygotowujemy z tym narzędziem całe scenariusze, co po czym ma się wydarzyć.
+Dużą zaletą jest możliwość dodawania ich do repozytorium GIT, gdzie są blisko
+samej implementacji (lub użycia), co pozwala też łatwo śledzić historię zmian.
+Alternatywnie w ramach testów API całkiem nieźle sprawdza się również
+[Postman](https://www.postman.com/).
 
 ## Duża organizacja to duża odpowiedzialność
 
