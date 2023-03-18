@@ -4,7 +4,7 @@ description: TODO
 tags:
     - dokumentacja
     - organizacja
-date: 15.03.2023
+date: 18.03.2023
 emoji: ⭐️
 # image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 image: ../static/todo/hero.jpg
@@ -324,12 +324,56 @@ będziecie dziękować wzajemnie za tego typu wsparcie w boju.
 
 ## Nie ma złych decyzji. Są tylko te niespisane.
 
-<!-- - Decyzje (ADR’y) -->
-<!-- - Guidelines - Kontekst (sytuacja), Co chcemy osiągnąć, Możliwe rozwiązania -->
-<!-- - migration guide
-  - przykład z net7 - rules, guidelines, pinning etc. https://dev.azure.com/AllegroTechies/VAbank/_wiki/wikis/Wiki/1855/NET-7
-  -  package policy -->
-  <!-- - Work itemy jako historia zmian czyli decyzji -->
+O wartości
+[Architecture decision record (ADR)](https://github.com/joelparkerhenderson/architecture-decision-record){:target="\_blank"}
+mówił już dawno temu cały świat i postało tyle materiałów, że nie warto się
+tutaj powtarzać. Kilka moich ulubionych do nadrobienia, jeśli jeszcze nie miałeś
+okazji się zapoznać:
+
+-   [Scaling Engineering Teams via RFCs: Writing Things Down](https://blog.pragmaticengineer.com/scaling-engineering-teams-via-writing-things-down-rfcs/){:target="\_blank"}
+-   [Design Docs at Google](https://www.industrialempathy.com/posts/design-docs-at-google/){:target="\_blank"}
+-   [Technical Decision-Making and Alignment in a Remote Culture](https://multithreaded.stitchfix.com/blog/2020/12/07/remote-decision-making/){:target="\_blank"}
+
+<!-- https://caitiem.com/2020/03/29/design-docs-markdown-and-git/ -->
+
+Jaki ma to związek z dokumentacją? Przykładowo skąd dowiesz się, czym firma
+zajmowała się przez ostatni rok? Przecież nie będziesz przeglądać historii zmian
+itd. Log decyzji to właśnie to miejsce. Istnieje mnóstwo decyzji które padło,
+wiele pytań, na które odpowiedzieli sobie inżynierzy itd. Kiedy podejmujemy
+decyzje, robimy to na podstawie aktualnie naszej najlepszej wiedzy. I za rok
+oczywiście może być kompletnie inna. Ważne jest spisanie, w jakim kierunku wtedy
+idziemy i dlaczego.
+
+W organizacji trzymamy się dosyć prostego schematu: _"Kontekst i problem"_, _"Co
+chcemy (i jakie są czynniki decydujące)"_, _"Jakie mamy możliwości (i ich
+konsekwencje)"_ oraz oczywiście _"Decyzja"_. Pytania, choć wydają się proste,
+zazwyczaj wymagają nieco zastanowienia się.
+
+To, co dla mnie jest istotne to żeby nie mylić ADR-a z
+[RFC](https://en.wikipedia.org/wiki/Request_for_Comments){:target="\_blank"} -
+jedno to już podjęta decyzja, a drugie to dokument wspomagający dyskusji. Do
+tego drugiego osobiście preferuje inne narzędzie do szybkiej kolaboracji z
+komentarzami i sugestiami niż GIT i
+[PR/MR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests){:target="\_blank"}
+(przykładowo Google Docs). Po pierwsze każdy zawsze ma repozytorium, a dodatkowo
+biznes raczej nie jest wymiataczem systemów kontroli wersji.
+
+Przykładem decyzji w dużej organizacji może być niedecydowanie się na migracje
+na najnowszą wersję
+[SDK](https://learn.microsoft.com/en-us/dotnet/core/sdk){:target="\_blank"}.
+Choć serce się czasem kroi, kiedy widzi się tego typu decyzje, to często są po
+prostu pragmatyczne. Nie każda wersja jest
+[LTS](https://en.wikipedia.org/wiki/Long-term_support){:target="\_blank"} lub
+duże aktualizacje wychodzą z bardzo dużą częstotliwością. Zespoły platformowe
+zazwyczaj nie zakazują wykorzystywania innych wersji, natomiast z ich strony
+wychodzi jasna rekomendacja (mówiąca np. że twoja migracja nie może zmusić
+innych do tego samego) i konsekwencje niepodążania za daną ścieżką.
+
+I na koniec – nie istnieje żaden złoty podział między wystarczająco ważną
+decyzją a tą, której nie warto spisywać. Jeśli czujesz, że decyzja może mieć
+konsekwencje, to sam fakt spisania zazwyczaj pozwoli ci poukładać sobie to w
+głowie. Wiec nie myśl o tym za długo — po prostu spisz, jeśli widzisz w tym
+wartość.
 
 ## To nie czas na afiszowanie się?
 
