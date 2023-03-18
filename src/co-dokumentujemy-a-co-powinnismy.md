@@ -377,22 +377,58 @@ wartość.
 
 ## To nie czas na afiszowanie się?
 
-<!-- - Problem -> solution -> outcome (nowozatrudniony może czym firma sie zajmuje) -->
-<!-- - Initative results - https://dev.azure.com/AllegroTechies/VAbank/_wiki/wikis/Wiki/1549/Service-Bus-hickups-(Hermes-related)
-  - “chwalimy się” jakimś ciekawym rozwiązaniem
-  - Podsumowania optymalizacji
-- Wyniki testów - performance itd.
-- Researche -->
+Chwalenie się osiągnięciami może zostać postrzeżone w organizacji dwojako,
+prawda? Część osób nie jest fanem mówienia o swoich dokonaniach, bo nie widzi w
+tym wartości. Pytanie, czy na pewno dzielenie się podsumowaniami pozytywnych
+zmian jak optymalizacje, czy to finansowe, czy wydajnościowe jest złe?
+
+Dla mnie osobiście to świetna chwila, żeby nauczyć się czegoś od innych. Poznać
+problem, rozwiązanie i efekt zmiany. To też dobra okazja dla nowozatrudnionych
+na zobaczenie czym firma się zajmowała. Swego czasu mieliśmy różne inicjatywy w
+ramach bolączek związanych z naszym dostawcą chmury publicznej — był jakiś
+kontekst, metryki i analiza, opisane różne znaleziska, wnioski i pomysły na
+usprawnienia. Osobiście uważam, że to ogromna wartość, która niestety, ale
+najczęściej zostaje w naszych głowach jako operatorów tego przedsięwzięcia.
+Jestem zdania, że choć zespoły częściej niż czasem mierzą się z tymi samymi
+problemami, to nie dzielą się swoimi odkryciami. A co gorsza jest to też duże
+wyzwanie zebrać różne zespoły w jednym miejscu, żeby powymieniały się swoimi
+doświadczeniami.
+
+Dążę do tego, że dzielenie się w formie offline pisząc właśnie podsumowania,
+badań, szczęśliwe historie czy sukcesy wdrożeniowe ma wartość (nie tylko na
+spotkaniach itd). Trudno ją kwantyfikacji wniesionej wartości w stosunku do
+spędzonego czasu na pisanie, ale sama treść merytoryczna jest najczęściej
+przydatna. A już nie będę tutaj mówić o tym, że w ramach zespołu jest dobrym
+sposobem na ekspozycję i
+[sponsorship](https://larahogan.me/blog/what-sponsorship-looks-like/){:target="\_blank"}
+konkretnych osób.
+
+---
 
 ## Nie rób innym koło pióra.
 
-<!-- Jak nie
-  - Oznaczanie jako “nieaktualne” lub usuwanie, Upewnij się że coś nie powstało. Nie rób nowego, aktualizuj
-  - Trzymanie dokumentacji technicznej “daleko od” implementacji
-  - Powinniśmy unikać redundancji
-  - Implementacji serwisu
-  - <summary> - Wymuszania na developerach opisywania wszystkich publicznych metod/property
-    - Jak public i libka to bym opisywał :D
-  - Detali jak wygląd encji w cosmos - zbyt szybko się zmienia
-  - Oczywistości wynikających z kodu (np. property CreditContractId ma w summary jedynie “Credit Contract Id”)
-- tam gdzie czujemy to dodajemy summary, ja nie czuje po co to robimy - wymuszanie nie działa i dochodzi do patoligii, czy nie nadużywamy public, sama nazwa nie zawsze wyjaśnia zawsze znaczenie -->
+Zmierzając już ku końcowi, podsumujmy jeszcze, czego nie warto robić i na co
+zwrócić uwagę. Kilka punktów, wymienionych podczas jednej z wewnętrznych
+dyskusji:
+
+-   **Duplikacja to wróg numer jeden** — jeśli potrzebujesz w swojej
+    dokumentacji powielić coś, co widziałeś już gdzieś indziej, to dodaj po
+    prostu odnośnik do tamtej. Raz, że nie musisz utrzymywać tej treści, a dwa,
+    że jeśli coś się zmieni to szansa na to, że ktoś poprawi twoją kopię, jest
+    zerowa.
+-   **Oznaczanie dokument jako _"nieaktualny"_ bez informacji gdzie pójść
+    dalej** to patologia — klasyk. Ta wersja jest już niedostępna, a ty domyśl
+    się gdzie szukać najnowszej wersji.
+-   **Trzymanie dokumentacji technicznej daleko od implementacji** jako
+    gwarantowany sposób na dezaktualizację. Jeśli ktoś poprawia dany fragment
+    funkcjonalności, to nie każmy mu szukać, gdzie powinien zaktualizować
+    dokumentację do tego.
+-   **Nie warto opisywać wszystkiego** — dokładna implementacja, szybko
+    zmieniające się elementy, czy opisywanie pola, które samo już z nazwy mówi o
+    sobie wystarczająco to przesada. Czasem gdzieś standardy na nas wymuszą
+    pewne zachowania, ale kiedy muszę pole "pesel" opisać "To pole zawiera
+    pesel", to krew mnie zalewa. Dobrze jest unikać opisywania oczywistości
+    (choć tu zdania są podzielone).
+
+Mam nadzieję, że ten wpis pozwoli ci spojrzeć na wybieranie tego, co należy
+opisywać z innej strony. Dzięki za uwagę.
