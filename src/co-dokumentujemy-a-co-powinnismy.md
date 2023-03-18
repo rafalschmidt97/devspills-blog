@@ -1,13 +1,17 @@
 ---
 title: Co dokumentujemy, a co powinniśmy.
-description: TODO
+description:
+    Wyobraź sobie, że właśnie dołączyłeś do nowej organizacji. Odebrałeś sprzęt
+    od kuriera wraz z danymi do logowania. Jesteś podekscytowany — w końcu
+    zmieniłeś pracę, bo w poprzedniej brakowało ci wyzwań. Zostajesz wprowadzony
+    do obowiązujących praktyk oraz zasad w firmie, a następnie twój przełożony
+    przedstawia cię w zespole.
 tags:
     - dokumentacja
     - organizacja
 date: 18.03.2023
-emoji: ⭐️
-# image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
-image: ../static/todo/hero.jpg
+emoji: 🆕
+image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
 imagealt: hero
 ---
 
