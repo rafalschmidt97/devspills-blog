@@ -1,5 +1,5 @@
 a.blog-post-link {
-    color: black;
+    color: var(--md-typeset-color);
     display: flex;
     flex-direction: column;
 }
@@ -11,7 +11,7 @@ a.blog-post-link {
 }
 
 a.blog-post-link:hover {
-    color: black;
+    color: var(--md-typeset-color);
 }
 
 a.blog-post-link .title {

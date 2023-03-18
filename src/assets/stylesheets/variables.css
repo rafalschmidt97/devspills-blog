@@ -45,7 +45,7 @@
   --md-typeset-color:                  var(--md-default-fg-color);
 
   /* Typeset `a` color shades */
-  --md-typeset-a-color:                hsl(233deg, 100%, 47%);
+  --md-typeset-a-color:                var(--md-code-hl-keyword-color);
 
   /* Typeset `mark` color shades */
   --md-typeset-mark-color:             hsla(0,0,0%, 0.5);
