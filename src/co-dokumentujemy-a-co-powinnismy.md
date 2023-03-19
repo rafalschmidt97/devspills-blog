@@ -1,11 +1,10 @@
 ---
 title: Co dokumentujemy, a co powinniśmy.
 description:
-    Wyobraź sobie, że właśnie dołączyłeś do nowej organizacji. Odebrałeś sprzęt
-    od kuriera wraz z danymi do logowania. Jesteś podekscytowany — w końcu
-    zmieniłeś pracę, bo w poprzedniej brakowało ci wyzwań. Zostajesz wprowadzony
-    do obowiązujących praktyk oraz zasad w firmie, a następnie twój przełożony
-    przedstawia cię w zespole.
+    Wyobraź sobie, że próbujesz przekazać hierarchię zarządzania organizacją za
+    pomocą samego tekstu. Albo spróbuj opisać złożony proces biznesowy z wieloma
+    punktami decyzyjnymi bez żadnej grafiki pomocniczej. To brzmi jak koszmar...
+    prawda?
 tags:
     - dokumentacja
     - organizacja
