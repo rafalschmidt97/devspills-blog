@@ -8,7 +8,7 @@ description:
 tags:
     - dokumentacja
     - organizacja
-date: 06.03.2023
+date: 05.03.2023
 image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 imagealt: hero
 ---
