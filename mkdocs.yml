@@ -57,7 +57,7 @@ markdown_extensions:
 nav:
   - "Wpisy": "index.md"
   # - "Tagi": "tagi.md"
-  - "O mnie": "o-mnie.md"
+  # - "O mnie": "o-mnie.md"
 
 plugins:
   - tags:
