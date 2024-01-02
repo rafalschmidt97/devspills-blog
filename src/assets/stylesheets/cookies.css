@@ -52,7 +52,7 @@
     min-height: 22px !important;
     margin-left: auto !important;
     margin-top: -2.1rem !important;
-    margin-right: 4.4rem !important;
+    margin-right: 2.4rem !important;
     max-width: 61rem !important;
 }
 
@@ -60,6 +60,6 @@
     #prebannerBtn,
     .prebanner {
         margin-top: -2.4rem !important;
-        margin-right: 5.2rem !important;
+        margin-right: 3.8rem !important;
     }
 }

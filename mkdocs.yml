@@ -8,8 +8,6 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/rafalschmidt/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/rafalschmidt97
   generator: false
 
 docs_dir: src
@@ -58,8 +56,8 @@ markdown_extensions:
 
 nav:
   - "Wpisy": "index.md"
-  - "Tagi": "tagi.md"
-  - "O mnie": "o-mnie.md"
+  # - "Tagi": "tagi.md"
+  # - "O mnie": "o-mnie.md"
 
 plugins:
   - tags:
