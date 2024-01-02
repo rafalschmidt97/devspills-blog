@@ -9,7 +9,6 @@ tags:
     - dokumentacja
     - organizacja
 date: 03.01.2023
-emoji: 🆕
 image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
 imagealt: hero
 ---
