@@ -5,10 +5,10 @@ site_author: Rafał Schmidt
 copyright: Rafał Schmidt
 
 extra:
-  social:
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/rafalschmidt/
-  generator: false
+  # social:
+  #   - icon: fontawesome/brands/linkedin
+  #     link: https://linkedin.com/in/rafalschmidt/
+  generator: false # "Made with Material"
 
 docs_dir: src
 
@@ -65,8 +65,7 @@ exclude_docs: |
 plugins:
   - tags:
       tags_file: tagi.md
-  - social:
-      cards: false
+  # - social
   # - search
   # - exclude-search:
   #     exclude:
