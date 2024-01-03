@@ -8,14 +8,18 @@ description:
 tags:
     - dokumentacja
     - organizacja
-date: 05.03.2024
+date: 03.01.2024
 image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 imagealt: hero
 ---
 
-**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
+<!-- **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
 częściach serii opiszę kilka innych zagadnień, jak
 _["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
+narzędziami"_ itd.** -->
+
+**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
+częściach serii opiszę kilka innych zagadnień, jak _"co opisujemy"_, _"jakimi
 narzędziami"_ itd.**
 
 Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a

@@ -8,13 +8,19 @@ description:
 tags:
     - dokumentacja
     - organizacja
-date: 03.01.2024
-image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
+date: 05.01.2024
+# image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
+image: ../../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
 imagealt: hero
 ---
 
-**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
+<!-- **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
 (_["dla kogo"](./dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
+zainteresowane naszymi treściami, którymi musimy się zaopiekować. Ostatni wpis
+serii odpowie na zagadnienie _"jakimi narzędziami"_.** -->
+
+**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
+(_["dla kogo"](../dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
 zainteresowane naszymi treściami, którymi musimy się zaopiekować. Ostatni wpis
 serii odpowie na zagadnienie _"jakimi narzędziami"_.**
 

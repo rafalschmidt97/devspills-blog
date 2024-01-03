@@ -15,11 +15,11 @@ exclude_from_blog: true
 <div class="welcome desktop" markdown="1">
 <!-- markdownlint-restore -->
 
-Cześć, z tej strony Rafał Schmidt! Piszę głównie o szeroko pojętym
-wytwarzaniu oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do
-spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
-różne aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie,
-bliższe kultury organizacyjnej, podejścia w pracy, rozwoju czy nieco prywatnych
+Cześć, z tej strony Rafał Schmidt! Piszę głównie o szeroko pojętym wytwarzaniu
+oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do spojrzenia
+na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające różne
+aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie, bliższe
+kultury organizacyjnej, podejścia w pracy, rozwoju czy nieco prywatnych
 spostrzeżeń. Możesz mnie znaleźć na
 [LinkedIn](https://linkedin.com/in/rafalschmidt/).
 
@@ -31,11 +31,11 @@ spostrzeżeń. Możesz mnie znaleźć na
 <div class="welcome mobile" markdown="1">
 <!-- markdownlint-restore -->
 
-Cześć, z tej strony Rafał Schmidt! Piszę głównie o szeroko pojętym
-wytwarzaniu oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do
-spojrzenia na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające
-różne aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie,
-bliższe kultury organizacyjnej, podejścia w pracy, rozwoju czy nieco prywatnych
+Cześć, z tej strony Rafał Schmidt! Piszę głównie o szeroko pojętym wytwarzaniu
+oprogramowania. Jeśli jesteś tu po raz pierwszy, to zachęcam Cię do spojrzenia
+na moje ostatnie wpisy poniżej. Znajdziesz tutaj treści poruszające różne
+aspekty w branży IT z **perspektywy technicznej**, ale i tematy miękkie, bliższe
+kultury organizacyjnej, podejścia w pracy, rozwoju czy nieco prywatnych
 spostrzeżeń.
 
 <!-- markdownlint-disable -->

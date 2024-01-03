@@ -7,7 +7,7 @@ copyright: Rafał Schmidt
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/rafalschmidt/
+      link: https://linkedin.com/in/rafalschmidt/
   generator: false
 
 docs_dir: src
@@ -58,6 +58,9 @@ nav:
   - "Wpisy": "index.md"
   # - "Tagi": "tagi.md"
   # - "O mnie": "o-mnie.md"
+
+exclude_docs: |
+  drafts/
 
 plugins:
   - tags:
