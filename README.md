@@ -16,3 +16,6 @@ mkdocs serve # or yarn serve
 
 ## Google Docs to markdown
 - https://gdoc2md.com/
+
+## How to write (in polish)
+- używaj "ty" a nie "wy" - czyli "nie uwierzysz" zamiast "nie uwierzycie"

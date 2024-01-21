@@ -10,7 +10,7 @@ description:
 exclude_from_blog: true
 ---
 
-# O mnie
+## O mnie
 
 Cześć, tu Rafał. Pracuje jako Senior Software Engineer w Allegro Pay. Moja praca
 to nie tylko korzystanie z technologii od Microsoft, zwłaszcza .NET, oraz Azure

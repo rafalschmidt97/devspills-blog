@@ -8,19 +8,13 @@ description:
 tags:
     - dokumentacja
     - organizacja
-date: 05.01.2024
-# image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
-image: ../../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
+date: 22.01.2024
+image: ../static/co-dokumentujemy-a-co-powinnismy/hero.jpg
 imagealt: hero
 ---
 
-<!-- **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
-(_["dla kogo"](./dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
-zainteresowane naszymi treściami, którymi musimy się zaopiekować. Ostatni wpis
-serii odpowie na zagadnienie _"jakimi narzędziami"_.** -->
-
 **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
-(_["dla kogo"](../dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
+(_["dla kogo"](./dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
 zainteresowane naszymi treściami, którymi musimy się zaopiekować. Ostatni wpis
 serii odpowie na zagadnienie _"jakimi narzędziami"_.**
 
@@ -41,7 +35,7 @@ lidera:
 Jak myślisz, czy to, co spotkasz, jest tym, czego potrzebujesz na tym etapie?
 Nasuwa mi się pytanie — czego spodziewać się po dokumentacji zespołowej?
 
-## Wiedza przychodzi z doświadczeniem.
+## Wiedza przychodzi z doświadczeniem
 
 Zazwyczaj nie musisz czegoś rozumieć, dopóki nie masz potrzeby tego poprawiać
 (lub zmieniać). Nieważne czy jest to błąd w systemie, drobna poprawka, za którą
@@ -59,7 +53,7 @@ kilku, które w mojej ocenie szczególnie się sprawdzają.
 
 ### Obraz wart tysiąca słów
 
-To dość popularne powiedzenie, na które
+Trochę filozoficznie, ale to dość popularne powiedzenie, na które
 [powołuje](https://blogs.sas.com/content/hiddeninsights/2022/12/19/obraz-wart-tysiaca-slow-troche-historii-i-obecnie/){:target="\_blank"}
 się wiele osób przy różnych okazjach. Skąd się wzięło? Jedni przypisują go
 Napoleonowi Bonaparte, który miał stwierdzić, że _"dobry szkic jest lepszy niż
@@ -69,9 +63,9 @@ słowami, co malarz jest w stanie wyrazić w jednej chwili"_. Jednak bez względ
 na pochodzenie frazy, chodzi tutaj o dwie rzeczy, czyli wartość informacyjną
 połączoną z klarownością przekazu.
 
-Wyobraź sobie, że próbujesz przekazać hierarchię zarządzania organizacją za
-pomocą samego tekstu. Albo spróbuj opisać złożony proces biznesowy z wieloma
-punktami decyzyjnymi bez żadnej grafiki pomocniczej.
+Pomyśl teraz o sytuacji, w której próbujesz przekazać hierarchię zarządzania
+organizacją za pomocą samego tekstu. Albo spróbuj opisać złożony proces
+biznesowy z wieloma punktami decyzyjnymi bez żadnej grafiki pomocniczej.
 
 To brzmi jak koszmar... prawda?
 
@@ -178,7 +172,7 @@ odpowiedzi na nurtujące ich pytania – zwłaszcza że wiedza stamtąd mogła j
 dawno się zdezaktualizować. Trochę to twardy orzech do zgryzienia, więc
 zostawiam to tobie do oceny.
 
-## Jak cię widzą, tak cię piszą.
+## Jak cię widzą, tak cię piszą
 
 Co robisz, kiedy musisz zapoznać się z nowym rozwiązaniem przygotowanym przez
 inny zespół? Załóżmy, że dokonujesz wyboru czy zdecydujecie się na daną
@@ -232,24 +226,24 @@ czy biblioteki), które robią różnice, są między innymi:
     kroki"_. To prosty szablon, narzucający pewien sposób myślenia, który myślę,
     że można zarekomendować praktycznie każdemu.
 
-#### Scenariusze przepływów
+### Scenariusze przepływów
 
-Odwróćmy teraz sytuację – spotykasz publiczne API, które jest słabo opisane, a
-musisz przekazać wiedzę dalej. Co teraz?
+Odwróćmy teraz sytuację – spotykasz publiczne API, które jest słabo opisane. Co
+teraz?
 
 Kiedy już dochodzisz do źródła prawdy, niezależnie czy poprzez zadawanie pytań,
-czy ktoś zrobił ci wstęp do danej technologii (więc znasz już scenariusze
-użycia), to czasem procesy wymagają po prostu szeregu czynności wykonanych w
-odpowiedniej kolejności. Jeśli chcemy wykonać przykładowo płatność na
-platformie, to najpierw musimy stworzyć ją, potem dokonać autoryzacji
-transakcję, a na koniec ją zaakceptować. Wyniki z pierwszej operacji są
-najczęściej danymi wejściowymi dla drugiej. Oczywiście mógłbyś opisać słownie,
-co się dzieje po czym, ale czasem łatwiej jest po prostu to wykonać, bo w końcu
-i tak musiałeś przetestować czy dana funkcjonalność w ogóle działa.
+czy ktoś zrobił ci wstęp (więc znasz już scenariusze użycia), to czasem procesy
+wymagają po prostu szeregu czynności wykonanych w odpowiedniej kolejności. Jeśli
+chcemy wykonać przykładowo płatność na platformie, to najpierw musimy ją
+stworzyć, potem dokonać autoryzacji, a na koniec zaakceptować sam transfer.
+Wyniki z pierwszej operacji są najczęściej danymi wejściowymi dla drugiej.
+Oczywiście mógłbyś opisać słownie, co się dzieje po czym, ale czasem łatwiej
+jest po prostu przygotować półautomatyczny scenariusz, bo w końcu i tak musiałeś
+przetestować czy dana funkcjonalność w ogóle działa.
 
 <!-- markdownlint-disable -->
 <span style="float:right;width:40%;margin:0.5em;text-align:center">
-![](../static/co-dokumentujemy-a-co-powinnismy/intuitive-docs-meme.jpg){:style="border:0.2em solid #000000db;margin-top:0.6em"} 
+![](./static/co-dokumentujemy-a-co-powinnismy/intuitive-docs-meme.jpg){:style="border:0.2em solid #000000db;margin-top:0.6em"} 
     <em>Źródło: 
     [Reddit](https://www.reddit.com/r/ProgrammerHumor/comments/lswk9r/the_documentation_is_super_intuitive_we_do_not/){:target="\_blank"}
     </em>
@@ -293,7 +287,7 @@ wypracowanie sobie narzędzi, które pozwolą im sprawnie rozwiązywać problemy
 więc i format powinni wybrać sami.
 
 Nie wszystko da się zautomatyzować i przewidzieć, a zadaniem tych scenariuszy
-jak opisanie jak zachować się w danej sytuacji. Przykładowo:
+jest opisanie jak zachować się w danej sytuacji. Przykładowo:
 
 -   **Znane problemy** — usługa X przestaje odpowiadać albo rzuca wyjątkami.
     Gdzie dzwonić, co robić?
@@ -307,7 +301,7 @@ jak opisanie jak zachować się w danej sytuacji. Przykładowo:
 Warto też w ramach konkretnych
 ["czujek" (alarmów)](https://support.pagerduty.com/docs/alerts){:target="\_blank"}
 na monitoringu od razu dodawać odnośniki do dokumentacji danego narzędzia.
-Potrafi uratować sporo czasu.
+Potrafi to uratować sporo czasu.
 
 ### Informuj jakie kroki podejmujesz
 
@@ -317,24 +311,21 @@ Podczas dyskusji w biurze usłyszałem również opinię:
 > Kolejnego dnia, można zrobić retrospektywę, co można było zrobić lepiej i
 > gdzie mieliśmy szczęście (przydaje się do
 > [postmortem](https://www.atlassian.com/incident-management/postmortem){:target="\_blank"}).
-> Jest to również niezła wartość merytoryczna dla kolejnych dyżurujących. Czasem
-> po prostu wchodzą na Slacka i wpisuje wyszukiwarce problem. Niekiedy można
-> znaleźć ponawiającą się rzecz po kilku latach._
+> Jest to również wkład dla kolejnych dyżurujących. Czasem po prostu wchodzą na
+> Slacka i wpisuje w wyszukiwarce problem. Niekiedy można znaleźć ponawiającą
+> się rzecz po kilku latach._
 
-Brzmi jak nic wielkiego, ale co ciekawe, jest znacznie częściej otwieraną
-zakładką w dokumentacji, niż człowiek by się spodziewał. Nie raz spisałem coś z
-myślą, że przecież nikomu się to nie przyda i prawie za każdym razem byłem w
-będzie.
+Brzmi jak nic wielkiego, ale pomaga — wiec po prostu spisuj to, co robisz.
 
 A więc jeśli masz to szczęście (lub i nie) brać udział w dyżurach to pomagajcie
-sobie. Piszcie dla siebie instrukcje i opisujcie co robicie. Jeszcze sobie
-będziecie dziękować wzajemnie za tego typu wsparcie w boju.
+sobie. Piszcie dla siebie instrukcje. Jeszcze sobie będziecie dziękować
+wzajemnie za tego typu wsparcie w boju.
 
-## Nie ma złych decyzji. Są tylko te niespisane.
+## Nie ma złych decyzji. Są tylko te niespisane
 
 O wartości
 [Architecture decision record (ADR)](https://github.com/joelparkerhenderson/architecture-decision-record){:target="\_blank"}
-mówił już dawno temu cały świat i postało tyle materiałów, że nie warto się
+mówił już dawno temu cały świat i powstało tyle materiałów, że nie warto się
 tutaj powtarzać. Kilka moich ulubionych do nadrobienia, jeśli jeszcze nie miałeś
 okazji się zapoznać:
 
@@ -344,13 +335,11 @@ okazji się zapoznać:
 
 <!-- https://caitiem.com/2020/03/29/design-docs-markdown-and-git/ -->
 
-Jaki ma to związek z dokumentacją? Przykładowo skąd dowiesz się, czym firma
-zajmowała się przez ostatni rok? Przecież nie będziesz przeglądać historii zmian
-itd. Log decyzji to właśnie to miejsce. Istnieje mnóstwo decyzji które padło,
-wiele pytań, na które odpowiedzieli sobie inżynierzy itd. Kiedy podejmujemy
-decyzje, robimy to na podstawie aktualnie naszej najlepszej wiedzy. I za rok
-oczywiście może być kompletnie inna. Ważne jest spisanie, w jakim kierunku wtedy
-idziemy i dlaczego.
+Jaki ma to związek z dokumentacją? Istnieje mnóstwo decyzji które padło, wiele
+pytań, na które odpowiedzieli sobie inżynierzy itd. Kiedy podejmujemy decyzje,
+robimy to na podstawie aktualnie naszej najlepszej wiedzy. I za rok oczywiście
+może być kompletnie inna. Ważne jest spisanie, w jakim kierunku wtedy idziemy i
+dlaczego.
 
 W organizacji trzymamy się dosyć prostego schematu: _"Kontekst i problem"_, _"Co
 chcemy (i jakie są czynniki decydujące)"_, _"Jakie mamy możliwości (i ich
@@ -363,8 +352,8 @@ jedno to już podjęta decyzja, a drugie to dokument wspomagający dyskusji. Do
 tego drugiego osobiście preferuje inne narzędzie do szybkiej kolaboracji z
 komentarzami i sugestiami niż GIT i
 [PR/MR](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests){:target="\_blank"}
-(przykładowo Google Docs). Po pierwsze każdy zawsze ma repozytorium, a dodatkowo
-biznes raczej nie jest wymiataczem systemów kontroli wersji.
+(przykładowo Google Docs). Biznes raczej też nie jest wymiataczem systemów
+kontroli wersji (przynajmniej nie z mojego doświadczenia).
 
 Przykładem decyzji w dużej organizacji może być niedecydowanie się na migracje
 na najnowszą wersję
@@ -375,7 +364,7 @@ prostu pragmatyczne. Nie każda wersja jest
 duże aktualizacje wychodzą z bardzo dużą częstotliwością. Zespoły platformowe
 zazwyczaj nie zakazują wykorzystywania innych wersji, natomiast z ich strony
 wychodzi jasna rekomendacja (mówiąca np. że twoja migracja nie może zmusić
-innych do tego samego) i konsekwencje niepodążania za daną ścieżką.
+innych do tego samego) i opisują konsekwencje niepodążania daną ścieżką.
 
 I na koniec – nie istnieje żaden złoty podział między wystarczająco ważną
 decyzją a tą, której nie warto spisywać. Jeśli czujesz, że decyzja może mieć
@@ -402,18 +391,17 @@ problemami, to nie dzielą się swoimi odkryciami. A co gorsza jest to też duż
 wyzwanie zebrać różne zespoły w jednym miejscu, żeby powymieniały się swoimi
 doświadczeniami.
 
-Dążę do tego, że dzielenie się w formie offline pisząc właśnie podsumowania,
-badań, szczęśliwe historie czy sukcesy wdrożeniowe ma wartość (nie tylko na
-spotkaniach itd). Trudno ją kwantyfikacji wniesionej wartości w stosunku do
-spędzonego czasu na pisanie, ale sama treść merytoryczna jest najczęściej
-przydatna. A już nie będę tutaj mówić o tym, że w ramach zespołu jest dobrym
-sposobem na ekspozycję i
+Dążę do tego, że dzielenie się podsumowaniami badań i eksperymentów czy różnymi
+sukcesami wdrożeniowymi ma wartość (nie tylko na spotkaniach). A już nie będę
+tutaj mówić o tym, że w ramach zespołu jest to dobry sposób na
 [sponsorship](https://larahogan.me/blog/what-sponsorship-looks-like/){:target="\_blank"}
-konkretnych osób.
+konkretnych osób. Ostatnio nasz zespół platformowy piszę wewnętrzny newsletter,
+którego jestem dużym fanem — niesamowite, jak dużo rzeczy są w stanie zrobić tak
+małym zespołem.
 
 ---
 
-## Nie rób innym koło pióra.
+## Nie rób innym koło pióra
 
 Zmierzając już ku końcowi, podsumujmy jeszcze, czego nie warto robić i na co
 zwrócić uwagę. Kilka punktów, wymienionych podczas jednej z wewnętrznych
@@ -425,8 +413,8 @@ dyskusji:
     że jeśli coś się zmieni to szansa na to, że ktoś poprawi twoją kopię, jest
     zerowa.
 -   **Oznaczanie dokument jako _"nieaktualny"_ bez informacji gdzie pójść
-    dalej** to patologia — klasyk. Ta wersja jest już niedostępna, a ty domyśl
-    się gdzie szukać najnowszej wersji.
+    dalej** — klasyk. Ta wersja jest już niedostępna, a ty domyśl się gdzie
+    szukać najnowszej wersji.
 -   **Trzymanie dokumentacji technicznej daleko od implementacji** jako
     gwarantowany sposób na dezaktualizację. Jeśli ktoś poprawia dany fragment
     funkcjonalności, to nie każmy mu szukać, gdzie powinien zaktualizować
