@@ -13,13 +13,9 @@ image: ../static/dla-kogo-piszemy-dokumentacje/hero.jpg
 imagealt: hero
 ---
 
-<!-- **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
+**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
 częściach serii opiszę kilka innych zagadnień, jak
 _["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
-narzędziami"_ itd.** -->
-
-**Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
-częściach serii opiszę kilka innych zagadnień, jak _"co opisujemy"_, _"jakimi
 narzędziami"_ itd.**
 
 Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
@@ -149,7 +145,7 @@ jakościowe, jakie dany produkt musi spełniać. Jeśli budujesz oprogramowanie,
 które za chwile oddasz innemu zespołowi do utrzymywania, to tym bardziej należy
 uwzględnić to w wycenach!
 
-## Nie samym zespołem żyje człowiek.
+## Nie samym zespołem żyje człowiek
 
 Zakładam, że miałeś/aś już okazję pracować w zespole, który budował jakiś nowy
 produkt, więc na pewno przeszło przez twoje ręce sporo materiałów związanych z
@@ -174,7 +170,7 @@ pamiętać o perspektywie osoby, która nie chce czytać 50 stron wstępu
 biznesowego, więc na pewno TLDR będzie mile widziany. **Pisz dokumentację taką,
 jaką sam chciałbyś spotkać**.
 
-## Szukaj sygnałów!
+## Szukaj sygnałów
 
 Chciałbym tutaj pokazać kompletnie inną perspektywę, jednego z inżynierów,
 czyli:
