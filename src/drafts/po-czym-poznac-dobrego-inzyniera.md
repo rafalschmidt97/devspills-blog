@@ -1,3 +1,7 @@
+---
+exclude_from_blog: true
+---
+
 W tym wpisie, będę chciał opisać:
 
 - przygoda podcastowa czyli link.

@@ -16,7 +16,8 @@ imagealt: hero
 **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. Poprzednik
 (_["dla kogo"](./dla-kogo-piszemy-dokumentacje.md)_) wskazał podmioty
 zainteresowane naszymi treściami, którymi musimy się zaopiekować. Ostatni wpis
-serii odpowie na zagadnienie _"jakimi narzędziami"_.**
+serii odpowie na zagadnienie
+_["jakimi narzędziami"](./jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji.md)_.**
 
 Wyobraź sobie, że właśnie dołączyłeś do nowej organizacji. Odebrałeś sprzęt od
 kuriera wraz z danymi do logowania. Jesteś podekscytowany — w końcu zmieniłeś

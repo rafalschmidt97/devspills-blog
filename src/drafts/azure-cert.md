@@ -1,3 +1,7 @@
+---
+exclude_from_blog: true
+---
+
 TLDR: Certyfikacja z Azure :azure: - historia, opinie i wnioski + jak się zapisać. Omiń jeśli nie jesteś zainteresowany.
 ---
 Hej,

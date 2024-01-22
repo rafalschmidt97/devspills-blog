@@ -15,8 +15,9 @@ imagealt: hero
 
 **Wpis pochodzi z serii poświęconej budowaniu dokumentacji. W kolejnych
 częściach serii opiszę kilka innych zagadnień, jak
-_["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_, _"jakimi
-narzędziami"_ itd.**
+_["co opisujemy"](./co-dokumentujemy-a-co-powinnismy.md)_,
+_["jakimi narzędziami"](./jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji.md)_
+itd.**
 
 Zapytaj dowolną grupę inżynierów, co rozumieją poprzez dobrą dokumentację, a
 otrzymasz tyle definicji ile członków owej grupy. Szaleństwo prawda? W tym
