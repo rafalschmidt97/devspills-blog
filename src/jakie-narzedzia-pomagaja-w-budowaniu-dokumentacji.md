@@ -10,7 +10,7 @@ tags:
     - dokumentacja
     - organizacja
     - narzedzia
-date: 24.01.2024
+date: 23.01.2024
 image: ../static/jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji/hero.jpg
 imagealt: hero
 ---
@@ -93,7 +93,7 @@ na swoje problemy. Jakbym miał napisać wzór na nią to byłoby to coś takieg
 <!-- markdownlint-restore -->
 
 Dodałbym tutaj jeszcze jedno - czyli to, że to żyjąca dokumentacja. Wychodzi
-wyższe SDK? Oto i przykład z nim. Nowy syntactic sugar? Proszę bardzo tutaj masz
+wyższe SDK? Oto i przykład z nim. Nowy [syntactic sugar](https://en.wikipedia.org/wiki/Syntactic_sugar){:target="\_blank"}? Proszę bardzo tutaj masz
 krótszą składnie. Rozwiązanie wręcz idealne. Kiedy natomiast oficjalna
 dokumentacja nie otrzymuje tyle uwagi co powinna to mamy problem. Oznacza to
 tyle, że albo nie jest wystarczająco kompleksowa, albo nie da się jej znaleźć. O
