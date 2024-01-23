@@ -83,9 +83,14 @@ mój problem i kontynuować pracę nad zadaniem. Jako przykład dajmy sobie
 StackOverflow - to platforma, na której błyskawicznie można znaleźć rozwiązania
 na swoje problemy. Jakbym miał napisać wzór na nią to byłoby to coś takiego:
 
-TODO: obrazek queue
-
 > **Stack overflow = odpowiednia grupa docelowa \* wartościowe przykłady**
+
+<!-- markdownlint-disable -->
+<span style="float:right;width:40%;margin:0.5em;text-align:center">
+![](./static/jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji/stackoverflow-queue.png)
+    <em>Źródło: Reddit</em>
+</span> 
+<!-- markdownlint-restore -->
 
 Dodałbym tutaj jeszcze jedno - czyli to, że to żyjąca dokumentacja. Wychodzi
 wyższe SDK? Oto i przykład z nim. Nowy syntactic sugar? Proszę bardzo tutaj masz
@@ -136,7 +141,11 @@ narzędzie, ale z dwojga złego lepsze to niż całkowite rozproszenie. Zespoły
 możliwość samodzielnych wdrożeń ich cegiełek i dokumentacji, a indeks pozwala im
 wyszukiwać w ramach organizacji.
 
-TODO: obrazek backstage
+<!-- markdownlint-disable -->
+<span style="width:100%;margin:0.5em 0;text-align:center">
+![](./static/jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji/backstage-catalog.png)
+</span> 
+<!-- markdownlint-restore -->
 
 Same szczegóły komponentów zostawiam do własnej eksploracji - powiem tylko tyle,
 że zawiera on takie informacje jak opis, health checki, link do pages, czy
@@ -202,17 +211,26 @@ Jak widzisz dojrzałego ekosystemu dla dokumentacji wciąż brak - składamy z
 klocków, które często do siebie nie pasują. Chciałbym podzielić się jeszcze
 bardzo ciekawym narzędziem (i prezentacją) od Marcina Markowskiego. Prowadzi on
 podczas swojej prelekcji przez fascynujące podejście do budowania materiałów
-wspierających inżynierów za pomocą kodu. W materiale "Dokumentacja która sama
-się pisze" można poznać nieco jego praktyk i podejść, a jednym z nich jest P3.
+wspierających inżynierów za pomocą kodu. 
 
-Sama idea jest oparta o całkiem zabawne "prawo automatycznych transformacji"
+<!-- markdownlint-disable -->
+<span style="float:right;width:40%;margin:0.5em;text-align:center">
+![](./static/jakie-narzedzia-pomagaja-w-budowaniu-dokumentacji/law-of-transformation.png){:style="border:0.2em solid #000000db;margin-top:0.6em"} 
+    <em>Źródło: 
+    [Youtube](https://www.youtube.com/watch?v=w1XDcNclHpE){:target="\_blank"}
+    </em>
+</span> 
+<!-- markdownlint-restore -->
 
-TODO: obrazek
+
+W materiale "Dokumentacja która sama
+się pisze" można poznać nieco jego praktyk i podejść, a jednym z nich jest P3. Sama idea jest oparta o całkiem zabawne "prawo automatycznych transformacji":
+
 
 To model (podejście) w którym do naszego kodu dodajemy adnotacje, z których
 potem samo narzędzie buduje graf zależności. Sama zasada jest bardzo prosta, ale
 rezultaty, które osiąga z tym są czymś co robi wrażenie. Przykład można zobaczyć
-w DDD-starter-dotnet - gorąco polecam.
+w [DDD-starter-dotnet](https://github.com/itlibrium/DDD-starter-dotnet){:target="\_blank"} - gorąco polecam.
 
 ---
 
