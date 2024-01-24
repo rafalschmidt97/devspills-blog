@@ -40,7 +40,8 @@ przewodnia jest mniej więcej taka:
 
 Dla mnie bomba. Piszę README i zaraz obok mogę dodać diagram, bez podpinania
 bibliotek, bo więksi gracze jak GitHub wspierają to z pudełka. Bez kroku
-kompilacji, którym muszę się przejmować (jak w [PlantUML](https://plantuml.com/){:target="\_blank"}) i bez linków do
+kompilacji, którym muszę się przejmować (jak w
+[PlantUML](https://plantuml.com/){:target="\_blank"}) i bez linków do
 zewnętrznych platform (jak w
 [draw.io](https://www.drawio.com/){:target="\_blank"}). Narzędzie nie jest
 idealne, ma swoje ograniczenia, ale w gruncie rzeczy po prostu daje radę. Znajdą
@@ -78,7 +79,8 @@ sequenceDiagram
 Typów diagramów jest bardzo dużo — od sekwencji, klas, stanów, encji po
 [C4](https://c4model.com/){:target="\_blank"}. Jest też sporo eksperymentalnych
 typów, która mam nadzieje, że niedługo wypróbuje jak mindmapy, bo do dziś
-opierałem się głównie o miro w tej kwestii.
+opierałem się głównie o [Miro](https://miro.com/){:target="\_blank"} w tej
+kwestii.
 
 ## Gdzie to w zasadzie trzymać
 
@@ -116,8 +118,9 @@ Drive).
     [MkDocs](https://www.mkdocs.org/){:target="\_blank"}, inny
     [Hugo](https://gohugo.io/){:target="\_blank"} albo
     [Gatsby](https://www.gatsbyjs.com/docs/glossary/static-site-generator/){:target="\_blank"} -
-    czyli jakiś [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator){:target="\_blank"}. Potem tylko wdrożenie tego — my w
-    organizacji najczęściej wybieramy
+    czyli jakiś
+    [Static Site Generator](https://en.wikipedia.org/wiki/Static_site_generator){:target="\_blank"}.
+    Potem tylko wdrożenie tego — my w organizacji najczęściej wybieramy
     [GitHub Pages](https://pages.github.com/){:target="\_blank"}.
 -   W przypadku drugiego jesteśmy skazani najczęściej na samodyscyplinę. Dobra
     struktura jest tutaj naszym przyjacielem. Łatwo jest o śmietnik, jeśli zbyt
@@ -133,8 +136,9 @@ utrzymywać i zarządzać rosnącą ilością różnych dokumentacji, wiele page
 Potrzeba na narzędzie do agregacji tej rozproszonej wiedzy pojawiła się dosyć
 naturalnie.
 
-Żeby rozwiązać nasz problem w organizacji skorzystaliśmy z [Backstage](https://backstage.io/){:target="\_blank"} - dostarcza
-on scentralizowany hub gdzie zespoły mogą kategoryzować i wyszukiwać różne
+Żeby rozwiązać nasz problem w organizacji skorzystaliśmy z
+[Backstage](https://backstage.io/){:target="\_blank"} - dostarcza on
+scentralizowany hub gdzie zespoły mogą kategoryzować i wyszukiwać różne
 komponenty oraz materiały w ramach całej firmy. Sam katalog komponentów (czyli
 serce tego narzędzia) to lista po której możemy wyszukiwać wszelkie serwisy,
 biblioteki itd. Typowe filtry obejmują między innymi:
@@ -160,10 +164,12 @@ wyszukiwać w ramach organizacji.
 Same szczegóły komponentów zostawiam do własnej eksploracji - powiem tylko tyle,
 że zawiera on takie informacje jak opis, health checki, link do pages, czy
 choćby graf zależności (to robi wrażenie). W dosyć prosty sposób można również
-dodawać nowe wtyczki jak [PagerDuty](https://www.pagerduty.com/){:target="\_blank"} czy CI/CD z [Azure Pipelines](https://azure.microsoft.com/en-us/products/devops/pipelines){:target="\_blank"}. Skąd się
-natomiast biorą dane o tych komponentach? W każdym repozytorium trzeba zadbać o
-dodanie stosownych metadanych - czyli catalog-info.yaml. Wygląda on przykładowo
-tak:
+dodawać nowe wtyczki jak
+[PagerDuty](https://www.pagerduty.com/){:target="\_blank"} czy CI/CD z
+[Azure Pipelines](https://azure.microsoft.com/en-us/products/devops/pipelines){:target="\_blank"}.
+Skąd się natomiast biorą dane o tych komponentach? W każdym repozytorium trzeba
+zadbać o dodanie stosownych metadanych - czyli `catalog-info.yaml`. Wygląda on
+przykładowo tak:
 
 ```yaml
 apiVersion: backstage.io/v1alpha1
@@ -189,13 +195,14 @@ spec:
 
 Kiedy pierwszy raz usłyszałem o pomyśle dodania tego pliku do 200+ komponentów w
 ramach MVP to zrobiło mi się słabo. Na szczęście są takie rozwiązania jak
-SourceGraph, które przychodzą z pomocą. Wykorzystując kilka konwencji
-nazewniczych oraz funkcję Batch Changes, udało się w sposób w pełni automatyczny
-wystawić PR/CR do wszystkich repozytoriów.
+[SourceGraph](https://sourcegraph.com/){:target="\_blank"}, które przychodzą z
+pomocą. Wykorzystując kilka konwencji nazewniczych oraz funkcję
+[Batch Changes](https://sourcegraph.com/batch-changes){:target="\_blank"}, udało
+się w sposób w pełni automatyczny wystawić PR/CR do wszystkich repozytoriów.
 
 ## Jak jeszcze można skorzystać z GIT-a
 
-Commity robisz codziennie (lub często — w zależności od roli). Jednym z technik,
+Commity robisz codziennie (lub często — w zależności od roli). Jedną z technik,
 z którymi eksperymentowałem w poprzednim roku był
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/){:target="\_blank"}.
 Wierzę w wartość małych i dobrze opisanych zmian i jestem fanem standardów
@@ -210,7 +217,7 @@ się konwencji i tyle:
 [optional footer(s)]
 ```
 
-Standard dla standardu? Jeśli tak uważasz to spójrz na, chociażby
+Standard dla standardu? Jeśli tak uważasz, to spójrz na, chociażby
 [Conventional Changelog](https://github.com/conventional-changelog/conventional-changelog){:target="\_blank"}.
 Działa prawie jak magia — przy użyciu odpowiednich bibliotek i konwencji jak
 tagi, otrzymujemy automatycznie generujący się change log. Osobiście pracuję
@@ -241,6 +248,7 @@ W materiale
 można poznać nieco jego praktyk i podejść, a jednym z nich jest
 [P3 Model](https://github.com/P3-model/P3-model){:target="\_blank"}. Sama idea
 jest oparta o całkiem zabawne _"prawo automatycznych transformacji"_:
+`f(code) = docs`; `f(💩) = 💩`.
 
 To model (podejście), w którym do naszego kodu dodajemy adnotacje, z których
 potem samo narzędzie buduje graf zależności. Sama zasada jest bardzo prosta, ale
@@ -253,4 +261,12 @@ gorąco polecam.
 
 Trudno jest wyczerpać temat budowania dokumentacji, a w każdej organizacji
 praktyki są nieco inne. Ufam, że podejmiesz dobre decyzje, a te artykuły być
-może pokazały ci nieco inną perspektywę.
+może pokazały ci nieco inną perspektywę. Jeśli należysz do grupy osób, która
+woli prezentacje zamiast ściany tekstu, to wszystkie trzy części o dokumentacji
+są dostępne również i w tej formie. Miałem okazje poprowadzić prezentację
+[_"Unlocking the Complexity of Documentation Creation"_](./unlocking-the-complexity-of-documentation-creation.md)
+już kilka razy, bo na lokalnych meetup-ach jak
+[KGD .NET - Kraków .NET Developers](https://www.meetup.com/pl-PL/kgd-net/),
+wewnątrz firmy oraz na
+[4Developers](https://4developers.org.pl/wroclaw-2023/#agenda) więc sprawdź
+również slide-y. Dzięki za poświęcony czas.
