@@ -1,12 +1,12 @@
 ---
 title: Unlocking the Complexity of Documentation Creation - prezentacja
 description:
-    Prezentacja "Unlocking the Complexity of Documentation Creation" była dla
-    mnie dużym wyzwanie. Raz, że temat jest średnio lubiany przez inżynierów, a
-    dwa, że występowanie kosztuje mnie dużo stresu. Wierzę natomiast, że
-    ćwiczenie tej umiejętności jest bardzo ważne więc i poświęcam czas na
-    szlifowanie tego fachu. Zostawiam cię z transkrypcją prezentacji i kilkoma
-    materiałami.
+    Prezentacja o dokumentacji była dla mnie dużym wyzwanie. Raz, że temat jest
+    średnio lubiany przez inżynierów, a dwa, że występowania kosztują mnie dużo
+    stresu. Wierzę natomiast, że ćwiczenie tej umiejętności jest bardzo ważne
+    więc i poświęcam czas na szlifowanie tego fachu. Miałem okazje podzielić się
+    tym materiałem już kilka razy, między innymi na lokalnych meetup-ach jak KGD
+    .NET - Kraków .NET Developers, wewnątrz firmy oraz na 4Developers.
 tags:
     - dokumentacja
     - organizacja
@@ -18,18 +18,14 @@ imagealt: hero
 exclude_from_blog: true
 ---
 
-Prezentacja "Unlocking the Complexity of Documentation Creation" była dla mnie
-dużym wyzwanie. Raz, że temat jest średnio lubiany przez inżynierów, a dwa, że
-występowanie kosztuje mnie dużo stresu. Wierzę natomiast, że ćwiczenie tej
-umiejętności jest bardzo ważne więc i poświęcam czas na szlifowanie tego fachu.
-Zostawiam cię z transkrypcją prezentacji i kilkoma materiałami.
-
-Miałem okazje podzielić się tym materiałem "Unlocking the Complexity of
-Documentation Creation" już kilka razy, bo na lokalnych meetup-ach jak
+Prezentacja o dokumentacji była dla mnie dużym wyzwanie. Raz, że temat jest
+średnio lubiany przez inżynierów, a dwa, że występowania kosztują mnie dużo
+stresu. Wierzę natomiast, że ćwiczenie tej umiejętności jest bardzo ważne więc i
+poświęcam czas na szlifowanie tego fachu. Miałem okazje podzielić się tym
+materiałem już kilka razy, między innymi na lokalnych meetup-ach jak
 [KGD .NET - Kraków .NET Developers](https://www.meetup.com/pl-PL/kgd-net/),
 wewnątrz firmy oraz na
-[4Developers](https://4developers.org.pl/wroclaw-2023/#agenda) więc sprawdź
-również slide-y.
+[4Developers](https://4developers.org.pl/wroclaw-2023/#agenda).
 
 Link do prezentacji:
 
