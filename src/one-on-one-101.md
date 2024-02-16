@@ -9,52 +9,38 @@ description:
     macierzystego zespołu.
 tags:
     - organizacja
-    - feedback
 date: 14.02.2024
 image: ../static/one-one-one-101/hero.jpg
 imagealt: hero
 ---
 
-**Jako starszy inżynier coraz więcej czasu poświęcam na research. Od tematów
-twardych, związanych z np. system design (konsumując przykładowo płatne
-materiały od** [**designgurus.io**](http://designgurus.io){:target="\_blank"}
-**czy** [**bytebytego.com**](http://bytebytego.com){:target="\_blank"}**), po
-miękkie — ostatnio przeczytałem między innymi**
-[**Staff Engineer od Willa Larsona**](https://www.amazon.pl/Staff-Engineer-Leadership-beyond-management/dp/1736417916/ref=asc_df_1736417916/?tag=plshogostdde-21&linkCode=df0&hvadid=504759872074&hvpos=&hvnetw=g&hvrand=15861081828011973619&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067392&hvtargid=pla-1233882787637&psc=1&mcid=afcad0c7481832f7a818bb54c7002e68){:target="\_blank"}
-**(o którym mam nadzieje porozmawiamy jeszcze).**
-
-**Dziś natomiast opowiem trochę o**
-[**The Managers Path od Camille Fournier**](https://www.amazon.pl/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=asc_df_1491973897/?tag=plshogostdde-21&linkCode=df0&hvadid=504215809371&hvpos=&hvnetw=g&hvrand=5339223850458911222&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067392&hvtargid=pla-315801134375&psc=1&mcid=48e843b914d43fe5ad16c68accf4a444){:target="\_blank"}**,
+**Dziś porozmawiamy o fragmencie z książki
+[The Managers Path od Camille Fournier](https://www.amazon.pl/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=asc_df_1491973897/?tag=plshogostdde-21&linkCode=df0&hvadid=504215809371&hvpos=&hvnetw=g&hvrand=5339223850458911222&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067392&hvtargid=pla-315801134375&psc=1&mcid=48e843b914d43fe5ad16c68accf4a444){:target="\_blank"},
 a dokładniej o wycinku związanym z 1-1. Ta część książki jest bardzo bliska
 mojemu sercu.**
 
-Im dłużej pracuję w organizacji tym mam więcej spotkań z osobami poza moim
-zespołem. Od sesji rozwojowych z innymi liderami, przez turystyki po zespołach,
-kończąc na poznawaniu szerszej perspektywy od staff / principal engineer
-(organizacje różnie nazywają _senior++_). Te wszystkie rzeczy dużo mnie uczą.
-Jest jednak jedno "ale".
-
-Z uwagi na to, że pracuję głównie zdalnie oraz z zespołami z innych miast, kawa
-w biurze czy spontaniczne podchodzenia do biurek są dla mnie z każdym rokiem
-coraz bardziej obce. Osobiście uważam, że sporo na tym tracę, nie mieszkając w
+Z uwagi na to, że pracuję głównie z zespołami z innych miast (czyli zdalnie), kawa w biurze czy spontaniczne podchodzenia do biurek są dla mnie z każdym rokiem coraz bardziej obce. 
+Osobiście uważam, że sporo na tym tracę, nie żyjąc w
 mieście, gdzie jest większość mojego zespołu, ale muszę sobie z tym jakoś
 radzić. To decyzja, na którą się godzę, rozumiem co tracę, a co zyskuję.
-Potrzebuję natomiast rozwiązania na moje potrzeby stąd stawiam na one-on-one.
+
+Potrzebuję natomiast rozwiązania na moje potrzeby stąd i stawiam na one-on-one.
 
 ## Cel spotkania
 
 Jeśli nie miałeś styczności z tego typu formatem, to jest to nic innego niż
-pogadanka sam na sam (stąd te dwie jedynki w nazwie). Najbardziej typowym
-scenariuszem jest rozmowa pomiędzy menedżerem (liderem) a osobą "pod nim". Ja
-preferuje poza tego typu relacjami wybierać również te, które pomogą ci rozwinąć
-się czy to technicznie, czy miękko w oderwaniu od swojego macierzystego zespołu.
-Zacytuje Marca Hedlunda:
+pogadanka sam na sam (stąd te dwie jedynki w nazwie). Najbardziej typową relacją 
+jest rozmowa pomiędzy menedżerem (liderem) a osobą "pod nim".
+Preferuje poza tego typu relacjami wybierać również te, które pomogą ci rozwijać
+się czy to technicznie, czy miękko, w oderwaniu od swojego macierzystego zespołu.
+
+Cytując Marca Hedlunda:
 
 > _Regular 1-1s are like oil changes; if you skip them, plan to get stranded on
 > the side of the highway at the worst possible time._
 
-Świetna analogia, z którą trudno się nie zgodzić. Po **pierwsze** to idealne
-miejsce (możliwość) na prywatne przeglądanie tematów, które powinny zostać
+Świetna analogia, prawda? Trudno się nie zgodzić. Po **pierwsze** to idealne
+miejsce (możliwość) na prywatne przegadanie tematów, które powinny zostać
 omówione. Potrzeby, problemy, wyzwania, sukcesy, porażki, frustracje. Są tematy,
 które trzeba poruszyć i krępujące jest pisanie o nich na czacie (nie daj
 ktoś zrobi zrzut ekranu!). Brzmi jak sesja terapeutyczna? To z drugiej strony
@@ -85,9 +71,11 @@ kciuki, żeby miał odwagę i chęci zapytać, czy wszystko jest okej, bo sytuac
 
 ## Z kim warto.
 
-Kierunki są tylko trzy drabinie korporacyjnej. Osoba na twoim poziomie kariery
+Drabinka korporacyjna ma trzy kierunki — do wyboru jest osoba na twoim poziomie kariery
 (peer), niższym, czyli pod (podwładny) oraz wyższym, czyli nad (przełożony). O
 pomijaniu szczebli porozmawiamy na koniec w skip level.
+
+![](./static/one-one-one-101/coorporation.jpg)
 
 Decyzje musisz podjąć sam. Zachęcam cię obowiązkowo do posiadania z przełożonym
 oraz jeśli jesteś liderem to z osobami składającymi się na twój zespół. Kilka
@@ -116,6 +104,11 @@ się poświęcać na "intensywną pracę" (wykluczając daily), czyli budowani
 produktów, programowanie, pisanie, nauka, czytanie. Ma to kilka mankamentów,
 między innymi to, że w natłoku pracy łatwiej jest o przekładanie, przesunięcia,
 odwoływanie — muszę wyjść szybciej, jest coś "bardziej pilnego". Inne sprawy.
+
+<!-- markdownlint-disable -->
+<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/one-one-one-101/calendar.jpg)</span> 
+<!-- markdownlint-restore -->
+
 Jedna zasada tutaj — szanuj harmonogram drugiej osoby, tak żeby wasze spotkanie
 nie wpadło w środek waszej produktywnych godzin pracy. Zazwyczaj na pierwszym
 pytam, jakie są jego preferencje czasowe, a po w jakiej częstotliwości
@@ -149,6 +142,8 @@ rzeczy, które chciałbym dziś poruszyć. Rzadko kiedy jest tak, że czasu sta
 na wszystkie tematy — i to jest całkowicie normalne. Lepiej mieć za dużo niż za
 mało. Jak coś jest dla mnie ważne, to po prostu daje to wyżej na liście. Po tym,
 co właśnie napisałem, wyłania się pierwszy styl, czyli lista do odhaczania.
+
+![](./static/one-one-one-101/types.jpg)
 
 -   **TODO list** — Zachęcam cię do dzielenia się "odpowiedzialnością"
     przygotowywania 1-1 ze swoim przełożonym. Przygotuj listę tematów, na
