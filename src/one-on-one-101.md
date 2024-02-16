@@ -68,8 +68,8 @@ Biorąc cytat od Camille:
 Dla mnie spotkania typu 1-1, które kończą się statusem to żółta flaga i staram
 się z tym walczyć, kiedy tylko mogę. Jedną z metod jest przenoszenie tego typu
 dyskusji na planowania — łatwo jest ulec pokusie poświęcenia cennego czasu "sam
-na sam" na rozmowie o bieżących sprawach projektowych. Wrócimy do tego w
-ramach raportowania prac i daily rozmawiając o stylach różnych osób.
+na sam" na rozmowie o bieżących sprawach projektowych. Wrócimy do tego w ramach
+raportowania prac i daily rozmawiając o stylach różnych osób.
 
 Po **drugie** to okazja na budowanie relacji. I nie mówię tutaj o spędzeniu
 całego przeznaczonego czasu na hobby czy rodzinę albo pogaduchy o ostatnich
@@ -230,14 +230,8 @@ Przechodząc więc do metodyk, z którymi się spotkałem:
 
 -   **Feedback loop** — dla mnie to ad-hoc'i. Wyjaśnianie feedbacku po
     performance review czy przychodzenie po feedback do osoby, od których trudno
-    o pisemny.
-
-    Ważny aspekt dla mnie to również reagowanie na nieakceptowalne sytuacje tak
-    szybko, jak tylko to możliwe (natychmiast!).
-
-    Format wymaga dużo determinacji i odwagi, żeby mieć dedykowane 1-1 o tym.
-    Wielokrotnie poległem — staram się więc zbierać feedback na bieżąco poprzez
-    pytania kontrolne w TODO.
+    o pisemny. Ważny aspekt dla mnie to również reagowanie na nieakceptowalne
+    sytuacje tak szybko, jak tylko to możliwe (natychmiast!).
 
 -   **Status meeting / progress report** — tak długo, jak nie masz pod sobą
     innych menedżerów, to dla mnie żółta flaga jak już wcześniej sobie
