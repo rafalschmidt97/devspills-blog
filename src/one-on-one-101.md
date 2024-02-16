@@ -68,7 +68,7 @@ Biorąc cytat od Camille:
 Dla mnie spotkania typu 1-1, które kończą się statusem to żółta flaga i staram
 się z tym walczyć, kiedy tylko mogę. Jedną z metod jest przenoszenie tego typu
 dyskusji na planowania — łatwo jest ulec pokusie poświęcenia cennego czasu "sam
-na sam" na porozmawianie o bieżących sprawach projektowych. Wrócimy do tego w
+na sam" na rozmowie o bieżących sprawach projektowych. Wrócimy do tego w
 ramach raportowania prac i daily rozmawiając o stylach różnych osób.
 
 Po **drugie** to okazja na budowanie relacji. I nie mówię tutaj o spędzeniu
