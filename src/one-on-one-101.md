@@ -53,10 +53,10 @@ zostać omówione. Potrzeby, problemy, wyzwania, sukcesy, porażki, frustracje.
 Są tematy, które trzeba poruszyć i krępujące może być czasem pisanie o nich na
 czacie (nie daj ktoś zrobi zrzut ekranu!).
 
-Brzmi jak sesja terapeutyczna? Może i trochę tak natomiast z drugiej strony
+Brzmi jak sesja terapeutyczna? Może i trochę tak, natomiast z drugiej strony
 spektrum mamy rozwój, konsultacje (doradztwo) czy feedbacki.
 
-Wyjaśnijmy sobie natomiast jedną ważną rzecz (biorąc cytat od Camille):
+Biorąc cytat od Camille:
 
 > _For most people, good 1-1s are not status meetings. If you are a manager
 > reporting up to senior management, you may use your 1-1 to discuss the status
@@ -71,13 +71,13 @@ dyskusji na planowania — łatwo jest ulec pokusie poświęcenia cennego czasu 
 na sam" na porozmawianie o bieżących sprawach projektowych. Wrócimy do tego w
 ramach raportowania prac i daily rozmawiając o stylach różnych osób.
 
-Po **drugie** to okazja na budowanie relacji. Mam wrażenie, że to powinno być
-nawet pierwsze... I nie mówię tutaj o spędzeniu całego przeznaczonego czasu na
-hobby czy rodzinę albo pogaduchy o ostatnich wakacjach, natomiast o dodanie
-szczypty swojego prywatnego życia, tak żeby mniej więcej czuć kontekst sytuacji.
-Dobry menedżer zauważy spadek twojej energii prawie na pewno, więc trzymam tylko
-kciuki, żeby miał odwagę i chęci zapytać, czy wszystko jest okej, bo sytuacje w
-życiu są różne. Śmierć, dziecko, wypalenie, zmęczenie materiałem, rozstanie.
+Po **drugie** to okazja na budowanie relacji. I nie mówię tutaj o spędzeniu
+całego przeznaczonego czasu na hobby czy rodzinę albo pogaduchy o ostatnich
+wakacjach, natomiast o dodanie szczypty swojego prywatnego życia, tak żeby mniej
+więcej czuć kontekst sytuacji. Dobry menedżer zauważy spadek twojej energii
+prawie na pewno, więc trzymam tylko kciuki, żeby miał odwagę i chęci zapytać,
+czy wszystko jest okej, bo sytuacje w życiu są różne. Śmierć, dziecko,
+wypalenie, zmęczenie materiałem, rozstanie.
 
 ## Z kim warto.
 
@@ -183,12 +183,12 @@ Przechodząc więc do metodyk, z którymi się spotkałem:
     sekcje (w szablonie):
 
       <ol style="list-style-type: decimal">
-      <li> **"(Nakierowana) kawa"** - czyli takie lean coffee 1-1. Jakaś ciekawostka z ostatnich dni na podstawie podcastu, książki, filmu, czasem prywata. Small talk pomaga mi na rozgrzewkę przy mniej rozmownej osobie. Pilnuj natomiast czasu - gaduły lubią przepalą go tutaj.<br><br>
+      <li> **"(Nakierowana) kawa"** - czyli takie lean coffee 1-1. Jakaś ciekawostka z ostatnich dni na podstawie podcastu, książki, filmu, czasem prywata. Small talk pomaga mi na rozgrzewkę przy mniej rozmownej osobie. Pilnuj natomiast czasu - gaduły lubią przepalać go tutaj.<br><br>
       Część osób woli ten fragment robić na koniec, bo nigdy nie wiesz ile czasu zostanie. Ploteczki, luźne opinie o organizacji itd. Czyli najpierw relacja profesjonalna a potem koleżeńska. Zastanów się, którą czapkę chcesz nałożyć najpierw.</li>
 
-      <li> **"Jakie są twoje tematy do mnie"** - warto jest dać się wypowiedzieć się drugiej stronie najpierw jeśli ty masz dużo tematów. Jeśli jesteś liderem to tym bardziej. Po prostu pozwolić się jej wystrzelać z tematów.<br><br>
+      <li> **"Jakie są twoje tematy do mnie"** - warto jest dać się wypowiedzieć drugiej stronie najpierw jeśli ty masz dużo tematów. Jeśli jesteś liderem to tym bardziej. Po prostu pozwolić się jej wystrzelać z tematów.<br><br>
       Z czym przychodzą ludzie? "Ciężko mi się dogadać z X", "zadałem pytanie i od 3 dni wisi… potrzebuje eskalacji", "chciałbym zmienić zespół, pójść na turystykę", "jestem zmęczony stosem technologicznym i produktem", "czy możemy zorganizować warsztat z Y".<br><br>
-      Weź pod uwagę również, że cisza może wynikać z introwertyczności. Jak przyjdziesz z górą pytań i nie dasz miejsca drugiej osobie się wypowiedzieć to dużo tracisz. Naucz się w ciszę i czuj z nią komfortowo - to instrument również do wyciągania informacji. Prędzej czy później ktoś coś ktoś powie.</li>
+      Weź pod uwagę również, że cisza może wynikać z introwertyczności. Jak przyjdziesz z górą pytań i nie dasz miejsca drugiej osobie się wypowiedzieć to dużo tracisz. Naucz się w ciszę i czuj z nią komfortowo - to instrument również do wyciągania informacji. Prędzej czy później ktoś coś powie.</li>
 
       <li> **(opcjonalnie) Feedback** - "Czy zauważyłeś ostatnio u mnie jakieś niepokojące zachowania", "Czy jest coś co ostatnio robię wyjątkowo dobrze" itd.<br><br>
       Czyli o postawie, dostarczaniu, podejściu czy mentalności. Ważne żeby to nie była laurka, a bardziej forma ["start, stop, continue"](https://miro.com/templates/start-stop-continue/){:target="\_blank"}. To też miejsce gdzie ty możesz dać drugiej stronie kilka słów otuchy.</li>
@@ -259,9 +259,9 @@ Przechodząc więc do metodyk, z którymi się spotkałem:
     się przejść albo jedzą razem obiad, zamiast siedzieć w salce. Życzę tobie
     takich jak najwięcej.
 
--   **Mix** — jak pewnie już zauważyłeś, moja TODO lista to wplata większość
-    tych typów. Może nie powinienem nazywać tego listą? Może będzie ci dane
-    zmieszać "Get to know" z "Feedback loop". Może zrobicie sobie status podczas
+-   **Mix** — jak pewnie już zauważyłeś, moja TODO lista wplata większość tych
+    typów. Może nie powinienem nazywać tego listą? Może będzie ci dane zmieszać
+    "Get to know" z "Feedback loop". Może zrobicie sobie status podczas
     wspólnego obiadu. Eksperymentuj.
 
 ## Skip level meetings
@@ -306,6 +306,5 @@ jako senior menedżer:
 
 Mam nadzieję, że udało mi się zachęcić cię do 1-1. Nie sądziłem, że będę o tym
 pisać. Dla mnie to świetne narzędzie, które pozwala mi stawać się lepszym
-inżynierem oraz człowiekiem. Trzymam kciuki za twoje przyszłe spotkania, żeby
-były jeszcze bardziej owocne. Jeśli coś co byś tu dodał lub nie zgadzasz się z
-fragmentami, to złapmy się na LinkedIn.
+inżynierem oraz człowiekiem. Trzymam kciuki za twoje przyszłe spotkania. Jeśli
+coś byś tu dodał lub nie zgadzasz się z fragmentami, to złapmy się na LinkedIn.
