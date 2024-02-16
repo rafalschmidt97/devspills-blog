@@ -1,12 +1,12 @@
 ---
 title: Spotkania one-on-one 101
 description:
-    Jeśli nie miałeś styczności z tego typu formatem, to jest to nic innego niż
-    pogadanka sam na sam (stąd te dwie jedynki w nazwie). Najbardziej typowym
-    scenariuszem jest rozmowa pomiędzy menedżerem (liderem) a osobą "pod nim".
-    Ja preferuje poza tego typu relacjami wybierać również te, które pomogą ci
-    rozwinąć się czy to technicznie, czy miękko w oderwaniu od swojego
-    macierzystego zespołu.
+    One-on-one to spotkania, które budują relacje, wspierają rozwój i pozwalają
+    porozmawiać o bieżących sprawach. Dzięki różnorodności stylów, takich jak
+    lista TODO czy luźne catch-up'y, można dostosować formę rozmowy do swoich
+    potrzeb. Poruszam cel spotkań, optymalny czas (uwzględniając kalendarz),
+    oraz z kim warto je przeprowadzać. Materiał zawiera moje osobiste odczucia,
+    jak wartościowe są to rozmowy.
 tags:
     - organizacja
 date: 14.02.2024
