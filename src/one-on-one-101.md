@@ -14,10 +14,15 @@ image: ../static/one-one-one-101/hero.jpg
 imagealt: hero
 ---
 
-**Dziś porozmawiamy o fragmencie z książki
+**One-on-one to spotkania, które budują relacje, wspierają rozwój i pozwalają
+porozmawiać o bieżących sprawach. Dzięki różnorodności stylów, takich jak lista
+TODO czy luźne catch-up'y, można dostosować formę rozmowy do swoich potrzeb.
+Materiał zawiera moje osobiste odczucia, jak wartościowe są to rozmowy.**
+
+Dziś porozmawiamy o fragmencie z książki
 [The Managers Path od Camille Fournier](https://www.amazon.pl/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=asc_df_1491973897/?tag=plshogostdde-21&linkCode=df0&hvadid=504215809371&hvpos=&hvnetw=g&hvrand=5339223850458911222&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067392&hvtargid=pla-315801134375&psc=1&mcid=48e843b914d43fe5ad16c68accf4a444){:target="\_blank"},
 a dokładniej o wycinku związanym z 1-1. Ta część książki jest bardzo bliska
-mojemu sercu.**
+mojemu sercu.
 
 Z uwagi na to, że pracuję głównie z zespołami z innych miast (czyli zdalnie),
 kawa w biurze czy spontaniczne podchodzenia do biurek są dla mnie z każdym
