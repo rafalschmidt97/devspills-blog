@@ -14,12 +14,11 @@ image: ../static/one-one-one-101/hero.jpg
 imagealt: hero
 ---
 
-**One-on-one to spotkania, które budują relacje, wspierają rozwój i pozwalają
+**One-on-one to typ spotkania, które budują relacje, wspierają rozwój i pozwalają
 porozmawiać o bieżących sprawach. Dzięki różnorodności stylów, takich jak lista
 TODO czy luźne catch-up'y, można dostosować formę rozmowy do swoich potrzeb.
-Poruszam cel spotkań, optymalny czas (uwzględniając kalendarz), oraz z kim warto
-je przeprowadzać. Materiał zawiera moje osobiste odczucia, jak wartościowe są to
-rozmowy.**
+W materiale poruszam cel spotkań, optymalny czas (uwzględniając kalendarz), oraz z kim warto
+je przeprowadzać.**
 
 Dziś porozmawiamy o fragmencie z książki
 [The Managers Path od Camille Fournier](https://www.amazon.pl/Managers-Path-Leaders-Navigating-Growth/dp/1491973897/ref=asc_df_1491973897/?tag=plshogostdde-21&linkCode=df0&hvadid=504215809371&hvpos=&hvnetw=g&hvrand=5339223850458911222&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067392&hvtargid=pla-315801134375&psc=1&mcid=48e843b914d43fe5ad16c68accf4a444){:target="\_blank"},
