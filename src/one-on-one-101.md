@@ -19,8 +19,9 @@ imagealt: hero
 a dokładniej o wycinku związanym z 1-1. Ta część książki jest bardzo bliska
 mojemu sercu.**
 
-Z uwagi na to, że pracuję głównie z zespołami z innych miast (czyli zdalnie), kawa w biurze czy spontaniczne podchodzenia do biurek są dla mnie z każdym rokiem coraz bardziej obce. 
-Osobiście uważam, że sporo na tym tracę, nie żyjąc w
+Z uwagi na to, że pracuję głównie z zespołami z innych miast (czyli zdalnie),
+kawa w biurze czy spontaniczne podchodzenia do biurek są dla mnie z każdym
+rokiem coraz bardziej obce. Osobiście uważam, że sporo na tym tracę, nie żyjąc w
 mieście, gdzie jest większość mojego zespołu, ale muszę sobie z tym jakoś
 radzić. To decyzja, na którą się godzę, rozumiem co tracę, a co zyskuję.
 
@@ -29,22 +30,24 @@ Potrzebuję natomiast rozwiązania na moje potrzeby stąd i stawiam na one-on-on
 ## Cel spotkania
 
 Jeśli nie miałeś styczności z tego typu formatem, to jest to nic innego niż
-pogadanka sam na sam (stąd te dwie jedynki w nazwie). Najbardziej typową relacją 
-jest rozmowa pomiędzy menedżerem (liderem) a osobą "pod nim".
-Preferuje poza tego typu relacjami wybierać również te, które pomogą ci rozwijać
-się czy to technicznie, czy miękko, w oderwaniu od swojego macierzystego zespołu.
+pogadanka sam na sam (stąd te dwie jedynki w nazwie). Najbardziej typową relacją
+jest rozmowa pomiędzy menedżerem (liderem) a osobą "pod nim". Preferuje poza
+tego typu relacjami wybierać również te, które pomogą ci rozwijać się czy to
+technicznie, czy miękko, w oderwaniu od swojego macierzystego zespołu.
 
 Cytując Marca Hedlunda:
 
 > _Regular 1-1s are like oil changes; if you skip them, plan to get stranded on
 > the side of the highway at the worst possible time._
 
-Świetna analogia, prawda? Trudno się nie zgodzić. Po **pierwsze** to idealne
-miejsce (możliwość) na prywatne przegadanie tematów, które powinny zostać
-omówione. Potrzeby, problemy, wyzwania, sukcesy, porażki, frustracje. Są tematy,
-które trzeba poruszyć i krępujące jest pisanie o nich na czacie (nie daj
-ktoś zrobi zrzut ekranu!). Brzmi jak sesja terapeutyczna? To z drugiej strony
-spektrum mamy rozwój, konsultacje (doradztwo), feedbacki.
+Świetna analogia, prawda? Trudno się z nią nie zgodzić. Po **pierwsze** to
+idealne miejsce (możliwość) na prywatne przegadanie tematów, które powinny
+zostać omówione. Potrzeby, problemy, wyzwania, sukcesy, porażki, frustracje.
+Są tematy, które trzeba poruszyć i krępujące może być czasem pisanie o nich na
+czacie (nie daj ktoś zrobi zrzut ekranu!).
+
+Brzmi jak sesja terapeutyczna? Może i trochę tak natomiast z drugiej strony
+spektrum mamy rozwój, konsultacje (doradztwo) czy feedbacki.
 
 Wyjaśnijmy sobie natomiast jedną ważną rzecz (biorąc cytat od Camille):
 
@@ -55,40 +58,42 @@ Wyjaśnijmy sobie natomiast jedną ważną rzecz (biorąc cytat od Camille):
 > contributor, though, a 1-1 as a status meeting is repetitive and probably
 > boring._
 
-Dla mnie to żółta flaga i staram się z tym walczyć, kiedy tylko mogę. Jedną z
-metod jest przenoszenie tego typu dyskusji na planowania czy osobne spotkania —
-łatwo jest ulec pokusie poświęcenia cennego czasu "sam na sam" na porozmawianie
-o bieżących sprawach projektowych. Wrócimy do tego w ramach raportowania prac i
-daily rozmawiając o stylach różnych osób.
+Dla mnie spotkania typu 1-1, które kończą się statusem to żółta flaga i staram
+się z tym walczyć, kiedy tylko mogę. Jedną z metod jest przenoszenie tego typu
+dyskusji na planowania — łatwo jest ulec pokusie poświęcenia cennego czasu "sam
+na sam" na porozmawianie o bieżących sprawach projektowych. Wrócimy do tego w
+ramach raportowania prac i daily rozmawiając o stylach różnych osób.
 
-Po **drugie** to okazja na budowanie relacji (mam wrażenie, że to powinno być
-nawet pierwsze). Nie mówię tutaj o spędzeniu całego przeznaczonego czasu na
+Po **drugie** to okazja na budowanie relacji. Mam wrażenie, że to powinno być
+nawet pierwsze... I nie mówię tutaj o spędzeniu całego przeznaczonego czasu na
 hobby czy rodzinę albo pogaduchy o ostatnich wakacjach, natomiast o dodanie
-szczypty swojego życia prywatnego, tak żeby mniej więcej czuć kontekst sytuacji.
+szczypty swojego prywatnego życia, tak żeby mniej więcej czuć kontekst sytuacji.
 Dobry menedżer zauważy spadek twojej energii prawie na pewno, więc trzymam tylko
 kciuki, żeby miał odwagę i chęci zapytać, czy wszystko jest okej, bo sytuacje w
 życiu są różne. Śmierć, dziecko, wypalenie, zmęczenie materiałem, rozstanie.
 
 ## Z kim warto.
 
-Drabinka korporacyjna ma trzy kierunki — do wyboru jest osoba na twoim poziomie kariery
-(peer), niższym, czyli pod (podwładny) oraz wyższym, czyli nad (przełożony). O
-pomijaniu szczebli porozmawiamy na koniec w skip level.
+Drabinka korporacyjna ma trzy kierunki — do wyboru jest osoba na twoim poziomie
+kariery (peer), niższym, czyli pod (podwładny) oraz wyższym, czyli nad
+(przełożony). O pomijaniu szczebli porozmawiamy na koniec w skip level.
 
 ![](./static/one-one-one-101/coorporation.jpg)
 
-Decyzje musisz podjąć sam. Zachęcam cię obowiązkowo do posiadania z przełożonym
-oraz jeśli jesteś liderem to z osobami składającymi się na twój zespół. Kilka
-pomocniczych pytań:
+Decyzje musisz podjąć sam. Zachęcam cię obowiązkowo do posiadania 1-1 z
+przełożonym oraz jeśli jesteś liderem to z osobami składającymi się na twój
+zespół.
+
+Oto kilka pomocniczych pytań, które mogą pomóc w decyzji czy warto spotykać się
+z daną osobą:
 
 -   Jak często bezpośrednio kontaktujesz się z tą osobą w ciągu tygodnia?
 
--   Jak dobre jest twoje stosunki z nią? Jak stabilne lub niestabilne są sprawy
-    w zespole, lub firmie?
+-   Jak dobre są twoje stosunki z nią?
 
--   Jak dużo wsparcia (coachingu) potrzebuje ta osoba?
+-   Jak dużo wsparcia potrzebuje ta osoba / ty?
 
--   Jak dużo informacji przekazuje ci ta osoba?
+-   Jak dużo informacji przekazuje ci ta osoba / jak dużo ty przekazujesz jej?
 
 Z czasem wypracowanie listy będzie przychodzić łatwiej. Będziesz czuł, gdzie
 jest wartość (lub kto ma wartość ze spotkania z tobą), a gdzie jej nie ma.
@@ -97,94 +102,118 @@ jest wartość (lub kto ma wartość ze spotkania z tobą), a gdzie jej nie ma.
 
 Mówi się, że poniedziałki i piątki to z reguły niebezpieczne terminy na 1-1 z
 uwagi na przedłużanie weekendów (urlopy jednodniowe). Postaraj się
-więc zaplanować spotkania je na godzinę i dzień, która pasuje zarówno tobie, jak
-i osobie, z którą rozmawiasz. Jeśli to możliwe, spróbuj zorganizować to w dni,
-kiedy chodzicie do biura. Ja wolę robić je po południu — poranki staram
-się poświęcać na "intensywną pracę" (wykluczając daily), czyli budowanie
-produktów, programowanie, pisanie, nauka, czytanie. Ma to kilka mankamentów,
-między innymi to, że w natłoku pracy łatwiej jest o przekładanie, przesunięcia,
-odwoływanie — muszę wyjść szybciej, jest coś "bardziej pilnego". Inne sprawy.
+więc zaplanować je na godzinę i dzień, która pasuje zarówno tobie, jak i osobie,
+z którą rozmawiasz. Jeśli to możliwe, spróbuj zorganizować to w dni, kiedy
+chodzicie do biura.
+
+Ja wolę robić je po południu — poranki staram się poświęcać na
+"intensywną pracę" (wykluczając daily), czyli budowanie produktów,
+programowanie, pisanie, nauka, czytanie. Ma to kilka mankamentów, między innymi
+to, że w natłoku pracy łatwiej jest o przekładanie, przesunięcia, odwoływanie —
+"muszę wyjść szybciej", jest coś "bardziej pilnego". W skrócie inne sprawy.
 
 <!-- markdownlint-disable -->
-<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/one-one-one-101/calendar.jpg)</span> 
+
+<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/one-one-one-101/calendar.jpg)</span>
+
 <!-- markdownlint-restore -->
 
-Jedna zasada tutaj — szanuj harmonogram drugiej osoby, tak żeby wasze spotkanie
-nie wpadło w środek waszej produktywnych godzin pracy. Zazwyczaj na pierwszym
-pytam, jakie są jego preferencje czasowe, a po w jakiej częstotliwości
-moglibyśmy się spotykać.
+Jedna zasada tutaj — szanuj harmonogram drugiej osoby. Ważne, żeby wasze
+spotkanie nie wpadło w środek waszych produktywnych godzin pracy. Zazwyczaj na
+pierwszym takim pytam, jakie są jej preferencje czasowe, a na koniec dopytuje, w
+jakiej częstotliwości moglibyśmy się spotykać.
 
 Nie można zapomnieć również o wrzutkach, czyli ad-hoc'owych spotkaniach z
-ludźmi, z którymi nie pracujesz na co dzień, lub robisz to rzadko. Wyjaśnienie
-feedbacku po performance review, mentoring w oderwaniu od zespołu w ramach
-szybkiej porady itd.
+ludźmi, z którymi nie pracujesz na co dzień, lub robisz to po prostu rzadko. Do
+przykładów mogę zaliczyć wyjaśnianie feedbacków po performance review, mentoring
+w oderwaniu od zespołu w ramach szybkiej porady itd.
 
-Bloki 1-1 również pomagają. Jeśli masz swój zespół, to ustawienie jednego po
-drugim pomoże w utrzymaniu czasu, tak żeby się niepotrzebnie nie rozciągały. To
-moja słabość — jak rozmawiam z osobą, z której aż kipi wiedzą, trudno jest mi po
-30 minutach się pożegnać.
+Ustawianie spotkań 1-1 w blokach również pomaga. Jeśli masz swój zespół, to
+układanie jednego po drugim pomoże w utrzymaniu czasu, tak żeby się
+niepotrzebnie nie rozciągały. To moja słabość — jak rozmawiam z osobą, z której
+aż kipi wiedzą, trudno jest mi po 30 minutach się pożegnać.
 
 ## W jakim stylu
 
-Z jakimi rodzajami się spotkałeś? Mam nadzieje, że odpowiedź nie brzmi z
-żadnymi, bo nie mamy w organizacji kultury tego typu spotkań. Jeśli jednak tak
+Z jakimi rodzajami się spotkałeś? Mam nadzieje, że odpowiedź nie brzmi "z
+żadnymi, bo nie mamy w organizacji kultury tego typu spotkań". Jeśli jednak tak
 jest, to mam nadzieję, że poniższa lista przybliży ci nieco samą koncepcję i
-pozwoli wybrać pasujący do twojego charakteru. Pamiętaj, że wypracowanie stylu
-nie leży po jednej konkretnej stronie, natomiast miej w głowie zwrot:
+pozwoli wybrać pasujący styl do twojego charakteru. Pamiętaj, że wypracowanie
+charakteru spotkania nie leży po jednej konkretnej stronie.
 
-> _it is not your manager’s job to completely control the 1-1 agenda (sometimes
+Miej w głowie zwrot:
+
+> _It is not your manager’s job to completely control the 1-1 agenda (sometimes
 > it will)_
 
-Osobiście staram się przychodzić zawsze z agendą. Nie z każdą osobą potrafię to
-wypracować czy zebrać tematy, ale staram się zazwyczaj odrobić zadanie domowe.
-Jeśli temat nie jest poufny, to na kilka godzin przed spotkaniem wysyłam listę
-rzeczy, które chciałbym dziś poruszyć. Rzadko kiedy jest tak, że czasu starcza
-na wszystkie tematy — i to jest całkowicie normalne. Lepiej mieć za dużo niż za
-mało. Jak coś jest dla mnie ważne, to po prostu daje to wyżej na liście. Po tym,
-co właśnie napisałem, wyłania się pierwszy styl, czyli lista do odhaczania.
+Osobiście staram się zawsze przychodzić z agendą. Nie z każdą osobą
+potrafię zebrać wystarczającą ilość tematów, ale zazwyczaj odrabiam zadanie
+domowe. Jeśli temat nie jest poufny, to na kilka godzin przed spotkaniem wysyłam
+listę rzeczy, które chciałbym dziś poruszyć.
 
 ![](./static/one-one-one-101/types.jpg)
+
+Rzadko kiedy jest też tak, że czasu wystarcza na wszystkie tematy — i to jest
+całkowicie normalne. Lepiej mieć za dużo niż za mało. Jak coś jest dla mnie
+ważne, to po prostu daje to wyżej na liście.
+
+Przechodząc więc do metodyk, z którymi się spotkałem:
 
 -   **TODO list** — Zachęcam cię do dzielenia się "odpowiedzialnością"
     przygotowywania 1-1 ze swoim przełożonym. Przygotuj listę tematów, na
     których ci zależy. Zarządzaj czasem spotkania. Pamiętaj, że ono jest nie
     tylko dla jednej strony — przyszliście porozmawiać i macie oboje tematy.
 
-    Jak budować listę? Zbieram tematy z całego tygodnia lub miesiąca gdzieś.
-    Niewyjaśnione sprawy, ciekawostki, rzeczy, o które chce poznać opinię itd. W
-    gronie osób, z którymi robię spotkania są dziś głównie starsze osoby ode
-    mnie doświadczeniem życiowym i profesjonalnym więc jest czego się uczyć. Typ
-    najlepiej opisany, bo go stosuję aktualnie.
+    Jak budować listę? Zbieram tematy z całego tygodnia (lub miesiąca).
+    Niewyjaśnione sprawy, ciekawostki, rzeczy, o które chce poznać opinię itd.
 
-    Na mojej TODO zazwyczaj poza zebranymi tematami znajdują się sekcje (w
-    szablonie):
+    W gronie osób, z którymi robię dziś spotkania, są głównie jednostki starsze
+    ode mnie doświadczeniem życiowym i profesjonalnym, więc jest czego się
+    uczyć.
+
+    Typ ten jest najlepiej opisany w tym wpisie, bo go po prostu stosuję
+    aktualnie. Na mojej TODO zazwyczaj poza zebranymi tematami znajdują się
+    sekcje (w szablonie):
 
       <ol style="list-style-type: decimal">
-      <li> **"(Nakierowana) kawa"** - czyli takie lean coffee 1-1. Jakaś ciekawostka z ostatnich dni na podstawie podcastu, książki, filmu, czasem prywata. Small talk pomaga na rozgrzewkę przy mniej rozmownej osobie. Pilnuj natomiast czasu - gaduły przepalą tutaj czas.<br><br>
-      Część osób woli tą część robić na koniec, bo nigdy nie wiesz ile czasu zostanie. Ploteczki, luźne opinie o organizacji itd. Czyli najpierw relacja profesjonalna a potem koleżeńska. Zastanów się, którą czapkę chcesz nałożyć najpierw.</li>
+      <li> **"(Nakierowana) kawa"** - czyli takie lean coffee 1-1. Jakaś ciekawostka z ostatnich dni na podstawie podcastu, książki, filmu, czasem prywata. Small talk pomaga mi na rozgrzewkę przy mniej rozmownej osobie. Pilnuj natomiast czasu - gaduły lubią przepalą go tutaj.<br><br>
+      Część osób woli ten fragment robić na koniec, bo nigdy nie wiesz ile czasu zostanie. Ploteczki, luźne opinie o organizacji itd. Czyli najpierw relacja profesjonalna a potem koleżeńska. Zastanów się, którą czapkę chcesz nałożyć najpierw.</li>
 
-      <li> **"Jakie są twoje tematy do mnie"** - warto dać się wypowiedzieć drugiej stronie najpierw jeśli ty masz dużo tematów. Jeśli jesteś liderem to tym bardziej. Pozwolić się wystrzelić z tematów. Z czym przychodzą ludzie? Ciężko mi się dogadać z X. Zadałem pytanie i od 3 dni wisi… potrzebuje eskalacji. Chciałbym zmienić zespół, pójść na turystykę, jestem zmęczony stosem technologicznym i produktem. Czy możemy zorganizować warsztat z Y.<br><br>
-      Weź pod uwagę również, że cisza może wynikać z introwertyczności. Jak przyjdziesz z górą pytań i nie dasz miejsca drugiej osobie wypowiedzieć się to dużo tracisz. Naucz się w ciszę i czuj z nią komfortowo - to instrument również do wyciągania informacji. Prędzej czy później ktoś coś ktoś powie.</li>
+      <li> **"Jakie są twoje tematy do mnie"** - warto jest dać się wypowiedzieć się drugiej stronie najpierw jeśli ty masz dużo tematów. Jeśli jesteś liderem to tym bardziej. Po prostu pozwolić się jej wystrzelać z tematów.<br><br>
+      Z czym przychodzą ludzie? "Ciężko mi się dogadać z X", "zadałem pytanie i od 3 dni wisi… potrzebuje eskalacji", "chciałbym zmienić zespół, pójść na turystykę", "jestem zmęczony stosem technologicznym i produktem", "czy możemy zorganizować warsztat z Y".<br><br>
+      Weź pod uwagę również, że cisza może wynikać z introwertyczności. Jak przyjdziesz z górą pytań i nie dasz miejsca drugiej osobie się wypowiedzieć to dużo tracisz. Naucz się w ciszę i czuj z nią komfortowo - to instrument również do wyciągania informacji. Prędzej czy później ktoś coś ktoś powie.</li>
 
-      <li> **(opcjonalnie) Feedback** - "Czy zauważyłeś ostatnio u mnie jakieś niepokojące zachowania", "Czy jest coś co ostatnio robię wyjątkowo dobrze" itd. O postawie, dostarczaniu, podejściu, mentalności. Ważne żeby to nie była laurka a bardziej forma "start, stop, continue". To też miejsce gdzie ty możesz dać drugiej stronie kilka słów otuchy.</li>
+      <li> **(opcjonalnie) Feedback** - "Czy zauważyłeś ostatnio u mnie jakieś niepokojące zachowania", "Czy jest coś co ostatnio robię wyjątkowo dobrze" itd.<br><br>
+      Czyli o postawie, dostarczaniu, podejściu czy mentalności. Ważne żeby to nie była laurka, a bardziej forma ["start, stop, continue"](https://miro.com/templates/start-stop-continue/){:target="\_blank"}. To też miejsce gdzie ty możesz dać drugiej stronie kilka słów otuchy.</li>
 
-      <li> **Mentoring miękki i twardy** - porozmawiajmy o tematach, które są dla nas ważne. O przemyśleniach, poznawaniu drugiej perspektywy itd. Rzeczy, które możemy robić lepiej jako zespół oraz jednostki. Ważny cytat z książki, o który chcesz podpytać czy planowanie celów. Nowa technologia, wzorzec - można wymieniać długo.</li>
+      <li> **Mentoring miękki i twardy** - porozmawiajmy o tematach, które są dla nas ważne. O przemyśleniach, poznawaniu drugiej perspektywy itd. Rzeczy, które możemy robić lepiej jako zespół oraz jednostki. Może jakiś ważny dla ciebie cytat z książki, o który chcesz podpytać. Planowanie celów rocznych. Nowa technologia, wzorzec - można wymieniać długo.</li>
 
-      <li> **Status** (niezalecane na niższych szczeblach) - część osób również zapisuje co zostało powiedziane i stara się zapisywać rzeczy do zrobienia (action point-y). Uważam, to za najwyższy poziom wtajemniczenia. A jak czytasz je na koniec na głos? Chapeau bas.</li>
-      </ol>
+      <li> **(opcjonalnie) Status** - *niezalecane na niższych szczeblach*</li>
+     </ol>
 
-    Zabrakło czasu na wszystko? Super. Masz trzy opcje — dogrywka ważnych
-    tematów (mało kiedy występuje), przeniesienie tematu na kolejne spotkanie
-    lub dogadanie offline. Skończyły się tematy po 10 minutach? Tak też bywa.
-    Jeśli to jest format, który wam odpowiada to, co ja będę mówić tutaj jak
-    robić. Może być to natomiast sygnał — ktoś może nic nie mówić, a potem
-    się zwolnić.
+    Część osób również zapisuje "co zostało powiedziane" i stara się notować
+    rzeczy do zrobienia (action point-y). Uważam, to za najwyższy poziom
+    wtajemniczenia. A jak czytasz je na koniec na głos? Chapeau bas.
 
--   **Catch-up** — format z ograniczonym formatem, czyli patrzysz, z czym
-    przyjdzie do ciebie druga osoba na konsultacje. Część osób dodaje punkt z
-    poprzednika, czyli zebrane tematy z tygodnia. "Driven by flow". Luźny,
-    czasem lubi przekształcić się w narzekanie i dramaty. Jedna rada od Camille
-    w ramach narzekania:
+    Natomiast jeśli zabrakło ci czasu na wszystko to, co robić? Masz trzy opcje:
+    <ul>
+    <li>dogrywka ważnych tematów (mało kiedy występuje),</li>
+    <li>przeniesienie tematu na kolejne spotkanie (mój faworyt),</li>
+    <li>dogadanie offline.</li>
+    </ul>
+
+    A co z przypadkiem, kiedy skończyły ci się tematy po 10 minutach? Tak też
+    bywa. Jeśli to jest format, który wam odpowiada, to co ja będę mówić tutaj
+    jak robić. Może być to natomiast sygnał — ktoś może nic nie mówić, a potem
+    się zwalnia.
+
+-   **Catch-up** — drugi format po liście, czyli format z ograniczonym formatem.
+    W skrócie patrzysz, z czym przyjdzie do ciebie druga osoba na konsultacje.
+    Część osób dodaje punkt z poprzednika, czyli zebrane tematów z całego
+    tygodnia. Nazywany czasem po angielsku "driven by flow". Luźny i w mojej
+    opinii czasem lubi przekształcić się w narzekanie i dramaty.
+
+    Jedna rada od Camille w ramach narzekania:
 
     > _Try not to make every 1-1 about how you need something, how something is
     > wrong, or how you want something more. When you have a problem, instead of
@@ -192,38 +221,46 @@ co właśnie napisałem, wyłania się pierwszy styl, czyli lista do odhaczania
     > how she might approach the problem. Asking for advice is always a good way
     > to show respect and trust."_
 
--   **Feedback loop** — dla mnie to ad-hoc'i. Wyjaśnienie feedbacku po
-    performance review, przychodzenie po niego do osób, od których trudno o
-    pisemny, reagowanie na nieakceptowalne sytuacje natychmiast. Wymaga to dużo
-    determinacji i odwagi, żeby mieć dedykowane 1-1 o tym. Wielokrotnie
-    poległem. Staram się zbierać go na bieżąco poprzez pytania kontrolne w TODO.
+-   **Feedback loop** — dla mnie to ad-hoc'i. Wyjaśnianie feedbacku po
+    performance review czy przychodzenie po feedback do osoby, od których trudno
+    o pisemny.
+
+    Ważny aspekt dla mnie to również reagowanie na nieakceptowalne sytuacje tak
+    szybko, jak tylko to możliwe (natychmiast!).
+
+    Format wymaga dużo determinacji i odwagi, żeby mieć dedykowane 1-1 o tym.
+    Wielokrotnie poległem — staram się więc zbierać feedback na bieżąco poprzez
+    pytania kontrolne w TODO.
 
 -   **Status meeting / progress report** — tak długo, jak nie masz pod sobą
-    innych menedżerów, to żółta flaga jak już wcześniej sobie powiedzieliśmy.
-    Status od ludzi, z którymi pracujesz bezpośrednio to zazwyczaj strata czasu,
-    bo to delta z pracy od ostatniego daily, czyli niewiele. Kiedy w zespole
-    jest duży chaos lub potężne tempo wdrożeniowe, to rozumiem okazjonalne
-    dopytywania i wyjaśnienia — jest to swego rodzaju trytytka na pośpiech. Do
-    zastanowienia zostawiam tobie czy nie masz z tą osobą innych, równie ważnych
-    tematów do przepracowania poza statusowaniem. Pomyśl również o perspektywie
-    drugiej osoby - po co mam się powtarzać. Już zrobiłeś? Możesz wzbudzić
-    frustracje.
+    innych menedżerów, to dla mnie żółta flaga jak już wcześniej sobie
+    powiedzieliśmy. Status od ludzi, z którymi pracujesz bezpośrednio to
+    zazwyczaj strata czasu, bo to delta z pracy od ostatniego daily, czyli
+    niewiele. Kiedy w zespole jest duży chaos lub potężne tempo wdrożeniowe, to
+    rozumiem okazjonalne dopytywania i wyjaśnienia — jest to swego rodzaju
+    trytytka na pośpiech.
 
--   **Get to know** — wyżej włożyłem to jako podpunkt w moim TODO, czyli kawa.
-    Jest to też miejsce na budowanie relacji, o którym już powiedzieliśmy w
-    ramach celów, bo sytuacje w życiu bywają różne. Część osób robi również
-    wtedy spacerowe 1-1, czyli idą razem się przejść, zamiast siedzieć w salce
-    albo jedzą razem obiad. Życzę ci takich jak najwięcej.
+    Do zastanowienia zostawiam ci czy nie masz z tą osobą innych, równie ważnych
+    tematów do przepracowania poza statusowaniem. Pomyśl również o perspektywie
+    drugiej osoby, czyli "po co mam się powtarzać". Możesz wzbudzić frustracje i
+    okazać brak zaufania.
+
+-   **Get to know** — ten format włożyłem wyżej jako podpunkt w moim TODO, czyli
+    kawa. Jest to też miejsce na budowanie relacji, o której już sobie
+    powiedzieliśmy w ramach celów — sytuacje w życiu bywają różne i o tym warto
+    nie zapominać. Część osób robi również wtedy spacerowe 1-1, czyli idą razem
+    się przejść albo jedzą razem obiad, zamiast siedzieć w salce. Życzę tobie
+    takich jak najwięcej.
 
 -   **Mix** — jak pewnie już zauważyłeś, moja TODO lista to wplata większość
-    tych typów. Może nie powinienem nazywać tego listą. Może będzie ci dane
+    tych typów. Może nie powinienem nazywać tego listą? Może będzie ci dane
     zmieszać "Get to know" z "Feedback loop". Może zrobicie sobie status podczas
     wspólnego obiadu. Eksperymentuj.
 
 ## Skip level meetings
 
-Nie miałem zbyt wielu okazji do uczestniczenia w takich spotkaniach, ale kilka
-zorganizowanych przeze mnie wspominam bardzo ciepło (nie używałem pytań
+Nie miałem zbyt wielu okazji do uczestniczenia w tego typu spotkaniach, ale
+kilka zorganizowanych przeze mnie wspominam bardzo ciepło (nie używałem pytań
 pomocniczych poniżej — były to sesje mentorskie).
 
 Czym są? To inicjatywa przede wszystkim dla menedżerów, którzy kierują innymi
@@ -263,5 +300,5 @@ jako senior menedżer:
 Mam nadzieję, że udało mi się zachęcić cię do 1-1. Nie sądziłem, że będę o tym
 pisać. Dla mnie to świetne narzędzie, które pozwala mi stawać się lepszym
 inżynierem oraz człowiekiem. Trzymam kciuki za twoje przyszłe spotkania, żeby
-były jeszcze bardziej owocne. Jeśli coś byś tu dodał lub nie zgadzasz się, to
-złap mnie na LinkedIn.
+były jeszcze bardziej owocne. Jeśli coś co byś tu dodał lub nie zgadzasz się z
+fragmentami, to złapmy się na LinkedIn.
