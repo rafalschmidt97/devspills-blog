@@ -8,7 +8,6 @@ description:
 tags:
     - sla
     - organizacja
-    - narzedzia
 date: 05.09.2024
 image: ../static/biznesowe-sla-w-praktyce/hero.jpg
 imagealt: hero
@@ -70,17 +69,17 @@ Te metryki były związane między innymi z degradacją naszej infrastruktury, n
 
 Przykładowe nazwy metryk według tej konwencji to:
 
--   business_onboarding_low
+-   `business_onboarding_low`
 
--   business_payment_method_not_available
+-   `business_payment_method_not_available`
 
--   business_payment_drop
+-   `business_payment_drop`
 
--   technical_request_api_stability_low
+-   `technical_request_api_stability_low`
 
--   technical_resource_cosmos_performance_degraded
+-   `technical_resource_cosmos_performance_degraded`
 
--   technical_k8s_oom_high
+-   `technical_k8s_oom_high`
 
 Jedną z takich technicznych metryk było API stability, które nie mogło spaść poniżej 99,9%. W przypadku nowego produktu, z relatywnie niskim ruchem, zwłaszcza w nocy, mogło to prowadzić do niepotrzebnego alarmowania. Dochodziło do sytuacji, w których już 15 nieudanych zapytań na 15 000 uruchamiało alarm. Problem tkwił w tym, że system badał wszystkie zapytania, zamiast uwzględniać tylko unique users. Taka metryka ma sens jako wsparcie, ale tylko przy dużym ruchu. Dodatkowo, monitorowanie oparte było na 24-godzinnych oknach, co sprawiało, że endpointy, które były rzadko używane, mogły generować alerty przez długi czas, zanim wskaźniki wróciły do normy. Często były to błędy przejściowe (transient), timeouty itp., które nie mogły być naprawione podczas dyżuru.
 
@@ -232,7 +231,7 @@ Raporty są wypełniane po zakończeniu działań związanych z obsługą awarii
 
 Po wdrożeniu powyższego, warto pomyśleć o dodatkowych inicjatywach, które mogą usprawnić działanie systemu i zespołu:
 
-1. **Error Budget** – Określenie, ile awarii można zaakceptować w ramach SLO. To ułatwia zarządzanie niezawodnością bez hamowania rozwoju.
+1. **Error Budgeting** – Określenie, ile awarii można zaakceptować w ramach SLO. To ułatwia zarządzanie niezawodnością bez hamowania rozwoju.
 
 2. **Zero Bug Policy** – Brak znanych błędów w produkcji. Każdy problem jest naprawiany, zanim wpłynie na użytkowników.
 
