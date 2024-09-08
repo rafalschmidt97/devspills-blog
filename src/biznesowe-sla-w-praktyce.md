@@ -8,7 +8,7 @@ description:
 tags:
     - sla
     - organizacja
-date: 05.09.2024
+date: 09.09.2024
 image: ../static/biznesowe-sla-w-praktyce/hero.jpg
 imagealt: hero
 ---
@@ -48,6 +48,12 @@ Przejdźmy teraz przez poszczególne inicjatywy.
 ## 1. Przegląd miar - SLI
 
 W naszym systemie mieliśmy już wiele różnych metryk i alertów. Niektóre z nich były absolutnie uzasadnione, inne jednak okazywały się mniej istotne. Wprowadzenie zmian i rezygnacja z części metryk stanowiło wyzwanie, ponieważ część z nich była wymagana przez organizację, a inne były po prostu przyzwyczajeniem inżynierów. Aby móc zrezygnować z niektórych, musieliśmy wykazać, że potrafimy je zastąpić bardziej efektywnymi wskaźnikami.
+
+<!-- markdownlint-disable -->
+
+<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/biznesowe-sla-w-praktyce/metrics.jpg)</span>
+
+<!-- markdownlint-restore -->
 
 Rozpoczynając porządkowanie metryk, podzieliliśmy je na dwie główne kategorie:
 
@@ -103,7 +109,14 @@ Procesy zostały podzielone na cztery poziomy krytyczności:
 
 1. **Krytyczny (Critical)**: Procesy niezbędne do funkcjonowania produktu i ochrony jego reputacji. Wymagają szybkiej reakcji i przywrócenia działania w ciągu kilku godzin (najczęściej 1-2 godziny), zarówno w dni robocze, jak i weekendy.
 
-2. **Ważny (Important)**: Procesy, które mają umiarkowany wpływ na interakcje z klientami oraz wewnętrzne operacje. Wymagają naprawy w ciągu kilku godzin (zwykle 3-6 godzin), zarówno w dni robocze, jak i weekendy, ale czas reakcji może być bardziej elastyczny niż w przypadku procesów krytycznych.
+2. **Ważny (Important)**: Procesy, które mają umiarkowany wpływ na interakcje z klientami oraz wewnętrzne operacje.
+    <!-- markdownlint-disable -->
+
+    <span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/biznesowe-sla-w-praktyce/criticality.jpg)</span>
+
+    <!-- markdownlint-restore -->
+
+    Wymagają naprawy w ciągu kilku godzin (zwykle 3-6 godzin), zarówno w dni robocze, jak i weekendy, ale czas reakcji może być bardziej elastyczny niż w przypadku procesów krytycznych.
 
 3. **Standardowy (Standard)**: Procesy o mniejszym wpływie na klientów, gdzie opóźnienia w przywróceniu działania są akceptowalne i mogą potrwać kilka dni. Naprawa takich procesów odbywa się wyłącznie w dni robocze, w godzinach pracy. Przykłady to systemy do wewnętrznego raportowania.
 
@@ -119,11 +132,23 @@ Tabela składała się z:
 
 -   **Krytyczność** – jedno z czterech poziomów opisanych powyżej. Aby wesprzeć decyzje, wielokrotnie musieliśmy powtarzać przykłady typu: "Czy warto odchodzić od stołu w Wigilię?", "Czy muszę wstać o 3 w nocy w niedzielę?" albo "Czy to może poczekać do poniedziałku?" Ostatecznie chodziło o ustalenie priorytetów: "Który proces naprawić najpierw?"
 
+<!-- markdownlint-disable -->
+<span style="width:100%;margin:0.5em 0;text-align:center">
+![](./static/biznesowe-sla-w-praktyce/criticality-table.jpg)
+</span> 
+<!-- markdownlint-restore -->
+
 To ćwiczenie okazało się trudne, dlatego warto przeprowadzać je w dwie osoby. Ja miałem przyjemność pracować z [PSE](https://staffeng.com/guides/what-do-staff-engineers-actually-do/), który był stosunkowo daleko od samego produktu. Dzięki temu wnosił świeżą perspektywę.
 
 Trzeba pamiętać również, że ustalone poziomy krytyczności nie są wyryte w kamieniu. To, co dziś jest priorytetem, może za kilka miesięcy stracić na znaczeniu. Kluczowe KPI mogą się zmieniać – na przykład na początku priorytetem jest masowe wpuszczanie użytkowników, a później dbanie o to, by faktycznie korzystali z usługi. Tabela ta to kontrakt między zespołem technicznym a biznesem. Dzięki niej możemy precyzyjnie ustalić, które alerty są krytyczne, a które mogą poczekać do poniedziałku. Jeśli coś ma status "standard" lub "wspierający", biznes bierze na siebie ryzyko, że ewentualne problemy zostaną rozwiązane później. Jeśli wyżej, biznes bierze na siebie koszt obsługi.
 
 ## 3. Obsługa niedostępności
+
+<!-- markdownlint-disable -->
+
+<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/biznesowe-sla-w-praktyce/handling.jpg)</span>
+
+<!-- markdownlint-restore -->
 
 Po wyznaczeniu krytyczności procesów, następnym krokiem było opracowanie przejrzystych instrukcji zarządzania niedostępnościami. Chodziło o stworzenie zestawu zasad, które umożliwią podejmowanie decyzji opartych na danych, zamiast intuicji czy subiektywnych odczuć techników. Takie podejście eliminuje niejasności i pomaga w skutecznym reagowaniu na problemy.
 
@@ -150,6 +175,12 @@ Aby efektywnie zarządzać incydentami, wdrożyliśmy trzy poziomy niedostępno�
     -   **Działania**: Realizacja standardowych procedur.
 
 Podobnie jak przy wyznaczaniu krytyczności procesów, współpracowaliśmy z zespołem biznesowym, aby ustalić, kiedy i jak należy reagować. W trakcie tych rozmów przydatne okazały się pytania takie jak: „Czy możemy pozwolić sobie na 20% utraconych transakcji? Nie uważasz, że to duża strata?” lub „Czyli chcesz powiedzieć, że wystarczy 40% zaafektowanych procesów i już powinniśmy wyłączać funkcjonalność?”. Często sugerowaliśmy też alternatywę dla wyłączania funkcji, jak na przykład wyświetlanie banerów informacyjnych.
+
+<!-- markdownlint-disable -->
+<span style="width:100%;margin:0.5em 0;text-align:center">
+![](./static/biznesowe-sla-w-praktyce/handling-table.jpg)
+</span> 
+<!-- markdownlint-restore -->
 
 **Optymalizacja wykrywania problemów**
 
@@ -193,11 +224,23 @@ Na koniec, naszym celem było również stworzenie jednego, przejrzystego widoku
 
 ## 4. Raportowanie - SLA
 
+<!-- markdownlint-disable -->
+
+<span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/biznesowe-sla-w-praktyce/report.jpg)</span>
+
+<!-- markdownlint-restore -->
+
 Ostatnim krokiem, który podjęliśmy, było wybranie procesów, które miały stać się podstawą rozliczania w całej organizacji. Można to porównać do tworzenia **status page** – narzędzia, które jasno pokazuje, jak usługi radzą sobie w czasie rzeczywistym. Wewnętrzne KPI są oczywiście ważne, ale potrzebowaliśmy czegoś, co zewnętrzny obserwator – zarówno partnerzy, jak i inżynierzy w innych zespołach – mógłby wykorzystać, aby ocenić, czy wszystko działa prawidłowo.
 
 Jako część dużej organizacji, mamy dostęp do scentralizowanego narzędzia do raportowania SLA. To narzędzie pozwala monitorować status usług, śledzić awarie i je analizować. Co ważne, umożliwia ono ustalenie, czy problem wynikał z naszych działań, czy może była to awaria u dostawcy. Mając takie dane, możemy negocjować lepsze warunki umów z partnerami i optymalizować koszty.
 
 Dla produktu wybraliśmy pięć kluczowych metryk, które najlepiej odzwierciedlają stan produktu. Odpowiadają one na pytania typu: „Czy proces może być zakończony?” albo „Czy metoda jest dostępna?”. Dzięki integracji z systemem raportowym mamy możliwość automatycznego mierzenia czasu przestojów, precyzyjnego określania momentów ich rozpoczęcia i zakończenia, poprawiania zakresów czasowych, zmiany poziomu problemów oraz wykluczania fałszywych alarmów.
+
+<!-- markdownlint-disable -->
+<span style="width:100%;margin:0.5em 0;text-align:center">
+![](./static/biznesowe-sla-w-praktyce/report-table.jpg)
+</span> 
+<!-- markdownlint-restore -->
 
 **Kto korzysta z tych raportów?**
 
