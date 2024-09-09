@@ -101,7 +101,7 @@ Wybraliśmy opcję skrócenia okna do 1h oraz ustawienie minimalnego progu, co p
 
 ## 2. Wyznaczenie krytyczności procesów
 
-Bez wyznaczenia krytyczność dalsze kroki, takie jak obsługa niedostępności, tracą sens. Obserwując, jak inne firmy radzą sobie z tym, postanowiliśmy pójść ich śladem i wprowadziliśmy cztery poziomy krytyczności procesów.
+Bez wyznaczenia krytyczności, dalsze kroki, takie jak obsługa niedostępności, tracą sens. Obserwując, jak inne firmy radzą sobie z tym, postanowiliśmy pójść ich śladem i wprowadziliśmy cztery poziomy krytyczności procesów.
 
 **Jak klasyfikujemy procesy?**
 
