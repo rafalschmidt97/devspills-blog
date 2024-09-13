@@ -3,8 +3,8 @@ title: Przepis na cotygodniowy przegląd usług
 description: Weekly Service Review (WSR) to ceremonia, które wdrożyliśmy jako odpowiedź na rosnącą potrzebę lepszego zrozumienia incydentów i stabilności naszych usług. Pomysł narodził się dzięki inspiracji podejściem Google do SRE, a początkowy format był prosty – ot, dokument w Google Docs, trzy akapity, i wyznaczona osoba, która zbierała informacje przez tydzień. Brzmi skromnie? Bo tak było.
 tags:
     - sla
-    - organizacja
-date: 12.09.2024
+    - zespol
+date: 13.09.2024
 image: ../static/weekly-service-review/hero.jpg
 imagealt: hero
 ---
