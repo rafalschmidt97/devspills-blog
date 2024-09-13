@@ -27,7 +27,7 @@ jakie niesie ogólnie ze sobą spisywanie tego, jak pracujemy w zespole.
 
 -   **Samo opisywanie procesów nie jest złe, ale...**
 
-    Traktujmy spisywanie jako czas jak retrospektywę – jedna osoba przygotowuje
+    Traktujmy spisywanie jako czas na retrospektywę – jedna osoba przygotowuje
     materiał, a później zastanawiamy się wspólnie, co można ulepszyć. Tutaj jest
     jednak pewne ryzyko. Publikowanie tych zapisów _zbyt szeroko_ może prowadzić
     do porównań między zespołami, które nie mają pełnego kontekstu. To nie ma
