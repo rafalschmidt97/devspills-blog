@@ -519,7 +519,9 @@ usprawnić działanie systemu i zespołu:
    odchyleń od normy i wczesne ostrzeganie o problemach.
 
 5. **Cotygodniowy przegląd systemu (WSR)** – Regularna analiza metryk i
-   incydentów, co pomaga w stałej optymalizacji procesów.
+   incydentów, co pomaga w stałej optymalizacji procesów. Opisałem tę ceremonię
+   w osobym artykule „**[**Przepis na cotygodniowy przegląd
+   usług**](https://rafalschmidt.com/weekly-service-review/)**”.
 
 6. **Stop The Line Policy** – Zasada, według której poważne incydenty wstrzymują
    inne działania, dopóki nie zostaną rozwiązane.
@@ -531,6 +533,4 @@ tematu biznesowego SLA od strony technicznej. Przeszedłem przez cztery kluczowe
 kroki, które – jeśli dobrze wdrożone – mogą znacząco poprawić reakcje na
 incydenty i ułatwić ich zarządzanie. Liczę, że te wskazówki pomogą ci w
 codziennej pracy z SLA i pozwolą lepiej zbalansować potrzeby biznesowe z
-aspektami technicznymi. W kolejnym wpisie chciałbym przybliżyć, jak wygląda
-proces cotygodniowego przeglądu usług (WSR), który dodatkowo wspiera efektywne
-zarządzanie systemami.
+aspektami technicznymi.
