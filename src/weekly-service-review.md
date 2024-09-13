@@ -31,6 +31,12 @@ W gruncie rzeczy, chodzi tu o balans – z jednej strony chcemy mieć porządek 
 
 Weekly Service Review (WSR) to ceremonia, które wdrożyliśmy jako odpowiedź na rosnącą potrzebę lepszego zrozumienia incydentów i stabilności naszych usług. Pomysł narodził się dzięki inspiracji podejściem [Google do SRE](https://sre.google/sre-book/table-of-contents/), a początkowy format był prosty – ot, dokument w Google Docs, trzy akapity, i wyznaczona osoba, która zbierała informacje przez tydzień. Brzmi skromnie? Bo tak było.
 
+<!-- markdownlint-disable -->
+<span style="width:100%;margin:0.5em 0;text-align:center">
+![](./static/weekly-service-review/iteration-1.jpg)
+</span>
+<!-- markdownlint-restore -->
+
 W tamtym czasie zmagaliśmy się z dużą liczbą incydentów, głównie związanych z naszym partnerem zewnętrznym. Robienie pełnego postmortem po każdym problemie nie miało sensu, więc postawiliśmy na regularne przeglądy, aby zebrać najważniejsze informacje i wyciągnąć wnioski. Omawialiśmy m.in.:
 
 -   przyczyny problemów (np. spike związany z X),
@@ -55,11 +61,25 @@ Rozdzieliłem odpowiedzialność za zbieranie tematów od ich prezentacji, a sek
 
 -   **Nowości**: Przestrzeń na wymianę informacji o nowych dashboardach, procesach, automatyzacjach czy innych zmianach, które wpływały na pracę zespołu. To nie było demo, ale miejsce na szybkie pytania, krytykę czy pochwały – wszystko, by zadbać o _well-being inżynierski_.
 
--   **Alerty**: Powtórzyliśmy format z pierwszej wersji, ale bardziej szczegółowo omawialiśmy powody alertów, analizowaliśmy metryki i decydowaliśmy, czy coś wymaga natychmiastowej reakcji.
+-   **Alerty**:
+    <!-- markdownlint-disable -->
+
+    <span style="float:right;width:24%;margin:0">![](./static/weekly-service-review/alert.jpg)</span>
+    <!-- markdownlint-restore -->
+
+    Powtórzyliśmy format z pierwszej wersji, ale bardziej szczegółowo omawialiśmy powody alertów, analizowaliśmy metryki i decydowaliśmy, czy coś wymaga natychmiastowej reakcji.
 
 -   **On-call handover**: Przechodziliśmy przez dyżury i analizowaliśmy, jakie problemy zostały nie zaopiekowane. Przyznawaliśmy oceny dyżurom w skali 1-5 (od „rzeźni” po „nudę”). W tej sekcji widać było nasz postęp – z czego narzekaliśmy kiedyś, a z czym radzimy sobie dziś.
 
--   **Postmortemy**: Wprowadziliśmy tzw. "[Amazon 6-Pager](https://www.linkedin.com/pulse/beauty-amazons-6-pager-brad-porter/)" – każdy w ciszy czytał i komentował, a potem wspólnie omawialiśmy problemy. To była jedna z moich ulubionych zmian– dużo mięsa, dużo skupienia.
+-   **Postmortemy**:
+
+    <!-- markdownlint-disable -->
+
+    <span style="float:right;width:24%;margin:0">![](./static/weekly-service-review/postmortem.jpg)</span>
+
+    <!-- markdownlint-restore -->
+
+    Wprowadziliśmy tzw. "[Amazon 6-Pager](https://www.linkedin.com/pulse/beauty-amazons-6-pager-brad-porter/)" – każdy w ciszy czytał i komentował, a potem wspólnie omawialiśmy problemy. To była jedna z moich ulubionych zmian– dużo mięsa, dużo skupienia.
 
 -   **Priorytetyzacja zadań oznaczonych tagiem WSR:** dbaliśmy o to, by problemy techniczne z backlogu były rozwiązywane lub odrzucane, jeśli straciły na ważności. Jednak ta sekcja z czasem również przestała działać tak dobrze, jak byśmy chcieli.
 
@@ -67,11 +87,15 @@ Rozdzieliłem odpowiedzialność za zbieranie tematów od ich prezentacji, a sek
 
 Zaczęliśmy również monitorować **koszty infrastruktury** w Azure, a szczególnie ich przeliczanie na „transakcje” czy „procesy”, żeby zobaczyć, jak nasze systemy zareagują na wzrost skali. Ta metryka stała się bardziej wartościowa niż standardowe, miesięczne raporty kosztów.
 
-### **Format na szersze grono**<a id="h.45avqajb8z8j"></a>
+### **Format na szersze grono**
 
 W miarę jak nasz zespół rozwijał się, a rola samego spotkania rosła, format WSR ewoluował, stając się bardziej dostosowanym do szerszego grona odbiorców. Dziś spotkania są bardziej ustrukturyzowane, z jasno określoną rolą prowadzącego, a każda osoba ma możliwość dodawania tematów, które uważa za ważne. Inżynierowie omawiają dostępność i stabilność usług oraz szukają sposobów na ich poprawę. Ceremonia obejmuje sekcje takie jak:
 
 -   **Planowane niedostępności vendorów/partnerów** - przeglądamy nadchodzące zmiany w usługach naszych partnerów.
+    <!-- markdownlint-disable -->
+
+    <span style="float:right;width:28%;margin:0.4em 0 0.4em 0.4em">![](./static/weekly-service-review/message.jpg)</span>
+    <!-- markdownlint-restore -->
 
     -   Odpowiadamy na trzy pytania:
         -   Czy powinniśmy wyciszyć niektóre alerty?
@@ -83,6 +107,10 @@ W miarę jak nasz zespół rozwijał się, a rola samego spotkania rosła, forma
 -   **Incydenty i postmortemy** – omówione wyżej.
 
 -   **Nowości v2** – zbieramy tematy z kanałów Slack oznaczonych emotką „wsr-topic”, co ułatwia szybką identyfikację ważnych zmian. Przykłady to:
+    <!-- markdownlint-disable -->
+
+    <span style="float:right;width:28%;margin:0.4em 0 0.4em 0.4em">![](./static/weekly-service-review/news.jpg)</span>
+    <!-- markdownlint-restore -->
 
     -   nowe lub usunięte alerty,
     -   nowe metryki w Grafanie,
