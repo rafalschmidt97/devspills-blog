@@ -130,7 +130,7 @@ WSR zyskały bardziej uporządkowany format:
     wymaga natychmiastowej reakcji.
 
 -   **On-call handover**: Przechodziliśmy przez dyżury i analizowaliśmy, jakie
-    problemy zostały nie zaopiekowane. Przyznawaliśmy oceny dyżurom w skali 1-5
+    problemy nie zostały zaopiekowane. Przyznawaliśmy oceny dyżurom w skali 1-5
     (od „rzeźni” po „nudę”). W tej sekcji widać było nasz postęp – z czego
     narzekaliśmy kiedyś, a z czym radzimy sobie dziś.
 
@@ -204,14 +204,14 @@ Ceremonia obejmuje sekcje takie jak:
 -   **Opcjonalne sekcje** - Dodatkowo mamy kilka opcjonalnych sekcji, które
     poruszamy, jeśli jest taka potrzeba:
 
-*   **Koszty**: omówione wyżej.
+    -   **Koszty**: omówione wyżej.
 
-*   **Metryki inżynierskie**: Raz na kwartał analizujemy nasze metryki
-    inżynierskie, badając takie wskaźniki jak:
+    -   **Metryki inżynierskie**: Raz na kwartał analizujemy nasze metryki
+        inżynierskie, badając takie wskaźniki jak:
 
-    -   czas cyklu PR, wielkość PR, wielkość zadań,
-    -   wskaźniki DORA (częstotliwość wdrożeń, czas realizacji, średni czas
-        naprawy, wskaźnik zmian).
+        -   czas cyklu PR, wielkość PR, wielkość zadań,
+        -   wskaźniki DORA (częstotliwość wdrożeń, czas realizacji, średni czas
+            naprawy, wskaźnik zmian).
 
 Ten format pozwala nam również zapraszać liderów technicznych z innych zespołów
 oraz PSE i dzielić się naszymi doświadczeniami. Wierzymy, że transparentność i

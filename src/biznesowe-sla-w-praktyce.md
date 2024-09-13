@@ -213,13 +213,14 @@ ich śladem i wprowadziliśmy cztery poziomy krytyczności procesów.
 
 Procesy zostały podzielone na cztery poziomy krytyczności:
 
-1. **Krytyczny (Critical)**: Procesy niezbędne do funkcjonowania produktu i
-   ochrony jego reputacji. Wymagają szybkiej reakcji i przywrócenia działania w
-   ciągu kilku godzin (najczęściej 1-2 godziny), zarówno w dni robocze, jak i
-   weekendy.
+1.  **Krytyczny (Critical)**: Procesy niezbędne do funkcjonowania produktu i
+    ochrony jego reputacji. Wymagają szybkiej reakcji i przywrócenia działania w
+    ciągu kilku godzin (najczęściej 1-2 godziny), zarówno w dni robocze, jak i
+    weekendy.
 
-2. **Ważny (Important)**: Procesy, które mają umiarkowany wpływ na interakcje z
-   klientami oraz wewnętrzne operacje.
+2.  **Ważny (Important)**: Procesy, które mają umiarkowany wpływ na interakcje z
+    klientami oraz wewnętrzne operacje.
+
     <!-- markdownlint-disable -->
 
     <span style="float:right;width:32%;margin:0.4em 0 0.4em 0.4em">![](./static/biznesowe-sla-w-praktyce/criticality.jpg)</span>
@@ -230,15 +231,15 @@ Procesy zostały podzielone na cztery poziomy krytyczności:
     robocze, jak i weekendy, ale czas reakcji może być bardziej elastyczny niż w
     przypadku procesów krytycznych.
 
-3. **Standardowy (Standard)**: Procesy o mniejszym wpływie na klientów, gdzie
-   opóźnienia w przywróceniu działania są akceptowalne i mogą potrwać kilka dni.
-   Naprawa takich procesów odbywa się wyłącznie w dni robocze, w godzinach
-   pracy. Przykłady to systemy do wewnętrznego raportowania.
+3.  **Standardowy (Standard)**: Procesy o mniejszym wpływie na klientów, gdzie
+    opóźnienia w przywróceniu działania są akceptowalne i mogą potrwać kilka
+    dni. Naprawa takich procesów odbywa się wyłącznie w dni robocze, w godzinach
+    pracy. Przykłady to systemy do wewnętrznego raportowania.
 
-4. **Wspierający (Supporting)**: Procesy o minimalnym wpływie na działanie
-   produktu. Nie wymagają natychmiastowej reakcji i mogą być naprawiane w dni
-   robocze, w standardowych godzinach pracy. Obejmuje to np. systemy
-   archiwizacji danych.
+4.  **Wspierający (Supporting)**: Procesy o minimalnym wpływie na działanie
+    produktu. Nie wymagają natychmiastowej reakcji i mogą być naprawiane w dni
+    robocze, w standardowych godzinach pracy. Obejmuje to np. systemy
+    archiwizacji danych.
 
 Po ustaleniu tych poziomów przyszedł czas na praktyczne zastosowanie. W naszym
 projekcie, co może być nietypowe, mieliśmy trzech Product Managerów (PM-ów).
