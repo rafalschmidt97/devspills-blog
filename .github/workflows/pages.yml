@@ -23,59 +23,44 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v2
-
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.x'
 
-      - name: Install dependencies for mkdocs
+      - name: Set Cache Key
+        run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
+
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build site
-        run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
-
-      - name: Debug _site directory
-        run: |
-          echo "Checking _site directory..."
-          ls -la ./_site
-
-      - name: Install reprec used for replacing
+      - name: Install reprec
         run: pip install reprec
 
-      - name: Run replace for relative paths after build
+      - name: Build site with MkDocs
+        run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
+
+      - name: List _site directory
+        run: ls -la ./_site
+
+      - name: Run replacement for relative paths
         run: ./scripts/replace-relative-paths-build.sh
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-          name: github-pages
-
-      - name: Verify uploaded artifacts
-        run: ls -la ${{ runner.temp }}
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: github-pages
-
+        run: mkdocs gh-deploy --force --no-build
