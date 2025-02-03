@@ -34,11 +34,17 @@ jobs:
           python-version: 3.x
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Build site
+        # Outputs to the './_site' directory
+        run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
+      # - run: mkdocs gh-deploy --force
       - name: Install reprec
         run: pip install reprec
       - name: Run custom replacement script
         run: ./scripts/replace-relative-paths-build.sh
-      - run: mkdocs gh-deploy --force
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v4
 
   deploy:
     needs: build
