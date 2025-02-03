@@ -47,7 +47,9 @@ jobs:
         run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site
 
       - name: Debug _site directory
-        run: ls -la ./_site
+        run: |
+          echo "Checking _site directory..."
+          ls -la ./_site
 
       - name: Install reprec used for replacing
         run: pip install reprec
@@ -61,8 +63,8 @@ jobs:
           path: ./_site
           name: github-pages
 
-      - name: List uploaded artifacts
-        run: ls -la ${{ runner.temp }}/_github_home/_temp
+      - name: Verify uploaded artifacts
+        run: ls -la ${{ runner.temp }}
 
   deploy:
     needs: build
