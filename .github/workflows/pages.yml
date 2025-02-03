@@ -41,11 +41,10 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material 
-      # - name: Install dependencies
-      #   run: pip install -r requirements.txt
-      # - name: Install reprec
-      #   run: pip install reprec
-      # - name: Run custom replacement script
-      #   run: ./scripts/replace-relative-paths-build.sh
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Install reprec
+        run: pip install reprec
+      - name: Run custom replacement script
+        run: ./scripts/replace-relative-paths-build.sh
       - run: mkdocs gh-deploy --force
