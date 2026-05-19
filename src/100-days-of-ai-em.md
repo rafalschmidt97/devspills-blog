@@ -18,28 +18,6 @@ exclude_from_blog: true
 
 Most AI talks show code generation. I tried AI for the strategic and operational side of engineering management -- not agentic coding, but running the work around it. This talk covers 100 days of that, and what I learned along the way.
 
-## What's this talk about?
-
-The talk has three chapters:
-
-**1. Compressing the overhead.** Calendar room booking with a multi-criteria ranking algorithm. Delivery sync reports generated from multiple repos in parallel. Board restructuring with OpenSpec. Meeting prep with structured notes and grounded research.
-
-**2. Codifying the organization.** Institutional memory that stops every new AI session from re-discovering your cloud regions, team structure, and CI/CD patterns. An AGENTS.md file that encodes who you are, how you work, and what the agent should never do. Writing style rules that keep AI text from sounding like AI text.
-
-**3. The toolkit.** Browser automation for testing web apps. sessfind for searching across thousands of past sessions. MCP integrations for web research. GitHub Agentic Workflows for scheduled automation.
-
-## Three takeaways
-
-1. **Managers are ideal AI users.** The fragmented schedule that kills deep work turns out to be perfect for dispatching tasks between meetings and reviewing results in the next gap.
-
-2. **95% of the value isn't code.** Room booking, delivery syncs, board restructuring, prep work, institutional memory. Operational overhead compresses; judgment stays human.
-
-3. **Codify or repeat.** Every rule, every skill, every line in my AGENTS.md came from a session that went wrong. The system improves because failures become instructions.
-
-## The method
-
-There's no grand architecture. You notice something boring, you try AI on it. It fails. You adjust the prompt, add a guardrail, write it down. Next time it works. Try, fail, codify, repeat.
-
 ## References
 
 [My OpenCode skills](https://github.com/rafalschmidt97/opencode-skills){:target="_blank"} (skills referenced in this talk)
