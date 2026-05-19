@@ -5,6 +5,8 @@ description:
     operational side of engineering management — not agentic coding, but running
     the work around it. This talk covers 100 days of that — and what I learned
     along the way.
+image: ../static/100-days-of-ai-em/hero.png
+imagealt: Title slide - Try. Fail. Codify. Repeat.
 exclude_from_blog: true
 ---
 
