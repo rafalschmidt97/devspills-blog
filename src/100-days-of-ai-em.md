@@ -16,6 +16,8 @@ exclude_from_blog: true
 
 [Download slides (PDF)](./static/100-days-of-ai-em/slides.pdf){:target="_blank"}
 
+Updated version: [300 Days of AI as an Engineering Manager](./300-days-of-ai-em.md).
+
 Most AI talks show code generation. I tried AI for the strategic and operational side of engineering management -- not agentic coding, but running the work around it. This talk covers 100 days of that, and what I learned along the way.
 
 ## References
